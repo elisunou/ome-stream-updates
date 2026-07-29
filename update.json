@@ -1,32 +1,43 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T18:50:00+03:00",
+  "publishedAt": "2026-07-29T19:05:00+03:00",
+  "messages": [
+    {
+      "id": "welcome-ome-stream-2026-07-29",
+      "active": true,
+      "channels": ["phone", "tv"],
+      "title": "Bun venit în Ome Stream! 👋",
+      "detail": "Salut! Îți mulțumim că folosești Ome Stream. De acum vei găsi aici noutățile, îmbunătățirile și mesajele importante."
+    }
+  ],
   "phone": {
-    "versionCode": 51,
-    "versionName": "1.5.6",
+    "versionCode": 52,
+    "versionName": "1.5.7",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.6/Ome-Stream-Mobile-v1.5.6.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.7/Ome-Stream-Mobile-v1.5.7.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
       "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
       "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
       "Imaginile TMDB sunt optimizate pentru dimensiunea ecranului.",
-      "Actualizarea pornește o singură descărcare și deschide automat instalarea la final."
+      "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
+      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări."
     ]
   },
   "tv": {
-    "versionCode": 51,
-    "versionName": "1.5.6",
+    "versionCode": 52,
+    "versionName": "1.5.7",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.6/Ome-Stream-TV-v1.5.6.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.7/Ome-Stream-TV-v1.5.7.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
       "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
       "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
       "Imaginile TMDB sunt optimizate pentru televizoare.",
-      "Actualizarea pornește o singură descărcare și deschide automat instalarea la final."
+      "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
+      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări."
     ]
   }
 }
