@@ -1,32 +1,30 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T18:20:00+03:00",
+  "publishedAt": "2026-07-29T18:35:00+03:00",
   "phone": {
-    "versionCode": 49,
-    "versionName": "1.5.4",
+    "versionCode": 50,
+    "versionName": "1.5.5",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.4/Ome-Stream-Mobile-v1.5.4.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.5/Ome-Stream-Mobile-v1.5.5.apk",
     "required": false,
     "changes": [
-      "Actualizările noi apar în secțiunea Notificări, împreună cu descrierea completă.",
-      "APK-ul poate fi descărcat și instalat direct din Ome Stream.",
-      "Butonul «Mai târziu» păstrează aplicația complet funcțională fără actualizare.",
-      "Limba subtitrării poate fi aleasă automat din Setări.",
-      "Zona tactilă a barei Notificări, Caută și Setări a fost îmbunătățită."
+      "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
+      "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
+      "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
+      "Imaginile TMDB sunt optimizate pentru dimensiunea ecranului."
     ]
   },
   "tv": {
-    "versionCode": 49,
-    "versionName": "1.5.4",
+    "versionCode": 50,
+    "versionName": "1.5.5",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.4/Ome-Stream-TV-v1.5.4.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.5/Ome-Stream-TV-v1.5.5.apk",
     "required": false,
     "changes": [
-      "Actualizările noi apar în secțiunea Notificări, împreună cu descrierea completă.",
-      "APK-ul poate fi descărcat și instalat direct din Ome Stream TV.",
-      "Butonul «Mai târziu» păstrează aplicația complet funcțională fără actualizare.",
-      "Cursorul pentru alegerea subtitrării este mai intens și mai vizibil cu telecomanda.",
-      "Limba subtitrării poate fi aleasă automat din Setări."
+      "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
+      "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
+      "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
+      "Imaginile TMDB sunt optimizate pentru televizoare."
     ]
   }
 }
