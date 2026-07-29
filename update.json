@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T23:05:47+03:00",
+  "publishedAt": "2026-07-29T23:15:59+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,10 +43,10 @@
     }
   ],
   "phone": {
-    "versionCode": 54,
-    "versionName": "1.5.9",
+    "versionCode": 55,
+    "versionName": "1.5.10",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.9/Ome-Stream-Mobile-v1.5.9.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.10/Ome-Stream-Mobile-v1.5.10.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -59,14 +59,15 @@
       "Sursele torrent primite de la Torrentio sunt redate prin TorrServer.",
       "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
       "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
-      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV."
+      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV.",
+      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream."
     ]
   },
   "tv": {
-    "versionCode": 54,
-    "versionName": "1.5.9",
+    "versionCode": 55,
+    "versionName": "1.5.10",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.9/Ome-Stream-TV-v1.5.9.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.10/Ome-Stream-TV-v1.5.10.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -79,7 +80,8 @@
       "Sursele torrent primite de la Torrentio sunt redate prin TorrServer.",
       "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
       "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
-      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV."
+      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV.",
+      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream."
     ]
   }
 }
