@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "publishedAt": "2026-07-29T18:00:00+03:00",
+  "phone": {
+    "versionCode": 48,
+    "versionName": "1.5.3",
+    "title": "Actualizare Ome Strem Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-strem-updates/releases/download/v1.5.3/Ome-Strem-Mobile-v1.5.3.apk",
+    "required": false,
+    "changes": [
+      "Actualizările noi apar în secțiunea Notificări, împreună cu descrierea completă.",
+      "APK-ul poate fi descărcat și instalat direct din Ome Strem.",
+      "Butonul «Mai târziu» păstrează aplicația complet funcțională fără actualizare.",
+      "Limba subtitrării poate fi aleasă automat din Setări.",
+      "Zona tactilă a barei Notificări, Caută și Setări a fost îmbunătățită."
+    ]
+  },
+  "tv": {
+    "versionCode": 48,
+    "versionName": "1.5.3",
+    "title": "Actualizare Ome Strem TV",
+    "apkUrl": "https://github.com/elisunou/ome-strem-updates/releases/download/v1.5.3/Ome-Strem-TV-v1.5.3.apk",
+    "required": false,
+    "changes": [
+      "Actualizările noi apar în secțiunea Notificări, împreună cu descrierea completă.",
+      "APK-ul poate fi descărcat și instalat direct din Ome Strem TV.",
+      "Butonul «Mai târziu» păstrează aplicația complet funcțională fără actualizare.",
+      "Cursorul pentru alegerea subtitrării este mai intens și mai vizibil cu telecomanda.",
+      "Limba subtitrării poate fi aleasă automat din Setări."
+    ]
+  }
+}
