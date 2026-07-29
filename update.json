@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T23:33:47+03:00",
+  "publishedAt": "2026-07-29T23:51:24+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,12 +43,13 @@
     }
   ],
   "phone": {
-    "versionCode": 56,
-    "versionName": "1.5.11",
+    "versionCode": 57,
+    "versionName": "1.5.12",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.11/Ome-Stream-Mobile-v1.5.11.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.12/Ome-Stream-Mobile-v1.5.12.apk",
     "required": false,
     "changes": [
+      "Remediere critică: aplicația pornește din nou corect după actualizarea v1.5.11.",
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
       "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
       "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
@@ -69,12 +70,13 @@
     ]
   },
   "tv": {
-    "versionCode": 56,
-    "versionName": "1.5.11",
+    "versionCode": 57,
+    "versionName": "1.5.12",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.11/Ome-Stream-TV-v1.5.11.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.12/Ome-Stream-TV-v1.5.12.apk",
     "required": false,
     "changes": [
+      "Remediere critică: aplicația pornește din nou corect după actualizarea v1.5.11.",
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
       "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
       "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
