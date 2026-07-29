@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T00:07:42+03:00",
+  "publishedAt": "2026-07-30T00:29:56+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,25 +43,27 @@
     }
   ],
   "phone": {
-    "versionCode": 59,
-    "versionName": "1.5.14",
+    "versionCode": 60,
+    "versionName": "1.5.15",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.14/Ome-Stream-Mobile-v1.5.14.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.15/Ome-Stream-Mobile-v1.5.15.apk",
     "required": false,
     "changes": [
-      "Clopoțelul nu mai afișează NOU la fiecare redeschidere a aplicației.",
-      "Sincronizarea automată Trakt continuă în fundal fără notificări repetitive."
+      "Ome Stream potrivește subtitrarea după release, sursă, rezoluție, codec și grup.",
+      "Potrivirea funcționează pentru filme și pentru episoade de serial.",
+      "Toate variantele Subs.ro rămân disponibile manual cu numele release-ului."
     ]
   },
   "tv": {
-    "versionCode": 59,
-    "versionName": "1.5.14",
+    "versionCode": 60,
+    "versionName": "1.5.15",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.14/Ome-Stream-TV-v1.5.14.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.15/Ome-Stream-TV-v1.5.15.apk",
     "required": false,
     "changes": [
-      "Clopoțelul nu mai afișează NOU la fiecare redeschidere a aplicației.",
-      "Sincronizarea automată Trakt continuă în fundal fără notificări repetitive."
+      "Ome Stream potrivește subtitrarea după release, sursă, rezoluție, codec și grup.",
+      "Potrivirea funcționează pentru filme și pentru episoade de serial.",
+      "Toate variantele Subs.ro rămân disponibile manual cu numele release-ului."
     ]
   }
 }
