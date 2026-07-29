@@ -1,6 +1,6 @@
-# Ome Strem Updates
+# Ome Stream Updates
 
-Repository public pentru actualizările oficiale **Ome Strem Media Player**:
+Repository public pentru actualizările oficiale **Ome Stream Media Player**:
 
 - Android Mobile: `com.omestrem.media`
 - Android TV: `com.omestrem.tv`
