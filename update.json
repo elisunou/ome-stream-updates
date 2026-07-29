@@ -1,6 +1,26 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T19:05:00+03:00",
+  "publishedAt": "2026-07-29T22:44:12+03:00",
+  "managedAddons": [
+    {
+      "id": "com.linvo.cinemeta",
+      "active": true,
+      "revision": 1,
+      "channels": ["phone", "tv"],
+      "manifestUrl": "https://v3-cinemeta.strem.io/manifest.json",
+      "title": "Cinemeta a fost adăugat",
+      "detail": "Cataloagele și informațiile Cinemeta sunt disponibile pe Ome Stream."
+    },
+    {
+      "id": "com.stremio.torrentio.addon",
+      "active": true,
+      "revision": 1,
+      "channels": ["phone", "tv"],
+      "manifestUrl": "https://torrentio.strem.fun/manifest.json",
+      "title": "Torrentio a fost adăugat",
+      "detail": "Sursele torrent Torrentio sunt disponibile și sunt redate prin TorrServer."
+    }
+  ],
   "messages": [
     {
       "id": "welcome-ome-stream-2026-07-29",
@@ -11,10 +31,10 @@
     }
   ],
   "phone": {
-    "versionCode": 52,
-    "versionName": "1.5.7",
+    "versionCode": 53,
+    "versionName": "1.5.8",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.7/Ome-Stream-Mobile-v1.5.7.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.8/Ome-Stream-Mobile-v1.5.8.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -22,14 +42,16 @@
       "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
       "Imaginile TMDB sunt optimizate pentru dimensiunea ecranului.",
       "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
-      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări."
+      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări.",
+      "Cinemeta și Torrentio se instalează automat prin manifestele administrate pe GitHub.",
+      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer."
     ]
   },
   "tv": {
-    "versionCode": 52,
-    "versionName": "1.5.7",
+    "versionCode": 53,
+    "versionName": "1.5.8",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.7/Ome-Stream-TV-v1.5.7.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.8/Ome-Stream-TV-v1.5.8.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -37,7 +59,9 @@
       "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
       "Imaginile TMDB sunt optimizate pentru televizoare.",
       "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
-      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări."
+      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări.",
+      "Cinemeta și Torrentio se instalează automat prin manifestele administrate pe GitHub.",
+      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer."
     ]
   }
 }
