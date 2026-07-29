@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T23:15:59+03:00",
+  "publishedAt": "2026-07-29T23:33:47+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,10 +43,10 @@
     }
   ],
   "phone": {
-    "versionCode": 55,
-    "versionName": "1.5.10",
+    "versionCode": 56,
+    "versionName": "1.5.11",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.10/Ome-Stream-Mobile-v1.5.10.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.11/Ome-Stream-Mobile-v1.5.11.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -60,14 +60,19 @@
       "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
       "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
       "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV.",
-      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream."
+      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream.",
+      "Pagina principală afișează mai întâi Filme și Seriale în tendințe, apoi recomandările.",
+      "Genurile Cinemeta, inclusiv SF, pot fi selectate direct pe pagina principală.",
+      "Butonul Vezi toate deschide catalogul complet și permite încărcarea mai multor titluri.",
+      "Cardurile afișează anul, ratingul IMDb, tipul și genurile disponibile.",
+      "Textul TORRENT nu mai este tăiat în stânga când sursa este selectată pe TV."
     ]
   },
   "tv": {
-    "versionCode": 55,
-    "versionName": "1.5.10",
+    "versionCode": 56,
+    "versionName": "1.5.11",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.10/Ome-Stream-TV-v1.5.10.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.11/Ome-Stream-TV-v1.5.11.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -81,7 +86,12 @@
       "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
       "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
       "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV.",
-      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream."
+      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream.",
+      "Pagina principală afișează mai întâi Filme și Seriale în tendințe, apoi recomandările.",
+      "Genurile Cinemeta, inclusiv SF, pot fi selectate direct pe pagina principală.",
+      "Butonul Vezi toate deschide catalogul complet și permite încărcarea mai multor titluri.",
+      "Cardurile afișează anul, ratingul IMDb, tipul și genurile disponibile.",
+      "Textul TORRENT nu mai este tăiat în stânga când sursa este selectată pe TV."
     ]
   }
 }
