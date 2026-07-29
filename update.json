@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T00:01:38+03:00",
+  "publishedAt": "2026-07-30T00:07:42+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,25 +43,25 @@
     }
   ],
   "phone": {
-    "versionCode": 58,
-    "versionName": "1.5.13",
+    "versionCode": 59,
+    "versionName": "1.5.14",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.13/Ome-Stream-Mobile-v1.5.13.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.14/Ome-Stream-Mobile-v1.5.14.apk",
     "required": false,
     "changes": [
-      "Notificarea unei versiuni afișează numai modificările update-ului respectiv.",
-      "Cardul update-ului nou înlocuiește automat cardurile update-urilor vechi."
+      "Clopoțelul nu mai afișează NOU la fiecare redeschidere a aplicației.",
+      "Sincronizarea automată Trakt continuă în fundal fără notificări repetitive."
     ]
   },
   "tv": {
-    "versionCode": 58,
-    "versionName": "1.5.13",
+    "versionCode": 59,
+    "versionName": "1.5.14",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.13/Ome-Stream-TV-v1.5.13.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.14/Ome-Stream-TV-v1.5.14.apk",
     "required": false,
     "changes": [
-      "Notificarea unei versiuni afișează numai modificările update-ului respectiv.",
-      "Cardul update-ului nou înlocuiește automat cardurile update-urilor vechi."
+      "Clopoțelul nu mai afișează NOU la fiecare redeschidere a aplicației.",
+      "Sincronizarea automată Trakt continuă în fundal fără notificări repetitive."
     ]
   }
 }
