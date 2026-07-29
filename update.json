@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T00:29:56+03:00",
+  "publishedAt": "2026-07-30T00:44:56+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,27 +43,27 @@
     }
   ],
   "phone": {
-    "versionCode": 60,
-    "versionName": "1.5.15",
+    "versionCode": 61,
+    "versionName": "1.5.16",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.15/Ome-Stream-Mobile-v1.5.15.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.16/Ome-Stream-Mobile-v1.5.16.apk",
     "required": false,
     "changes": [
-      "Ome Stream potrivește subtitrarea după release, sursă, rezoluție, codec și grup.",
-      "Potrivirea funcționează pentru filme și pentru episoade de serial.",
-      "Toate variantele Subs.ro rămân disponibile manual cu numele release-ului."
+      "Meniul CC permite reglarea subtitrării cu săgeți, în pași de 0,5 secunde.",
+      "Decalajul poate fi introdus manual în secunde și resetat la zero.",
+      "Sincronizarea funcționează în playerul normal și în VLC, pe mobil și TV."
     ]
   },
   "tv": {
-    "versionCode": 60,
-    "versionName": "1.5.15",
+    "versionCode": 61,
+    "versionName": "1.5.16",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.15/Ome-Stream-TV-v1.5.15.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.16/Ome-Stream-TV-v1.5.16.apk",
     "required": false,
     "changes": [
-      "Ome Stream potrivește subtitrarea după release, sursă, rezoluție, codec și grup.",
-      "Potrivirea funcționează pentru filme și pentru episoade de serial.",
-      "Toate variantele Subs.ro rămân disponibile manual cu numele release-ului."
+      "Meniul CC permite reglarea subtitrării cu săgeți, în pași de 0,5 secunde.",
+      "Decalajul poate fi introdus manual în secunde și resetat la zero.",
+      "Sincronizarea funcționează în playerul normal și în VLC, pe mobil și TV."
     ]
   }
 }
