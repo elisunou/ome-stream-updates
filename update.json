@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T23:51:24+03:00",
+  "publishedAt": "2026-07-30T00:01:38+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,57 +43,25 @@
     }
   ],
   "phone": {
-    "versionCode": 57,
-    "versionName": "1.5.12",
+    "versionCode": 58,
+    "versionName": "1.5.13",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.12/Ome-Stream-Mobile-v1.5.12.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.13/Ome-Stream-Mobile-v1.5.13.apk",
     "required": false,
     "changes": [
-      "Remediere critică: aplicația pornește din nou corect după actualizarea v1.5.11.",
-      "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
-      "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
-      "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
-      "Imaginile TMDB sunt optimizate pentru dimensiunea ecranului.",
-      "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
-      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări.",
-      "Cinemeta și Torrentio se instalează automat prin manifestele administrate pe GitHub.",
-      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer.",
-      "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
-      "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
-      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV.",
-      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream.",
-      "Pagina principală afișează mai întâi Filme și Seriale în tendințe, apoi recomandările.",
-      "Genurile Cinemeta, inclusiv SF, pot fi selectate direct pe pagina principală.",
-      "Butonul Vezi toate deschide catalogul complet și permite încărcarea mai multor titluri.",
-      "Cardurile afișează anul, ratingul IMDb, tipul și genurile disponibile.",
-      "Textul TORRENT nu mai este tăiat în stânga când sursa este selectată pe TV."
+      "Notificarea unei versiuni afișează numai modificările update-ului respectiv.",
+      "Cardul update-ului nou înlocuiește automat cardurile update-urilor vechi."
     ]
   },
   "tv": {
-    "versionCode": 57,
-    "versionName": "1.5.12",
+    "versionCode": 58,
+    "versionName": "1.5.13",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.12/Ome-Stream-TV-v1.5.12.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.13/Ome-Stream-TV-v1.5.13.apk",
     "required": false,
     "changes": [
-      "Remediere critică: aplicația pornește din nou corect după actualizarea v1.5.11.",
-      "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
-      "Imaginile sunt păstrate în cache și nu se mai descarcă la fiecare deschidere.",
-      "Descărcările duplicate au fost eliminate și mai multe postere se încarcă simultan.",
-      "Imaginile TMDB sunt optimizate pentru televizoare.",
-      "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
-      "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări.",
-      "Cinemeta și Torrentio se instalează automat prin manifestele administrate pe GitHub.",
-      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer.",
-      "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
-      "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
-      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV.",
-      "Descărcarea actualizării afișează progresul, procentul și dimensiunea direct în Ome Stream.",
-      "Pagina principală afișează mai întâi Filme și Seriale în tendințe, apoi recomandările.",
-      "Genurile Cinemeta, inclusiv SF, pot fi selectate direct pe pagina principală.",
-      "Butonul Vezi toate deschide catalogul complet și permite încărcarea mai multor titluri.",
-      "Cardurile afișează anul, ratingul IMDb, tipul și genurile disponibile.",
-      "Textul TORRENT nu mai este tăiat în stânga când sursa este selectată pe TV."
+      "Notificarea unei versiuni afișează numai modificările update-ului respectiv.",
+      "Cardul update-ului nou înlocuiește automat cardurile update-urilor vechi."
     ]
   }
 }
