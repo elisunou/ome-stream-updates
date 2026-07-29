@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-29T22:44:12+03:00",
+  "publishedAt": "2026-07-29T23:05:47+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -21,6 +21,18 @@
       "detail": "Sursele torrent Torrentio sunt disponibile și sunt redate prin TorrServer."
     }
   ],
+  "configurableAddons": [
+    {
+      "id": "org.stremio.subsro",
+      "active": true,
+      "revision": 1,
+      "channels": ["phone", "tv"],
+      "manifestUrl": "https://cdcd7719a6b3-stremio-subs-ro.baby-beamup.club/manifest.json",
+      "configureUrl": "https://cdcd7719a6b3-stremio-subs-ro.baby-beamup.club/configure.html",
+      "title": "Subs.ro este disponibil",
+      "detail": "Deschide Setări, introdu cheia API gratuită Subs.ro și instalează addonul pentru subtitrări românești."
+    }
+  ],
   "messages": [
     {
       "id": "welcome-ome-stream-2026-07-29",
@@ -31,10 +43,10 @@
     }
   ],
   "phone": {
-    "versionCode": 53,
-    "versionName": "1.5.8",
+    "versionCode": 54,
+    "versionName": "1.5.9",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.8/Ome-Stream-Mobile-v1.5.8.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.9/Ome-Stream-Mobile-v1.5.9.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -44,14 +56,17 @@
       "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
       "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări.",
       "Cinemeta și Torrentio se instalează automat prin manifestele administrate pe GitHub.",
-      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer."
+      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer.",
+      "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
+      "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
+      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV."
     ]
   },
   "tv": {
-    "versionCode": 53,
-    "versionName": "1.5.8",
+    "versionCode": 54,
+    "versionName": "1.5.9",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.8/Ome-Stream-TV-v1.5.8.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.9/Ome-Stream-TV-v1.5.9.apk",
     "required": false,
     "changes": [
       "Posterele și imaginile cataloagelor se încarcă mult mai repede.",
@@ -61,7 +76,10 @@
       "Actualizarea pornește o singură descărcare și deschide automat instalarea la final.",
       "Mesajele publicate pe GitHub apar o singură dată în secțiunea Notificări.",
       "Cinemeta și Torrentio se instalează automat prin manifestele administrate pe GitHub.",
-      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer."
+      "Sursele torrent primite de la Torrentio sunt redate prin TorrServer.",
+      "Clopoțelul afișează eticheta roșie NOU când există o actualizare sau o notificare necitită.",
+      "Subs.ro poate fi configurat direct din Setări cu cheia API și pornește subtitrările românești.",
+      "Selectorul de descărcare și instalare este vizibil și controlabil cu telecomanda pe Android TV."
     ]
   }
 }
