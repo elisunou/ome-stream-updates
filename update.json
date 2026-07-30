@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T00:53:40+03:00",
+  "publishedAt": "2026-07-30T10:41:47+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,27 +43,27 @@
     }
   ],
   "phone": {
-    "versionCode": 62,
-    "versionName": "1.5.17",
+    "versionCode": 63,
+    "versionName": "1.5.18",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.17/Ome-Stream-Mobile-v1.5.17.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.18/Ome-Stream-Mobile-v1.5.18.apk",
     "required": false,
     "changes": [
-      "Subtitrarea inclusă în film sau episod are prioritate la selectarea automată.",
-      "Subs.ro sau alt addon este folosit automat numai dacă limba aleasă nu există în fișier.",
-      "Alegerea manuală din meniul CC rămâne disponibilă în playerul normal și VLC."
+      "Ecranul rămâne aprins pe toată durata redării filmului sau episodului.",
+      "Corecția funcționează atât în playerul normal, cât și în VLC.",
+      "Temporizatorul normal al dispozitivului revine după ieșirea din player."
     ]
   },
   "tv": {
-    "versionCode": 62,
-    "versionName": "1.5.17",
+    "versionCode": 63,
+    "versionName": "1.5.18",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.17/Ome-Stream-TV-v1.5.17.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.18/Ome-Stream-TV-v1.5.18.apk",
     "required": false,
     "changes": [
-      "Subtitrarea inclusă în film sau episod are prioritate la selectarea automată.",
-      "Subs.ro sau alt addon este folosit automat numai dacă limba aleasă nu există în fișier.",
-      "Alegerea manuală din meniul CC rămâne disponibilă în playerul normal și VLC."
+      "Ecranul rămâne aprins pe toată durata redării filmului sau episodului.",
+      "Corecția funcționează atât în playerul normal, cât și în VLC.",
+      "Temporizatorul normal al dispozitivului revine după ieșirea din player."
     ]
   }
 }
