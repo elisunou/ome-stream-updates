@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T10:55:03+03:00",
+  "publishedAt": "2026-07-30T11:02:17+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -42,28 +42,101 @@
       "detail": "Salut! Îți mulțumim că folosești Ome Stream. De acum vei găsi aici noutățile, îmbunătățirile și mesajele importante."
     }
   ],
+  "updateHistory": [
+    {
+      "versionCode": 61,
+      "versionName": "1.5.16",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.16/Ome-Stream-Mobile-v1.5.16.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.16/Ome-Stream-TV-v1.5.16.apk",
+      "changes": [
+        "Meniul CC permite sincronizarea subtitrării cu săgeți în pași de 0,5 secunde.",
+        "Decalajul poate fi introdus manual și resetat la zero."
+      ]
+    },
+    {
+      "versionCode": 62,
+      "versionName": "1.5.17",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.17/Ome-Stream-Mobile-v1.5.17.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.17/Ome-Stream-TV-v1.5.17.apk",
+      "changes": [
+        "Subtitrarea inclusă în film are prioritate.",
+        "Subs.ro este selectat automat numai dacă limba aleasă lipsește din fișier."
+      ]
+    },
+    {
+      "versionCode": 63,
+      "versionName": "1.5.18",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.18/Ome-Stream-Mobile-v1.5.18.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.18/Ome-Stream-TV-v1.5.18.apk",
+      "changes": [
+        "Ecranul rămâne aprins pe durata redării în playerul normal și VLC."
+      ]
+    },
+    {
+      "versionCode": 64,
+      "versionName": "1.5.19",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.19/Ome-Stream-Mobile-v1.5.19.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.19/Ome-Stream-TV-v1.5.19.apk",
+      "changes": [
+        "Subtitrările sunt afișate fără fundal negru, cu un contur discret."
+      ]
+    },
+    {
+      "versionCode": 65,
+      "versionName": "1.5.20",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.20/Ome-Stream-Mobile-v1.5.20.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.20/Ome-Stream-TV-v1.5.20.apk",
+      "changes": [
+        "Selecția telecomenzii este transparentă și nu mai acoperă posterele.",
+        "TORRENT și HTTP nu mai sunt tăiate în stânga la focus."
+      ]
+    },
+    {
+      "versionCode": 66,
+      "versionName": "1.5.21",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.21/Ome-Stream-Mobile-v1.5.21.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.21/Ome-Stream-TV-v1.5.21.apk",
+      "changes": [
+        "Notificările păstrează istoricul și descrierea fiecărui update.",
+        "Utilizatorul poate alege ce versiune mai nouă dorește să instaleze.",
+        "Ultima versiune rămâne recomandată și include toate corecțiile anterioare."
+      ]
+    }
+  ],
   "phone": {
-    "versionCode": 65,
-    "versionName": "1.5.20",
+    "versionCode": 66,
+    "versionName": "1.5.21",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.20/Ome-Stream-Mobile-v1.5.20.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.21/Ome-Stream-Mobile-v1.5.21.apk",
     "required": false,
     "changes": [
-      "Selecția cu telecomanda este acum transparentă și folosește un contur mov discret.",
-      "Posterele și informațiile rămân vizibile integral atunci când primesc focus.",
-      "Cardurile surselor nu mai taie prima literă din TORRENT sau HTTP."
+      "Notificările păstrează istoricul și descrierea fiecărui update.",
+      "Utilizatorul poate alege ce versiune mai nouă dorește să instaleze.",
+      "Ultima versiune rămâne recomandată și include toate corecțiile anterioare."
     ]
   },
   "tv": {
-    "versionCode": 65,
-    "versionName": "1.5.20",
+    "versionCode": 66,
+    "versionName": "1.5.21",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.20/Ome-Stream-TV-v1.5.20.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.21/Ome-Stream-TV-v1.5.21.apk",
     "required": false,
     "changes": [
-      "Selecția cu telecomanda este acum transparentă și folosește un contur mov discret.",
-      "Posterele și informațiile rămân vizibile integral atunci când primesc focus.",
-      "Cardurile surselor nu mai taie prima literă din TORRENT sau HTTP."
+      "Notificările păstrează istoricul și descrierea fiecărui update.",
+      "Utilizatorul poate alege ce versiune mai nouă dorește să instaleze.",
+      "Ultima versiune rămâne recomandată și include toate corecțiile anterioare."
     ]
   }
 }
