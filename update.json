@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T11:02:17+03:00",
+  "publishedAt": "2026-07-30T14:34:06+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -113,30 +113,43 @@
         "Utilizatorul poate alege ce versiune mai nouă dorește să instaleze.",
         "Ultima versiune rămâne recomandată și include toate corecțiile anterioare."
       ]
+    },
+    {
+      "versionCode": 67,
+      "versionName": "1.5.22",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.22/Ome-Stream-Mobile-v1.5.22.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.22/Ome-Stream-TV-v1.5.22.apk",
+      "changes": [
+        "FileList recunoaște mai bine ID-urile IMDb și tipul film sau serial.",
+        "Căutarea surselor acceptă denumiri alternative, diacritice și categorii corectate.",
+        "Înapoi dintr-un titlu deschis prin Căutare revine la rezultatele căutării."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 66,
-    "versionName": "1.5.21",
+    "versionCode": 67,
+    "versionName": "1.5.22",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.21/Ome-Stream-Mobile-v1.5.21.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.22/Ome-Stream-Mobile-v1.5.22.apk",
     "required": false,
     "changes": [
-      "Notificările păstrează istoricul și descrierea fiecărui update.",
-      "Utilizatorul poate alege ce versiune mai nouă dorește să instaleze.",
-      "Ultima versiune rămâne recomandată și include toate corecțiile anterioare."
+      "FileList recunoaște mai bine ID-urile IMDb și tipul film sau serial.",
+      "Căutarea surselor acceptă denumiri alternative, diacritice și categorii corectate.",
+      "Înapoi dintr-un titlu deschis prin Căutare revine la rezultatele căutării."
     ]
   },
   "tv": {
-    "versionCode": 66,
-    "versionName": "1.5.21",
+    "versionCode": 67,
+    "versionName": "1.5.22",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.21/Ome-Stream-TV-v1.5.21.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.22/Ome-Stream-TV-v1.5.22.apk",
     "required": false,
     "changes": [
-      "Notificările păstrează istoricul și descrierea fiecărui update.",
-      "Utilizatorul poate alege ce versiune mai nouă dorește să instaleze.",
-      "Ultima versiune rămâne recomandată și include toate corecțiile anterioare."
+      "FileList recunoaște mai bine ID-urile IMDb și tipul film sau serial.",
+      "Căutarea surselor acceptă denumiri alternative, diacritice și categorii corectate.",
+      "Înapoi dintr-un titlu deschis prin Căutare revine la rezultatele căutării."
     ]
   }
 }
