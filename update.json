@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T15:18:00+03:00",
+  "publishedAt": "2026-07-30T16:49:55+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -152,30 +152,46 @@
         "Ome Stream selectează automat fișierul episodului ales din torrent.",
         "Filmele și celelalte seriale își păstrează identificarea IMDb existentă."
       ]
+    },
+    {
+      "versionCode": 70,
+      "versionName": "1.5.25",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.25/Ome-Stream-Mobile-v1.5.25.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.25/Ome-Stream-TV-v1.5.25.apk",
+      "changes": [
+        "Poți salva filme și seriale la Favorite pentru a le deschide mai târziu.",
+        "Favorite este disponibil lângă Notificări pe telefon și TV.",
+        "Setările sunt reorganizate pe categorii, cu opțiunile afișate în dreapta.",
+        "A fost adăugată sincronizarea Google opțională pentru configurații, favorite și progres."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 69,
-    "versionName": "1.5.24",
+    "versionCode": 70,
+    "versionName": "1.5.25",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.24/Ome-Stream-Mobile-v1.5.24.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.25/Ome-Stream-Mobile-v1.5.25.apk",
     "required": false,
     "changes": [
-      "Sursele FileList pentru episoade folosesc acum pachetul sezonului exact.",
-      "Ome Stream selectează automat fișierul episodului ales din torrent.",
-      "Filmele și celelalte seriale își păstrează identificarea IMDb existentă."
+      "Poți salva filme și seriale la Favorite pentru a le deschide mai târziu.",
+      "Favorite este disponibil lângă Notificări pe telefon și TV.",
+      "Setările sunt reorganizate pe categorii, cu opțiunile afișate în dreapta.",
+      "A fost adăugată sincronizarea Google opțională pentru configurații, favorite și progres."
     ]
   },
   "tv": {
-    "versionCode": 69,
-    "versionName": "1.5.24",
+    "versionCode": 70,
+    "versionName": "1.5.25",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.24/Ome-Stream-TV-v1.5.24.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.25/Ome-Stream-TV-v1.5.25.apk",
     "required": false,
     "changes": [
-      "Sursele FileList pentru episoade folosesc acum pachetul sezonului exact.",
-      "Ome Stream selectează automat fișierul episodului ales din torrent.",
-      "Filmele și celelalte seriale își păstrează identificarea IMDb existentă."
+      "Poți salva filme și seriale la Favorite pentru a le deschide mai târziu.",
+      "Favorite este disponibil lângă Notificări pe telefon și TV.",
+      "Setările sunt reorganizate pe categorii, cu opțiunile afișate în dreapta.",
+      "A fost adăugată sincronizarea Google opțională pentru configurații, favorite și progres."
     ]
   }
 }
