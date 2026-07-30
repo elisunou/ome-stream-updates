@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T14:41:49+03:00",
+  "publishedAt": "2026-07-30T15:18:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -139,30 +139,43 @@
         "Sunt acceptate release-urile redenumite între catalog și tracker.",
         "Corecția funcționează pentru filme și seriale."
       ]
+    },
+    {
+      "versionCode": 69,
+      "versionName": "1.5.24",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.24/Ome-Stream-Mobile-v1.5.24.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.24/Ome-Stream-TV-v1.5.24.apk",
+      "changes": [
+        "Sursele FileList pentru episoade folosesc acum pachetul sezonului exact.",
+        "Ome Stream selectează automat fișierul episodului ales din torrent.",
+        "Filmele și celelalte seriale își păstrează identificarea IMDb existentă."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 68,
-    "versionName": "1.5.23",
+    "versionCode": 69,
+    "versionName": "1.5.24",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.23/Ome-Stream-Mobile-v1.5.23.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.24/Ome-Stream-Mobile-v1.5.24.apk",
     "required": false,
     "changes": [
-      "Sursele FileList găsite după un ID IMDb corect nu mai sunt eliminate din cauza unui titlu alternativ.",
-      "Sunt acceptate release-urile redenumite între catalog și tracker.",
-      "Corecția funcționează pentru filme și seriale."
+      "Sursele FileList pentru episoade folosesc acum pachetul sezonului exact.",
+      "Ome Stream selectează automat fișierul episodului ales din torrent.",
+      "Filmele și celelalte seriale își păstrează identificarea IMDb existentă."
     ]
   },
   "tv": {
-    "versionCode": 68,
-    "versionName": "1.5.23",
+    "versionCode": 69,
+    "versionName": "1.5.24",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.23/Ome-Stream-TV-v1.5.23.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.24/Ome-Stream-TV-v1.5.24.apk",
     "required": false,
     "changes": [
-      "Sursele FileList găsite după un ID IMDb corect nu mai sunt eliminate din cauza unui titlu alternativ.",
-      "Sunt acceptate release-urile redenumite între catalog și tracker.",
-      "Corecția funcționează pentru filme și seriale."
+      "Sursele FileList pentru episoade folosesc acum pachetul sezonului exact.",
+      "Ome Stream selectează automat fișierul episodului ales din torrent.",
+      "Filmele și celelalte seriale își păstrează identificarea IMDb existentă."
     ]
   }
 }
