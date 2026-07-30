@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T10:47:37+03:00",
+  "publishedAt": "2026-07-30T10:55:03+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,27 +43,27 @@
     }
   ],
   "phone": {
-    "versionCode": 64,
-    "versionName": "1.5.19",
+    "versionCode": 65,
+    "versionName": "1.5.20",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.19/Ome-Stream-Mobile-v1.5.19.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.20/Ome-Stream-Mobile-v1.5.20.apk",
     "required": false,
     "changes": [
-      "Subtitrările sunt afișate fără dreptunghiul negru din spatele textului.",
-      "Textul alb păstrează un contur discret pentru a rămâne lizibil.",
-      "Stilul nou funcționează în playerul normal și VLC, pe mobil și TV."
+      "Selecția cu telecomanda este acum transparentă și folosește un contur mov discret.",
+      "Posterele și informațiile rămân vizibile integral atunci când primesc focus.",
+      "Cardurile surselor nu mai taie prima literă din TORRENT sau HTTP."
     ]
   },
   "tv": {
-    "versionCode": 64,
-    "versionName": "1.5.19",
+    "versionCode": 65,
+    "versionName": "1.5.20",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.19/Ome-Stream-TV-v1.5.19.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.20/Ome-Stream-TV-v1.5.20.apk",
     "required": false,
     "changes": [
-      "Subtitrările sunt afișate fără dreptunghiul negru din spatele textului.",
-      "Textul alb păstrează un contur discret pentru a rămâne lizibil.",
-      "Stilul nou funcționează în playerul normal și VLC, pe mobil și TV."
+      "Selecția cu telecomanda este acum transparentă și folosește un contur mov discret.",
+      "Posterele și informațiile rămân vizibile integral atunci când primesc focus.",
+      "Cardurile surselor nu mai taie prima literă din TORRENT sau HTTP."
     ]
   }
 }
