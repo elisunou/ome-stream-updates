@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T10:41:47+03:00",
+  "publishedAt": "2026-07-30T10:47:37+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,27 +43,27 @@
     }
   ],
   "phone": {
-    "versionCode": 63,
-    "versionName": "1.5.18",
+    "versionCode": 64,
+    "versionName": "1.5.19",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.18/Ome-Stream-Mobile-v1.5.18.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.19/Ome-Stream-Mobile-v1.5.19.apk",
     "required": false,
     "changes": [
-      "Ecranul rămâne aprins pe toată durata redării filmului sau episodului.",
-      "Corecția funcționează atât în playerul normal, cât și în VLC.",
-      "Temporizatorul normal al dispozitivului revine după ieșirea din player."
+      "Subtitrările sunt afișate fără dreptunghiul negru din spatele textului.",
+      "Textul alb păstrează un contur discret pentru a rămâne lizibil.",
+      "Stilul nou funcționează în playerul normal și VLC, pe mobil și TV."
     ]
   },
   "tv": {
-    "versionCode": 63,
-    "versionName": "1.5.18",
+    "versionCode": 64,
+    "versionName": "1.5.19",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.18/Ome-Stream-TV-v1.5.18.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.19/Ome-Stream-TV-v1.5.19.apk",
     "required": false,
     "changes": [
-      "Ecranul rămâne aprins pe toată durata redării filmului sau episodului.",
-      "Corecția funcționează atât în playerul normal, cât și în VLC.",
-      "Temporizatorul normal al dispozitivului revine după ieșirea din player."
+      "Subtitrările sunt afișate fără dreptunghiul negru din spatele textului.",
+      "Textul alb păstrează un contur discret pentru a rămâne lizibil.",
+      "Stilul nou funcționează în playerul normal și VLC, pe mobil și TV."
     ]
   }
 }
