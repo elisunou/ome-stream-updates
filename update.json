@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-01T21:39:08+03:00",
+  "publishedAt": "2026-08-01T21:49:08+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -208,36 +208,45 @@
         "Filmele și serialele sunt recunoscute după ID-ul canonic inclusiv în categoriile speciale ale trackerelor.",
         "Căutarea suplimentară rulează numai când sursele normale lipsesc."
       ]
+    },
+    {
+      "versionCode": 76,
+      "versionName": "1.5.31",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.31/Ome-Stream-Mobile-v1.5.31.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.31/Ome-Stream-TV-v1.5.31.apk",
+      "changes": [
+        "Culorile se aleg vizual din paletă sau cu glisoare, fără coduri HEX.",
+        "Pot fi reglate fundalul, panourile, butoanele, textul și culorile de accent.",
+        "Dimensiunea, înălțimea, spațierea și colțurile posterelor pot fi personalizate.",
+        "Numărul de postere pe rând se adaptează automat dimensiunii alese.",
+        "Tema implicită și profilurile salvate rămân disponibile."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 75,
-    "versionName": "1.5.30",
+    "versionCode": 76,
+    "versionName": "1.5.31",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.30/Ome-Stream-Mobile-v1.5.30.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.31/Ome-Stream-Mobile-v1.5.31.apk",
     "required": false,
     "changes": [
-      "Personalizează culorile, transparența și mărimea textului din Aspect / Skin.",
-      "Previzualizează aspectul și salvează mai multe profiluri.",
-      "Reordonează secțiunile cu degetul sau cu săgețile; tema implicită rămâne disponibilă.",
-      "Poți șterge individual filmele și episoadele din Istoric.",
-      "Au fost extinse identificarea titlurilor și categoriile speciale ale trackerelor.",
-      "Sursele existente rămân neschimbate."
+      "Alege culorile vizual, fără coduri HEX.",
+      "Reglează fundalul, transparența, textul și dimensiunile posterelor.",
+      "Previzualizează și salvează profiluri; tema implicită rămâne disponibilă."
     ]
   },
   "tv": {
-    "versionCode": 75,
-    "versionName": "1.5.30",
+    "versionCode": 76,
+    "versionName": "1.5.31",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.30/Ome-Stream-TV-v1.5.30.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.31/Ome-Stream-TV-v1.5.31.apk",
     "required": false,
     "changes": [
-      "Personalizează culorile, transparența și mărimea textului din Aspect / Skin.",
-      "Previzualizează aspectul și salvează mai multe profiluri.",
-      "Reordonează secțiunile cu telecomanda; tema implicită rămâne disponibilă.",
-      "Poți șterge individual filmele și episoadele din Istoric.",
-      "Au fost extinse identificarea titlurilor și categoriile speciale ale trackerelor.",
-      "Sursele existente rămân neschimbate."
+      "Alege culorile vizual, fără coduri HEX.",
+      "Reglează fundalul, transparența, textul și dimensiunile posterelor.",
+      "Controlează setările cu telecomanda și păstrează tema implicită."
     ]
   }
 }
