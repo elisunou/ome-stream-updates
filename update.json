@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-01T20:44:46+03:00",
+  "publishedAt": "2026-08-01T20:52:47+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -168,54 +168,38 @@
       ]
     },
     {
-      "versionCode": 71,
-      "versionName": "1.5.26",
+      "versionCode": 73,
+      "versionName": "1.5.28",
       "title": "Actualizare Ome Stream",
       "channels": ["phone", "tv"],
-      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.26/Ome-Stream-Mobile-v1.5.26.apk",
-      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.26/Ome-Stream-TV-v1.5.26.apk",
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.28/Ome-Stream-Mobile-v1.5.28.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.28/Ome-Stream-TV-v1.5.28.apk",
       "changes": [
-        "Pe telefon alegi direct contul Google, fără Client ID sau Client Secret.",
-        "Pe Android TV conectarea Google se face simplu prin codul afișat de Ome Stream.",
-        "Configurațiile, favoritele și progresul se sincronizează prin Google Drive.",
-        "Istoric apare lângă Notificări și păstrează filmele, serialele și episoadele vizionate.",
-        "Marcajele Trakt nereușite rămân în așteptare și sunt retrimise după reautorizare.",
-        "Cataloagele se încarcă pe rând și afișează mai repede primele postere."
-      ]
-    },
-    {
-      "versionCode": 72,
-      "versionName": "1.5.27",
-      "title": "Actualizare Ome Stream",
-      "channels": ["phone", "tv"],
-      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.27/Ome-Stream-Mobile-v1.5.27.apk",
-      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.27/Ome-Stream-TV-v1.5.27.apk",
-      "changes": [
-        "Istoricul afișează posterul în stânga și titlul, episodul, anul, ratingul și descrierea în dreapta.",
-        "La deschiderea unui titlu din Istoric apare pagina completă cu informații și sursele disponibile."
+        "A fost corectată închiderea aplicației provocată de starea unei descărcări de actualizare.",
+        "Actualizările întrerupte sunt reluate în siguranță fără pierderea profilului local."
       ]
     }
   ],
   "phone": {
-    "versionCode": 72,
-    "versionName": "1.5.27",
+    "versionCode": 73,
+    "versionName": "1.5.28",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.27/Ome-Stream-Mobile-v1.5.27.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.28/Ome-Stream-Mobile-v1.5.28.apk",
     "required": false,
     "changes": [
-      "Istoricul afișează posterul în stânga și informațiile titlului în dreapta.",
-      "La apăsare se deschide pagina completă cu descriere și surse."
+      "A fost corectată închiderea aplicației provocată de starea unei descărcări de actualizare.",
+      "Actualizările întrerupte sunt reluate fără pierderea profilului local."
     ]
   },
   "tv": {
-    "versionCode": 72,
-    "versionName": "1.5.27",
+    "versionCode": 73,
+    "versionName": "1.5.28",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.27/Ome-Stream-TV-v1.5.27.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.28/Ome-Stream-TV-v1.5.28.apk",
     "required": false,
     "changes": [
-      "Istoricul afișează posterul în stânga și informațiile titlului în dreapta.",
-      "La apăsare se deschide pagina completă cu descriere și surse."
+      "A fost corectată închiderea aplicației provocată de starea unei descărcări de actualizare.",
+      "Actualizările întrerupte sunt reluate fără pierderea profilului local."
     ]
   }
 }
