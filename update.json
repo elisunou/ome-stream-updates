@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-01T21:15:41+03:00",
+  "publishedAt": "2026-08-01T21:39:08+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -191,30 +191,53 @@
         "Categoriile speciale ale trackerelor sunt verificate numai când filtrarea normală nu găsește surse.",
         "Addonurile torrent instalate reîncearcă identificarea corectă fără să modifice sursele care funcționează deja."
       ]
+    },
+    {
+      "versionCode": 75,
+      "versionName": "1.5.30",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.30/Ome-Stream-Mobile-v1.5.30.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.30/Ome-Stream-TV-v1.5.30.apk",
+      "changes": [
+        "A fost adăugat editorul Skin pentru culori, transparență și mărimea textului.",
+        "Interfața poate fi previzualizată și salvată în profiluri personalizate.",
+        "Bara principală și categoriile din Setări pot fi reordonate prin touch sau telecomandă.",
+        "Tema implicită rămâne disponibilă și poate fi restaurată oricând.",
+        "Elementele pot fi șterse individual din Istoric și rămân șterse după sincronizarea Google.",
+        "Filmele și serialele sunt recunoscute după ID-ul canonic inclusiv în categoriile speciale ale trackerelor.",
+        "Căutarea suplimentară rulează numai când sursele normale lipsesc."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 74,
-    "versionName": "1.5.29",
+    "versionCode": 75,
+    "versionName": "1.5.30",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.29/Ome-Stream-Mobile-v1.5.29.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.30/Ome-Stream-Mobile-v1.5.30.apk",
     "required": false,
     "changes": [
-      "Filmele și serialele sunt recunoscute după ID-ul corect și titlurile alternative.",
-      "Categoriile speciale sunt verificate doar dacă sursele normale lipsesc.",
-      "Sursele care funcționează deja rămân neschimbate."
+      "Personalizează culorile, transparența și mărimea textului din Aspect / Skin.",
+      "Previzualizează aspectul și salvează mai multe profiluri.",
+      "Reordonează secțiunile cu degetul sau cu săgețile; tema implicită rămâne disponibilă.",
+      "Poți șterge individual filmele și episoadele din Istoric.",
+      "Au fost extinse identificarea titlurilor și categoriile speciale ale trackerelor.",
+      "Sursele existente rămân neschimbate."
     ]
   },
   "tv": {
-    "versionCode": 74,
-    "versionName": "1.5.29",
+    "versionCode": 75,
+    "versionName": "1.5.30",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.29/Ome-Stream-TV-v1.5.29.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.30/Ome-Stream-TV-v1.5.30.apk",
     "required": false,
     "changes": [
-      "Filmele și serialele sunt recunoscute după ID-ul corect și titlurile alternative.",
-      "Categoriile speciale sunt verificate doar dacă sursele normale lipsesc.",
-      "Sursele care funcționează deja rămân neschimbate."
+      "Personalizează culorile, transparența și mărimea textului din Aspect / Skin.",
+      "Previzualizează aspectul și salvează mai multe profiluri.",
+      "Reordonează secțiunile cu telecomanda; tema implicită rămâne disponibilă.",
+      "Poți șterge individual filmele și episoadele din Istoric.",
+      "Au fost extinse identificarea titlurilor și categoriile speciale ale trackerelor.",
+      "Sursele existente rămân neschimbate."
     ]
   }
 }
