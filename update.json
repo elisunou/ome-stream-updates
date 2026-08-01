@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-07-30T16:49:55+03:00",
+  "publishedAt": "2026-08-01T20:21:57+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -166,32 +166,50 @@
         "Setările sunt reorganizate pe categorii, cu opțiunile afișate în dreapta.",
         "A fost adăugată sincronizarea Google opțională pentru configurații, favorite și progres."
       ]
+    },
+    {
+      "versionCode": 71,
+      "versionName": "1.5.26",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.26/Ome-Stream-Mobile-v1.5.26.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.26/Ome-Stream-TV-v1.5.26.apk",
+      "changes": [
+        "Pe telefon alegi direct contul Google, fără Client ID sau Client Secret.",
+        "Pe Android TV conectarea Google se face simplu prin codul afișat de Ome Stream.",
+        "Configurațiile, favoritele și progresul se sincronizează prin Google Drive.",
+        "Istoric apare lângă Notificări și păstrează filmele, serialele și episoadele vizionate.",
+        "Marcajele Trakt nereușite rămân în așteptare și sunt retrimise după reautorizare.",
+        "Cataloagele se încarcă pe rând și afișează mai repede primele postere."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 70,
-    "versionName": "1.5.25",
+    "versionCode": 71,
+    "versionName": "1.5.26",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.25/Ome-Stream-Mobile-v1.5.25.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.26/Ome-Stream-Mobile-v1.5.26.apk",
     "required": false,
     "changes": [
-      "Poți salva filme și seriale la Favorite pentru a le deschide mai târziu.",
-      "Favorite este disponibil lângă Notificări pe telefon și TV.",
-      "Setările sunt reorganizate pe categorii, cu opțiunile afișate în dreapta.",
-      "A fost adăugată sincronizarea Google opțională pentru configurații, favorite și progres."
+      "Alegi direct contul Google de pe telefon, fără configurare tehnică.",
+      "Configurațiile, favoritele și progresul se sincronizează prin Google Drive.",
+      "Istoric apare lângă Notificări și deschide din nou sursele titlurilor vizionate.",
+      "Marcajele Trakt nereușite nu se mai pierd și sunt retrimise după reautorizare.",
+      "Primele imagini din catalog apar mai repede."
     ]
   },
   "tv": {
-    "versionCode": 70,
-    "versionName": "1.5.25",
+    "versionCode": 71,
+    "versionName": "1.5.26",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.25/Ome-Stream-TV-v1.5.25.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.26/Ome-Stream-TV-v1.5.26.apk",
     "required": false,
     "changes": [
-      "Poți salva filme și seriale la Favorite pentru a le deschide mai târziu.",
-      "Favorite este disponibil lângă Notificări pe telefon și TV.",
-      "Setările sunt reorganizate pe categorii, cu opțiunile afișate în dreapta.",
-      "A fost adăugată sincronizarea Google opțională pentru configurații, favorite și progres."
+      "Conectarea Google pe TV se face prin cod, fără introducerea Client ID sau Secret.",
+      "Configurațiile, favoritele și progresul se sincronizează prin Google Drive.",
+      "Istoric apare lângă Notificări și păstrează filmele, serialele și episoadele vizionate.",
+      "Marcajele Trakt nereușite nu se mai pierd și sunt retrimise după reautorizare.",
+      "Primele imagini din catalog apar mai repede."
     ]
   }
 }
