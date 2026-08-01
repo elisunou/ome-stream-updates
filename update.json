@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-01T20:52:47+03:00",
+  "publishedAt": "2026-08-01T21:15:41+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -178,28 +178,43 @@
         "A fost corectată închiderea aplicației provocată de starea unei descărcări de actualizare.",
         "Actualizările întrerupte sunt reluate în siguranță fără pierderea profilului local."
       ]
+    },
+    {
+      "versionCode": 74,
+      "versionName": "1.5.29",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.29/Ome-Stream-Mobile-v1.5.29.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.29/Ome-Stream-TV-v1.5.29.apk",
+      "changes": [
+        "Filmele și serialele sunt recunoscute și după ID-ul IMDb canonic și titlurile alternative.",
+        "Categoriile speciale ale trackerelor sunt verificate numai când filtrarea normală nu găsește surse.",
+        "Addonurile torrent instalate reîncearcă identificarea corectă fără să modifice sursele care funcționează deja."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 73,
-    "versionName": "1.5.28",
+    "versionCode": 74,
+    "versionName": "1.5.29",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.28/Ome-Stream-Mobile-v1.5.28.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.29/Ome-Stream-Mobile-v1.5.29.apk",
     "required": false,
     "changes": [
-      "A fost corectată închiderea aplicației provocată de starea unei descărcări de actualizare.",
-      "Actualizările întrerupte sunt reluate fără pierderea profilului local."
+      "Filmele și serialele sunt recunoscute după ID-ul corect și titlurile alternative.",
+      "Categoriile speciale sunt verificate doar dacă sursele normale lipsesc.",
+      "Sursele care funcționează deja rămân neschimbate."
     ]
   },
   "tv": {
-    "versionCode": 73,
-    "versionName": "1.5.28",
+    "versionCode": 74,
+    "versionName": "1.5.29",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.28/Ome-Stream-TV-v1.5.28.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.29/Ome-Stream-TV-v1.5.29.apk",
     "required": false,
     "changes": [
-      "A fost corectată închiderea aplicației provocată de starea unei descărcări de actualizare.",
-      "Actualizările întrerupte sunt reluate fără pierderea profilului local."
+      "Filmele și serialele sunt recunoscute după ID-ul corect și titlurile alternative.",
+      "Categoriile speciale sunt verificate doar dacă sursele normale lipsesc.",
+      "Sursele care funcționează deja rămân neschimbate."
     ]
   }
 }
