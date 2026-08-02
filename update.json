@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-02T15:33:53+03:00",
+  "publishedAt": "2026-08-02T15:47:21+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -238,30 +238,45 @@
         "Focusul personalizat se aplică tuturor cardurilor și surselor, indiferent de provider.",
         "Temele pot fi salvate fără aplicare, iar tema default poate fi previzualizată sau restaurată."
       ]
+    },
+    {
+      "versionCode": 78,
+      "versionName": "1.5.33",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.33/Ome-Stream-Mobile-v1.5.33.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.33/Ome-Stream-TV-v1.5.33.apk",
+      "changes": [
+        "Studio afișează o copie demonstrativă detaliată a paginii principale.",
+        "Previzualizarea include categorii, genuri, filme, seriale, postere și informații.",
+        "Este afișat și ecranul Surse disponibile cu FileList, Torrentio, addon HTTPS și focus TV.",
+        "Culorile, textul, transparența, posterele și focusul se actualizează înainte de aplicare.",
+        "Ordinea Filme și Seriale poate fi schimbată și aplicată paginii principale."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 77,
-    "versionName": "1.5.32",
+    "versionCode": 78,
+    "versionName": "1.5.33",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.32/Ome-Stream-Mobile-v1.5.32.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.33/Ome-Stream-Mobile-v1.5.33.apk",
     "required": false,
     "changes": [
-      "Editează interfața într-un Studio separat, cu previzualizare în timp real.",
-      "Combină liber culorile folosind cercul cromatic.",
-      "Salvează teme fără aplicare și revino oricând la tema default."
+      "Vezi pagina principală completă în Studio înainte de aplicare.",
+      "Previzualizează posterele, textul, categoriile și lista de surse.",
+      "Schimbările rămân izolate până când alegi Aplică aspectul."
     ]
   },
   "tv": {
-    "versionCode": 77,
-    "versionName": "1.5.32",
+    "versionCode": 78,
+    "versionName": "1.5.33",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.32/Ome-Stream-TV-v1.5.32.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.33/Ome-Stream-TV-v1.5.33.apk",
     "required": false,
     "changes": [
-      "Editează interfața într-un Studio separat, cu previzualizare în timp real.",
-      "Personalizează focusul TV pentru toate cardurile și sursele.",
-      "Salvează teme și controlează editorul cu telecomanda."
+      "Vezi pagina principală completă în Studio înainte de aplicare.",
+      "Previzualizează focusul pe postere și pe fiecare stil de sursă.",
+      "Controlează editorul și ordinea Filme–Seriale cu telecomanda."
     ]
   }
 }
