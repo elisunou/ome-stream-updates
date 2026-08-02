@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-02T16:40:37+03:00",
+  "publishedAt": "2026-08-02T16:54:40+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -307,28 +307,45 @@
         "Textul, opțiunile și butoanele se adaptează automat pentru contrast.",
         "Pe Android TV, toate elementele formularului au focus clar pentru telecomandă."
       ]
+    },
+    {
+      "versionCode": 83,
+      "versionName": "1.5.38",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.38/Ome-Stream-Mobile-v1.5.38.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.38/Ome-Stream-TV-v1.5.38.apk",
+      "changes": [
+        "Selectorul de la pornire folosește tema implicită Ome Stream într-un ecran mai prietenos.",
+        "Profilurile sunt afișate ca avataruri rotunde mari și se deschid apăsând direct poza.",
+        "Opțiunea Fără cont este disponibilă ca primul avatar din listă.",
+        "Pe TV, profilul selectat este mărit și evidențiat discret pentru telecomandă.",
+        "Fotografia Gmail a profilului Principal apare compact în bara paginii cu postere."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 82,
-    "versionName": "1.5.37",
+    "versionCode": 83,
+    "versionName": "1.5.38",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.37/Ome-Stream-Mobile-v1.5.37.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.38/Ome-Stream-Mobile-v1.5.38.apk",
     "required": false,
-    "changes": [
-      "Formularul pentru profil și PIN este adaptat temei Ome Stream.",
-      "Câmpuri rotunjite, contrast automat și accent vizibil la selectare."
+      "changes": [
+        "Selector prietenos cu avataruri mari în tema implicită Ome Stream.",
+        "Intrarea se face apăsând poza profilului sau avatarul Fără cont.",
+        "Fotografia Gmail apare compact lângă numele profilului în pagina principală."
     ]
   },
   "tv": {
-    "versionCode": 82,
-    "versionName": "1.5.37",
+    "versionCode": 83,
+    "versionName": "1.5.38",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.37/Ome-Stream-TV-v1.5.37.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.38/Ome-Stream-TV-v1.5.38.apk",
     "required": false,
-    "changes": [
-      "Formularul pentru profil și PIN este adaptat temei Ome Stream.",
-      "Focus clar pentru telecomandă și contrast automat al textului."
+      "changes": [
+        "Selector prietenos cu avataruri mari în tema implicită Ome Stream.",
+        "Focus mărit și luminos pentru alegerea profilului cu telecomanda.",
+        "Fotografia Gmail apare compact lângă numele profilului în pagina principală."
     ]
   }
 }
