@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-02T15:47:21+03:00",
+  "publishedAt": "2026-08-02T15:58:50+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -253,30 +253,39 @@
         "Culorile, textul, transparența, posterele și focusul se actualizează înainte de aplicare.",
         "Ordinea Filme și Seriale poate fi schimbată și aplicată paginii principale."
       ]
+    },
+    {
+      "versionCode": 79,
+      "versionName": "1.5.34",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.34/Ome-Stream-Mobile-v1.5.34.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.34/Ome-Stream-TV-v1.5.34.apk",
+      "changes": [
+        "Aspect / Skin a fost eliminat din Setări; personalizarea rămâne în Studio interfață."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 78,
-    "versionName": "1.5.33",
+    "versionCode": 79,
+    "versionName": "1.5.34",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.33/Ome-Stream-Mobile-v1.5.33.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.34/Ome-Stream-Mobile-v1.5.34.apk",
     "required": false,
     "changes": [
-      "Vezi pagina principală completă în Studio înainte de aplicare.",
-      "Previzualizează posterele, textul, categoriile și lista de surse.",
-      "Schimbările rămân izolate până când alegi Aplică aspectul."
+      "Aspect / Skin a fost eliminat din Setări.",
+      "Toate personalizările rămân disponibile în Studio interfață."
     ]
   },
   "tv": {
-    "versionCode": 78,
-    "versionName": "1.5.33",
+    "versionCode": 79,
+    "versionName": "1.5.34",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.33/Ome-Stream-TV-v1.5.33.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.34/Ome-Stream-TV-v1.5.34.apk",
     "required": false,
     "changes": [
-      "Vezi pagina principală completă în Studio înainte de aplicare.",
-      "Previzualizează focusul pe postere și pe fiecare stil de sursă.",
-      "Controlează editorul și ordinea Filme–Seriale cu telecomanda."
+      "Aspect / Skin a fost eliminat din Setări.",
+      "Toate personalizările rămân disponibile în Studio interfață."
     ]
   }
 }
