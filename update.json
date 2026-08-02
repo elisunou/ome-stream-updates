@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-02T16:20:50+03:00",
+  "publishedAt": "2026-08-02T16:36:11+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -279,30 +279,44 @@
         "Progresul, istoricul și favoritele sunt separate pentru fiecare profil.",
         "Profilurile pot folosi inițiala, fotografia Google sau o imagine aleasă de utilizator."
       ]
+    },
+    {
+      "versionCode": 81,
+      "versionName": "1.5.36",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.36/Ome-Stream-Mobile-v1.5.36.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.36/Ome-Stream-TV-v1.5.36.apk",
+      "changes": [
+        "La o pornire nouă poți alege un profil de familie sau continuarea locală fără cont Google.",
+        "Revenirea din fundal păstrează profilul și pagina curentă, fără o nouă alegere.",
+        "PIN-ul profilului activ poate fi setat, schimbat sau eliminat direct din Setări.",
+        "Textul și butoanele din Profiluri au contrast automat pentru a rămâne vizibile cu orice temă."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 80,
-    "versionName": "1.5.35",
+    "versionCode": 81,
+    "versionName": "1.5.36",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.35/Ome-Stream-Mobile-v1.5.35.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.36/Ome-Stream-Mobile-v1.5.36.apk",
     "required": false,
     "changes": [
-      "Profiluri de familie cu PIN opțional și date separate.",
-      "Restricții Filme/Seriale și opțiunea de a vedea numai surse Freeleech.",
-      "Avatar cu inițială, fotografie Google sau imagine personalizată."
+      "Selector profil sau fără cont la o pornire nouă.",
+      "Revenirea din fundal intră direct unde ai rămas.",
+      "PIN configurabil pentru profilul activ și text cu contrast îmbunătățit."
     ]
   },
   "tv": {
-    "versionCode": 80,
-    "versionName": "1.5.35",
+    "versionCode": 81,
+    "versionName": "1.5.36",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.35/Ome-Stream-TV-v1.5.35.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.36/Ome-Stream-TV-v1.5.36.apk",
     "required": false,
     "changes": [
-      "Profiluri de familie cu PIN opțional și date separate.",
-      "Restricții Filme/Seriale și opțiunea de a vedea numai surse Freeleech.",
-      "Selector de profil și administrare adaptate telecomenzii."
+      "Selector profil sau fără cont la o pornire nouă.",
+      "Revenirea din fundal intră direct unde ai rămas.",
+      "PIN configurabil și contrast îmbunătățit pentru telecomandă."
     ]
   }
 }
