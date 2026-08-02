@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-02T15:58:50+03:00",
+  "publishedAt": "2026-08-02T16:20:50+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -264,28 +264,45 @@
       "changes": [
         "Aspect / Skin a fost eliminat din Setări; personalizarea rămâne în Studio interfață."
       ]
+    },
+    {
+      "versionCode": 80,
+      "versionName": "1.5.35",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.35/Ome-Stream-Mobile-v1.5.35.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.35/Ome-Stream-TV-v1.5.35.apk",
+      "changes": [
+        "Au fost adăugate profiluri separate pentru membrii familiei, cu selector la pornire și PIN opțional.",
+        "Fiecare profil poate permite Filme, Seriale sau ambele categorii.",
+        "Fiecare profil poate afișa toate sursele, numai HTTPS sau HTTPS împreună cu torrentele Freeleech.",
+        "Progresul, istoricul și favoritele sunt separate pentru fiecare profil.",
+        "Profilurile pot folosi inițiala, fotografia Google sau o imagine aleasă de utilizator."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 79,
-    "versionName": "1.5.34",
+    "versionCode": 80,
+    "versionName": "1.5.35",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.34/Ome-Stream-Mobile-v1.5.34.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.35/Ome-Stream-Mobile-v1.5.35.apk",
     "required": false,
     "changes": [
-      "Aspect / Skin a fost eliminat din Setări.",
-      "Toate personalizările rămân disponibile în Studio interfață."
+      "Profiluri de familie cu PIN opțional și date separate.",
+      "Restricții Filme/Seriale și opțiunea de a vedea numai surse Freeleech.",
+      "Avatar cu inițială, fotografie Google sau imagine personalizată."
     ]
   },
   "tv": {
-    "versionCode": 79,
-    "versionName": "1.5.34",
+    "versionCode": 80,
+    "versionName": "1.5.35",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.34/Ome-Stream-TV-v1.5.34.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.35/Ome-Stream-TV-v1.5.35.apk",
     "required": false,
     "changes": [
-      "Aspect / Skin a fost eliminat din Setări.",
-      "Toate personalizările rămân disponibile în Studio interfață."
+      "Profiluri de familie cu PIN opțional și date separate.",
+      "Restricții Filme/Seriale și opțiunea de a vedea numai surse Freeleech.",
+      "Selector de profil și administrare adaptate telecomenzii."
     ]
   }
 }
