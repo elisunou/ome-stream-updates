@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-01T21:49:08+03:00",
+  "publishedAt": "2026-08-02T15:33:53+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -223,30 +223,45 @@
         "Numărul de postere pe rând se adaptează automat dimensiunii alese.",
         "Tema implicită și profilurile salvate rămân disponibile."
       ]
+    },
+    {
+      "versionCode": 77,
+      "versionName": "1.5.32",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.32/Ome-Stream-Mobile-v1.5.32.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.32/Ome-Stream-TV-v1.5.32.apk",
+      "changes": [
+        "Studio interfață se deschide separat din Setări și oferă previzualizare în timp real.",
+        "Cercul cromatic permite combinarea liberă a culorilor, iar telecomanda poate folosi glisoarele.",
+        "Focusul TV are culoare, umplere, intensitate, grosime și mărire configurabile.",
+        "Focusul personalizat se aplică tuturor cardurilor și surselor, indiferent de provider.",
+        "Temele pot fi salvate fără aplicare, iar tema default poate fi previzualizată sau restaurată."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 76,
-    "versionName": "1.5.31",
+    "versionCode": 77,
+    "versionName": "1.5.32",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.31/Ome-Stream-Mobile-v1.5.31.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.32/Ome-Stream-Mobile-v1.5.32.apk",
     "required": false,
     "changes": [
-      "Alege culorile vizual, fără coduri HEX.",
-      "Reglează fundalul, transparența, textul și dimensiunile posterelor.",
-      "Previzualizează și salvează profiluri; tema implicită rămâne disponibilă."
+      "Editează interfața într-un Studio separat, cu previzualizare în timp real.",
+      "Combină liber culorile folosind cercul cromatic.",
+      "Salvează teme fără aplicare și revino oricând la tema default."
     ]
   },
   "tv": {
-    "versionCode": 76,
-    "versionName": "1.5.31",
+    "versionCode": 77,
+    "versionName": "1.5.32",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.31/Ome-Stream-TV-v1.5.31.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.32/Ome-Stream-TV-v1.5.32.apk",
     "required": false,
     "changes": [
-      "Alege culorile vizual, fără coduri HEX.",
-      "Reglează fundalul, transparența, textul și dimensiunile posterelor.",
-      "Controlează setările cu telecomanda și păstrează tema implicită."
+      "Editează interfața într-un Studio separat, cu previzualizare în timp real.",
+      "Personalizează focusul TV pentru toate cardurile și sursele.",
+      "Salvează teme și controlează editorul cu telecomanda."
     ]
   }
 }
