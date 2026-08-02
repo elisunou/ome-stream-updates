@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-02T16:36:11+03:00",
+  "publishedAt": "2026-08-02T16:40:37+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -293,30 +293,42 @@
         "PIN-ul profilului activ poate fi setat, schimbat sau eliminat direct din Setări.",
         "Textul și butoanele din Profiluri au contrast automat pentru a rămâne vizibile cu orice temă."
       ]
+    },
+    {
+      "versionCode": 82,
+      "versionName": "1.5.37",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.37/Ome-Stream-Mobile-v1.5.37.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.37/Ome-Stream-TV-v1.5.37.apk",
+      "changes": [
+        "Formularele pentru numele profilului și PIN folosesc acum tema Ome Stream.",
+        "Câmpurile au fundal rotunjit, contur și accent vizibil la selectare.",
+        "Textul, opțiunile și butoanele se adaptează automat pentru contrast.",
+        "Pe Android TV, toate elementele formularului au focus clar pentru telecomandă."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 81,
-    "versionName": "1.5.36",
+    "versionCode": 82,
+    "versionName": "1.5.37",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.36/Ome-Stream-Mobile-v1.5.36.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.37/Ome-Stream-Mobile-v1.5.37.apk",
     "required": false,
     "changes": [
-      "Selector profil sau fără cont la o pornire nouă.",
-      "Revenirea din fundal intră direct unde ai rămas.",
-      "PIN configurabil pentru profilul activ și text cu contrast îmbunătățit."
+      "Formularul pentru profil și PIN este adaptat temei Ome Stream.",
+      "Câmpuri rotunjite, contrast automat și accent vizibil la selectare."
     ]
   },
   "tv": {
-    "versionCode": 81,
-    "versionName": "1.5.36",
+    "versionCode": 82,
+    "versionName": "1.5.37",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.36/Ome-Stream-TV-v1.5.36.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.37/Ome-Stream-TV-v1.5.37.apk",
     "required": false,
     "changes": [
-      "Selector profil sau fără cont la o pornire nouă.",
-      "Revenirea din fundal intră direct unde ai rămas.",
-      "PIN configurabil și contrast îmbunătățit pentru telecomandă."
+      "Formularul pentru profil și PIN este adaptat temei Ome Stream.",
+      "Focus clar pentru telecomandă și contrast automat al textului."
     ]
   }
 }
