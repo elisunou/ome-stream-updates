@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-08T22:16:17+03:00",
+  "publishedAt": "2026-08-08T22:59:21+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -350,30 +350,41 @@
         "Ratingul este afișat prin 10 inimi fără cifre, redimensionate ca să încapă în ecran.",
         "Filtrul Freeleech se aplică trackerelor private; torrentele publice rămân afișate."
       ]
+    },
+    {
+      "versionCode": 86,
+      "versionName": "1.5.41",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.41/Ome-Stream-Mobile-v1.5.41.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.41/Ome-Stream-TV-v1.5.41.apk",
+      "changes": [
+        "Filmele începute afișează o bară verde compactă și procentajul vizionat.",
+        "Serialele afișează progresul total calculat din episoadele terminate și episodul curent.",
+        "Indicatorul este discret și adaptat separat pentru telefon și Android TV."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 85,
-    "versionName": "1.5.40",
+    "versionCode": 86,
+    "versionName": "1.5.41",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.40/Ome-Stream-Mobile-v1.5.40.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.41/Ome-Stream-Mobile-v1.5.41.apk",
     "required": false,
       "changes": [
-        "Player intern stabil pentru trailere, fără resolverele Piped.",
-        "Rating cu 10 inimi fără cifre, încadrat automat în ecran.",
-        "Torrentele publice rămân vizibile când este ales filtrul Freeleech."
+        "Bară verde mică și procentaj pentru progresul filmelor.",
+        "Progres total pentru seriale, calculat din episoadele vizionate."
     ]
   },
   "tv": {
-    "versionCode": 85,
-    "versionName": "1.5.40",
+    "versionCode": 86,
+    "versionName": "1.5.41",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.40/Ome-Stream-TV-v1.5.40.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.41/Ome-Stream-TV-v1.5.41.apk",
     "required": false,
       "changes": [
-        "Player intern pentru trailere controlabil complet cu telecomanda.",
-        "Rating cu 10 inimi fără cifre, încadrat automat în ecran.",
-        "Filtrul Freeleech păstrează vizibile torrentele publice."
+        "Bară verde discretă și procentaj pentru progresul filmelor.",
+        "Progres total pentru seriale, vizibil și adaptat pentru televizor."
     ]
   }
 }
