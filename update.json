@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-02T16:54:40+03:00",
+  "publishedAt": "2026-08-08T21:52:25+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -322,30 +322,44 @@
         "Pe TV, profilul selectat este mărit și evidențiat discret pentru telecomandă.",
         "Fotografia Gmail a profilului Principal apare compact în bara paginii cu postere."
       ]
+    },
+    {
+      "versionCode": 84,
+      "versionName": "1.5.39",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.39/Ome-Stream-Mobile-v1.5.39.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.39/Ome-Stream-TV-v1.5.39.apk",
+      "changes": [
+        "Trailerul poate fi pornit de sub descriere direct în playerul Ome Stream.",
+        "Poți acorda un rating de la 1 la 10 apăsând inimile; ratingul este separat pe profil și inclus în sincronizarea Google.",
+        "Setările TV pot fi parcurse complet cu telecomanda, inclusiv opțiunile Google din partea de jos.",
+        "Sunetul filmelor folosește automat motorul compatibil pe Huawei, Honor și pentru formatele AC3, EAC3, DTS sau TrueHD."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 83,
-    "versionName": "1.5.38",
+    "versionCode": 84,
+    "versionName": "1.5.39",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.38/Ome-Stream-Mobile-v1.5.38.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.39/Ome-Stream-Mobile-v1.5.39.apk",
     "required": false,
       "changes": [
-        "Selector prietenos cu avataruri mari în tema implicită Ome Stream.",
-        "Intrarea se face apăsând poza profilului sau avatarul Fără cont.",
-        "Fotografia Gmail apare compact lângă numele profilului în pagina principală."
+        "Trailer în player direct de sub descriere și rating 1–10 cu inimi.",
+        "Sunet compatibil ales automat pentru Huawei, Honor, AC3, EAC3, DTS și TrueHD.",
+        "Ratingurile se păstrează separat pe profil și se pot sincroniza prin Google."
     ]
   },
   "tv": {
-    "versionCode": 83,
-    "versionName": "1.5.38",
+    "versionCode": 84,
+    "versionName": "1.5.39",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.38/Ome-Stream-TV-v1.5.38.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.39/Ome-Stream-TV-v1.5.39.apk",
     "required": false,
       "changes": [
-        "Selector prietenos cu avataruri mari în tema implicită Ome Stream.",
-        "Focus mărit și luminos pentru alegerea profilului cu telecomanda.",
-        "Fotografia Gmail apare compact lângă numele profilului în pagina principală."
+        "Setările pot fi parcurse până jos cu telecomanda, inclusiv conectarea Google.",
+        "Trailer în player direct de sub descriere și rating 1–10 cu inimi.",
+        "Sunetul filmelor selectează automat motorul compatibil."
     ]
   }
 }
