@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-08T21:52:25+03:00",
+  "publishedAt": "2026-08-08T22:16:17+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -336,30 +336,44 @@
         "Setările TV pot fi parcurse complet cu telecomanda, inclusiv opțiunile Google din partea de jos.",
         "Sunetul filmelor folosește automat motorul compatibil pe Huawei, Honor și pentru formatele AC3, EAC3, DTS sau TrueHD."
       ]
+    },
+    {
+      "versionCode": 85,
+      "versionName": "1.5.40",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.40/Ome-Stream-Mobile-v1.5.40.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.40/Ome-Stream-TV-v1.5.40.apk",
+      "changes": [
+        "Trailerele YouTube se deschid direct în playerul intern, fără serverele externe Piped.",
+        "Pe TV, trailerul poate fi controlat cu OK, stânga, dreapta și Back de pe telecomandă.",
+        "Ratingul este afișat prin 10 inimi fără cifre, redimensionate ca să încapă în ecran.",
+        "Filtrul Freeleech se aplică trackerelor private; torrentele publice rămân afișate."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 84,
-    "versionName": "1.5.39",
+    "versionCode": 85,
+    "versionName": "1.5.40",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.39/Ome-Stream-Mobile-v1.5.39.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.40/Ome-Stream-Mobile-v1.5.40.apk",
     "required": false,
       "changes": [
-        "Trailer în player direct de sub descriere și rating 1–10 cu inimi.",
-        "Sunet compatibil ales automat pentru Huawei, Honor, AC3, EAC3, DTS și TrueHD.",
-        "Ratingurile se păstrează separat pe profil și se pot sincroniza prin Google."
+        "Player intern stabil pentru trailere, fără resolverele Piped.",
+        "Rating cu 10 inimi fără cifre, încadrat automat în ecran.",
+        "Torrentele publice rămân vizibile când este ales filtrul Freeleech."
     ]
   },
   "tv": {
-    "versionCode": 84,
-    "versionName": "1.5.39",
+    "versionCode": 85,
+    "versionName": "1.5.40",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.39/Ome-Stream-TV-v1.5.39.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.40/Ome-Stream-TV-v1.5.40.apk",
     "required": false,
       "changes": [
-        "Setările pot fi parcurse până jos cu telecomanda, inclusiv conectarea Google.",
-        "Trailer în player direct de sub descriere și rating 1–10 cu inimi.",
-        "Sunetul filmelor selectează automat motorul compatibil."
+        "Player intern pentru trailere controlabil complet cu telecomanda.",
+        "Rating cu 10 inimi fără cifre, încadrat automat în ecran.",
+        "Filtrul Freeleech păstrează vizibile torrentele publice."
     ]
   }
 }
