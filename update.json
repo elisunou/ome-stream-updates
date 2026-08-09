@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-09T15:10:50+03:00",
+  "publishedAt": "2026-08-09T15:22:17+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -55,28 +55,41 @@
         "Progresul, minutul rămas și episoadele văzute continuă să fie sincronizate după cea mai nouă salvare.",
         "Ștergerea unui favorit este memorată și sincronizată, astfel încât titlul să nu reapară pe alt dispozitiv."
       ]
+    },
+    {
+      "versionCode": 88,
+      "versionName": "1.5.43",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-Mobile-v1.5.43.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-TV-v1.5.43.apk",
+      "changes": [
+        "Indicatorul «NOU» nu mai reapare la pornire din cauza unei stări vechi sincronizate prin Google Drive.",
+        "Versiunea deja instalată nu mai este adăugată din nou ca notificare de actualizare.",
+        "Favoritele, progresul, minutul rămas și configurările continuă să se sincronizeze normal."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 87,
-    "versionName": "1.5.42",
+    "versionCode": 88,
+    "versionName": "1.5.43",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.42/Ome-Stream-Mobile-v1.5.42.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-Mobile-v1.5.43.apk",
     "required": false,
       "changes": [
-        "Favoritele locale și cele din Google Drive sunt combinate automat.",
-        "Progresul, minutul rămas și ștergerile din Favorite se sincronizează în siguranță."
+        "«NOU» apare numai pentru un update sau mesaj nou real.",
+        "Starea notificărilor nu mai este readusă din Google Drive la fiecare pornire."
     ]
   },
   "tv": {
-    "versionCode": 87,
-    "versionName": "1.5.42",
+    "versionCode": 88,
+    "versionName": "1.5.43",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.42/Ome-Stream-TV-v1.5.42.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-TV-v1.5.43.apk",
     "required": false,
       "changes": [
-        "Favoritele telefonului și televizorului sunt îmbinate prin Google Drive.",
-        "Progresul, minutul rămas și ștergerile din Favorite se sincronizează automat."
+        "«NOU» apare numai pentru un update sau mesaj nou real.",
+        "Notificările citite nu mai reapar după sincronizarea Google."
     ]
   }
 }
