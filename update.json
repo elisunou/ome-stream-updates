@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-09T15:22:17+03:00",
+  "publishedAt": "2026-08-09T15:40:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -68,28 +68,41 @@
         "Versiunea deja instalată nu mai este adăugată din nou ca notificare de actualizare.",
         "Favoritele, progresul, minutul rămas și configurările continuă să se sincronizeze normal."
       ]
+    },
+    {
+      "versionCode": 89,
+      "versionName": "1.5.44",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.44/Ome-Stream-Mobile-v1.5.44.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.44/Ome-Stream-TV-v1.5.44.apk",
+      "changes": [
+        "După instalare, informațiile versiunii instalate apar o singură dată în Notificări.",
+        "Eticheta «NOU» dispare după citire și reapare numai la o actualizare sau un mesaj nou.",
+        "Sincronizarea Google pentru favorite, progres, istoric și configurări rămâne neschimbată."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 88,
-    "versionName": "1.5.43",
+    "versionCode": 89,
+    "versionName": "1.5.44",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-Mobile-v1.5.43.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.44/Ome-Stream-Mobile-v1.5.44.apk",
     "required": false,
       "changes": [
-        "«NOU» apare numai pentru un update sau mesaj nou real.",
-        "Starea notificărilor nu mai este readusă din Google Drive la fiecare pornire."
+        "Informațiile versiunii instalate apar o singură dată în Notificări.",
+        "«NOU» reapare numai când există un update sau mesaj nou real."
     ]
   },
   "tv": {
-    "versionCode": 88,
-    "versionName": "1.5.43",
+    "versionCode": 89,
+    "versionName": "1.5.44",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-TV-v1.5.43.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.44/Ome-Stream-TV-v1.5.44.apk",
     "required": false,
       "changes": [
-        "«NOU» apare numai pentru un update sau mesaj nou real.",
-        "Notificările citite nu mai reapar după sincronizarea Google."
+        "Informațiile versiunii instalate apar o singură dată în Notificări.",
+        "«NOU» reapare numai când există un update sau mesaj nou real."
     ]
   }
 }
