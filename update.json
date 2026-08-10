@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-10T21:49:10+03:00",
+  "publishedAt": "2026-08-10T22:02:04+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -94,28 +94,41 @@
         "Pagina titlului afișează taguri cu actorii și regizorul, plus opțiunea «Nu mă interesează».",
         "Secțiunea Donație permite un nume public opțional și afișează lista aprobată de susținători pe Mobile și TV."
       ]
+    },
+    {
+      "versionCode": 91,
+      "versionName": "1.5.46",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-Mobile-v1.5.46.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-TV-v1.5.46.apk",
+      "changes": [
+        "Prima pagină se încarcă mai fluent: OME Taste nu mai reconstruiește recomandările după fiecare catalog.",
+        "Scorurile sunt precalculate o singură dată, cardurile sunt reutilizate, iar posterele sunt decodate controlat.",
+        "Separatorul afișat greșit după «Ome Stream» în notificarea versiunii a fost corectat."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 90,
-    "versionName": "1.5.45",
+    "versionCode": 91,
+    "versionName": "1.5.46",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.45/Ome-Stream-Mobile-v1.5.45.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-Mobile-v1.5.46.apk",
     "required": false,
       "changes": [
-        "OME Taste afișează primul rând de recomandări personalizate pentru profil.",
-        "Actorii, regizorul, «Nu mă interesează» și lista de susținători sunt disponibile."
+        "Prima pagină și OME Taste răspund mai repede, cu mai puține reconstrucții și decodări.",
+        "Separatorul notificării versiunii este afișat corect."
     ]
   },
   "tv": {
-    "versionCode": 90,
-    "versionName": "1.5.45",
+    "versionCode": 91,
+    "versionName": "1.5.46",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.45/Ome-Stream-TV-v1.5.45.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-TV-v1.5.46.apk",
     "required": false,
       "changes": [
-        "OME Taste afișează primul rând de recomandări personalizate pentru profil.",
-        "Tagurile distribuției și lista de susținători sunt adaptate pentru telecomandă."
+        "Prima pagină și OME Taste răspund mai repede, cu mai puține reconstrucții și decodări.",
+        "Separatorul notificării versiunii este afișat corect."
     ]
   }
 }
