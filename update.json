@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-10T22:02:04+03:00",
+  "publishedAt": "2026-08-10T22:38:05+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -107,28 +107,41 @@
         "Scorurile sunt precalculate o singură dată, cardurile sunt reutilizate, iar posterele sunt decodate controlat.",
         "Separatorul afișat greșit după «Ome Stream» în notificarea versiunii a fost corectat."
       ]
+    },
+    {
+      "versionCode": 92,
+      "versionName": "1.5.47",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.47/Ome-Stream-Mobile-v1.5.47.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.47/Ome-Stream-TV-v1.5.47.apk",
+      "changes": [
+        "Meniul CC include un editor vizual pentru dimensiunea și culoarea subtitrării.",
+        "Poți alege fundalul, stilul aldin sau italic și vezi rezultatul înainte de salvare.",
+        "Tema implicită poate fi restaurată oricând, iar preferințele sunt păstrate separat pentru fiecare profil."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 91,
-    "versionName": "1.5.46",
+    "versionCode": 92,
+    "versionName": "1.5.47",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-Mobile-v1.5.46.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.47/Ome-Stream-Mobile-v1.5.47.apk",
     "required": false,
       "changes": [
-        "Prima pagină și OME Taste răspund mai repede, cu mai puține reconstrucții și decodări.",
-        "Separatorul notificării versiunii este afișat corect."
+        "Editor de subtitrări în CC: dimensiune, culori, fundal, bold și italic.",
+        "Previzualizare în timp real și revenire rapidă la tema implicită."
     ]
   },
   "tv": {
-    "versionCode": 91,
-    "versionName": "1.5.46",
+    "versionCode": 92,
+    "versionName": "1.5.47",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-TV-v1.5.46.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.47/Ome-Stream-TV-v1.5.47.apk",
     "required": false,
       "changes": [
-        "Prima pagină și OME Taste răspund mai repede, cu mai puține reconstrucții și decodări.",
-        "Separatorul notificării versiunii este afișat corect."
+        "Editor de subtitrări în CC: dimensiune, culori, fundal, bold și italic.",
+        "Previzualizare în timp real, focus pentru telecomandă și tema implicită."
     ]
   }
 }
