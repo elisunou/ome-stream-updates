@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T18:05:00+03:00",
+  "publishedAt": "2026-08-12T18:38:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -213,28 +213,42 @@
         "Este afișat imediat după rezoluție, înaintea tipului sursei și codecurilor.",
         "Ordinea și dimensiunea compactă sunt aplicate pe Mobile, TV și în Studio interfață."
       ]
+    },
+    {
+      "versionCode": 100,
+      "versionName": "1.5.55",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-Mobile-v1.5.55.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-TV-v1.5.55.apk",
+      "changes": [
+        "Imaginea FREELEECH apare pe primul rând, imediat după TORRENT și rezoluție, păstrând dimensiunea aprobată.",
+        "Panoul filmului sau serialului își recalculează lățimea la rotirea telefonului.",
+        "Actualizările noi apar într-un card compact peste pagina curentă, cu opțiunile «Instalează» și «Mai târziu».",
+        "În timpul redării filmului, cardul nu întrerupe playerul și este afișat după revenirea în aplicație."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 99,
-    "versionName": "1.5.54",
+    "versionCode": 100,
+    "versionName": "1.5.55",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.54/Ome-Stream-Mobile-v1.5.54.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-Mobile-v1.5.55.apk",
     "required": false,
       "changes": [
-        "Marcajul FREELEECH este compact și apare imediat după rezoluție.",
-        "Noua dimensiune ocupă mult mai puțin spațiu vizual."
+        "FREELEECH apare după TORRENT și rezoluție, pe primul rând.",
+        "Rotirea panoului este corectată, iar updateurile apar într-un card compact."
     ]
   },
   "tv": {
-    "versionCode": 99,
-    "versionName": "1.5.54",
+    "versionCode": 100,
+    "versionName": "1.5.55",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.54/Ome-Stream-TV-v1.5.54.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-TV-v1.5.55.apk",
     "required": false,
       "changes": [
-        "Marcajul FREELEECH este compact și apare imediat după rezoluție.",
-        "Rămâne lizibil pe TV fără să domine cardul sursei."
+        "FREELEECH apare după TORRENT și rezoluție, pe primul rând.",
+        "Actualizările apar într-un card compact, controlabil cu telecomanda."
     ]
   }
 }
