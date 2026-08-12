@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T14:50:49+03:00",
+  "publishedAt": "2026-08-12T15:01:41+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -133,28 +133,41 @@
         "Sursele afișează badge-uri pentru rezoluție, codec video/audio, țară sau limbă și disponibilitatea subtitrării.",
         "Studio interfață previzualizează noul meniu, CC poate fi derulat complet, iar rândurile TV au navigare circulară."
       ]
+    },
+    {
+      "versionCode": 94,
+      "versionName": "1.5.49",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-Mobile-v1.5.49.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-TV-v1.5.49.apk",
+      "changes": [
+        "Butonul OME rămâne fix la mijloc în stânga și deschide sau închide meniul prin apăsare.",
+        "Categoriile Setări folosesc același meniu retractabil, iar Studio interfață rămâne complet funcțional.",
+        "Badge-urile tehnice ale surselor au spațiere corectă și sunt afișate complet pe Mobile și TV."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 93,
-    "versionName": "1.5.48",
+    "versionCode": 94,
+    "versionName": "1.5.49",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.48/Ome-Stream-Mobile-v1.5.48.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-Mobile-v1.5.49.apk",
     "required": false,
       "changes": [
-        "Meniu lateral retractabil deschis din butonul rotund OME.",
-        "Badge-uri tehnice pe surse și fereastră CC complet derulabilă."
+        "Butonul OME rămâne fix la mijloc în stânga și controlează meniul retractabil.",
+        "Setări retractabile și badge-uri tehnice afișate complet."
     ]
   },
   "tv": {
-    "versionCode": 93,
-    "versionName": "1.5.48",
+    "versionCode": 94,
+    "versionName": "1.5.49",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.48/Ome-Stream-TV-v1.5.48.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-TV-v1.5.49.apk",
     "required": false,
       "changes": [
-        "Meniu lateral retractabil, controlabil complet cu telecomanda.",
-        "Badge-uri tehnice pe surse, CC derulabil și revenire circulară între postere."
+        "Butonul OME fix și meniul Setări retractabil sunt controlabile cu telecomanda.",
+        "Studio interfață funcționează cu noul aspect, iar badge-urile sunt afișate complet."
     ]
   }
 }
