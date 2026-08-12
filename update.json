@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T16:25:00+03:00",
+  "publishedAt": "2026-08-12T17:10:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -172,28 +172,42 @@
         "După citirea notificărilor, indicatorul dispare și reapare numai pentru o versiune sau un mesaj nou.",
         "Favoritele, progresul, profilurile și configurările existente rămân neschimbate."
       ]
+    },
+    {
+      "versionCode": 97,
+      "versionName": "1.5.52",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-Mobile-v1.5.52.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-TV-v1.5.52.apk",
+      "changes": [
+        "Filmele și serialele se deschid într-un panou elegant din dreapta, peste pagina curentă.",
+        "Panoul păstrează posterul, descrierea, actorii, trailerul, ratingul, Favorite, «Nu mă interesează», episoadele și sursele.",
+        "Studio interfață poate previzualiza și regla lățimea, transparența și întunecarea fundalului panoului.",
+        "Include corecția indicatorului roșu «NOU» pentru actualizările detectate."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 96,
-    "versionName": "1.5.51",
+    "versionCode": 97,
+    "versionName": "1.5.52",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-Mobile-v1.5.51.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-Mobile-v1.5.52.apk",
     "required": false,
       "changes": [
-        "Indicatorul «NOU» se activează sigur la detectarea unei versiuni noi.",
-        "După citire dispare și reapare numai pentru o actualizare sau un mesaj nou."
+        "Fișa filmului sau serialului apare într-un panou suprapus din dreapta.",
+        "Studio permite personalizarea panoului și este inclus fixul indicatorului «NOU»."
     ]
   },
   "tv": {
-    "versionCode": 96,
-    "versionName": "1.5.51",
+    "versionCode": 97,
+    "versionName": "1.5.52",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-TV-v1.5.51.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-TV-v1.5.52.apk",
     "required": false,
       "changes": [
-        "Indicatorul «NOU» se activează sigur la detectarea unei versiuni noi.",
-        "După citire dispare și reapare numai pentru o actualizare sau un mesaj nou."
+        "Fișa filmului sau serialului apare într-un panou suprapus optimizat pentru telecomandă.",
+        "Studio permite personalizarea panoului și este inclus fixul indicatorului «NOU»."
     ]
   }
 }
