@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T18:38:00+03:00",
+  "publishedAt": "2026-08-12T19:05:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -227,28 +227,42 @@
         "Actualizările noi apar într-un card compact peste pagina curentă, cu opțiunile «Instalează» și «Mai târziu».",
         "În timpul redării filmului, cardul nu întrerupe playerul și este afișat după revenirea în aplicație."
       ]
+    },
+    {
+      "versionCode": 101,
+      "versionName": "1.5.56",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-Mobile-v1.5.56.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-TV-v1.5.56.apk",
+      "changes": [
+        "Pe Android TV, focusul telecomenzii rămâne în panoul filmului sau serialului și nu mai selectează posterele din fundal.",
+        "Navigarea verticală ajunge la Favorite, trailer, rating, episoade și sursele de redare.",
+        "La închiderea panoului, focusul revine pe posterul din care a fost deschis.",
+        "Poziția imaginii FREELEECH după TORRENT și rezoluție rămâne neschimbată."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 100,
-    "versionName": "1.5.55",
+    "versionCode": 101,
+    "versionName": "1.5.56",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-Mobile-v1.5.55.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-Mobile-v1.5.56.apk",
     "required": false,
       "changes": [
-        "FREELEECH apare după TORRENT și rezoluție, pe primul rând.",
-        "Rotirea panoului este corectată, iar updateurile apar într-un card compact."
+        "Navigarea panoului de detalii a fost consolidată pentru telecomandă și tastatură.",
+        "FREELEECH rămâne după TORRENT și rezoluție."
     ]
   },
   "tv": {
-    "versionCode": 100,
-    "versionName": "1.5.55",
+    "versionCode": 101,
+    "versionName": "1.5.56",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-TV-v1.5.55.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-TV-v1.5.56.apk",
     "required": false,
       "changes": [
-        "FREELEECH apare după TORRENT și rezoluție, pe primul rând.",
-        "Actualizările apar într-un card compact, controlabil cu telecomanda."
+        "Focusul rămâne în panoul filmului și ajunge la Favorite, episoade și surse.",
+        "Posterele din fundal nu mai preiau telecomanda cât timp panoul este deschis."
     ]
   }
 }
