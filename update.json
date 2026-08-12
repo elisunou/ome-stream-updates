@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T17:10:00+03:00",
+  "publishedAt": "2026-08-12T17:42:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -186,28 +186,42 @@
         "Studio interfață poate previzualiza și regla lățimea, transparența și întunecarea fundalului panoului.",
         "Include corecția indicatorului roșu «NOU» pentru actualizările detectate."
       ]
+    },
+    {
+      "versionCode": 98,
+      "versionName": "1.5.53",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.53/Ome-Stream-Mobile-v1.5.53.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.53/Ome-Stream-TV-v1.5.53.apk",
+      "changes": [
+        "Torrentele Freeleech afișează imaginea verde FREELEECH în badge-urile sursei.",
+        "Imaginea este încadrată proporțional și adaptată separat pentru telefon și televizor.",
+        "FileList și SpeedApp transmit explicit statutul Freeleech, fără marcarea surselor obișnuite.",
+        "Previzualizarea surselor din Studio interfață include noul marcaj."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 97,
-    "versionName": "1.5.52",
+    "versionCode": 98,
+    "versionName": "1.5.53",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-Mobile-v1.5.52.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.53/Ome-Stream-Mobile-v1.5.53.apk",
     "required": false,
       "changes": [
-        "Fișa filmului sau serialului apare într-un panou suprapus din dreapta.",
-        "Studio permite personalizarea panoului și este inclus fixul indicatorului «NOU»."
+        "Imaginea verde FREELEECH apare numai la torrentele Freeleech.",
+        "Marcajul este încadrat proporțional și apare și în Studio interfață."
     ]
   },
   "tv": {
-    "versionCode": 97,
-    "versionName": "1.5.52",
+    "versionCode": 98,
+    "versionName": "1.5.53",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-TV-v1.5.52.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.53/Ome-Stream-TV-v1.5.53.apk",
     "required": false,
       "changes": [
-        "Fișa filmului sau serialului apare într-un panou suprapus optimizat pentru telecomandă.",
-        "Studio permite personalizarea panoului și este inclus fixul indicatorului «NOU»."
+        "Imaginea verde FREELEECH apare numai la torrentele Freeleech.",
+        "Marcajul este mărit și încadrat proporțional pentru ecranul televizorului."
     ]
   }
 }
