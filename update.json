@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T15:01:41+03:00",
+  "publishedAt": "2026-08-12T15:48:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -146,28 +146,41 @@
         "Categoriile Setări folosesc același meniu retractabil, iar Studio interfață rămâne complet funcțional.",
         "Badge-urile tehnice ale surselor au spațiere corectă și sunt afișate complet pe Mobile și TV."
       ]
+    },
+    {
+      "versionCode": 95,
+      "versionName": "1.5.50",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-Mobile-v1.5.50.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-TV-v1.5.50.apk",
+      "changes": [
+        "Sursele separă clar tipul release-ului, rezoluția și codecul video în badge-uri distincte.",
+        "Seederii și dimensiunea fișierului sunt afișate când providerul furnizează aceste informații.",
+        "Butonul OME rămâne pe un singur rând, fără ruperea textului."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 94,
-    "versionName": "1.5.49",
+    "versionCode": 95,
+    "versionName": "1.5.50",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-Mobile-v1.5.49.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-Mobile-v1.5.50.apk",
     "required": false,
       "changes": [
-        "Butonul OME rămâne fix la mijloc în stânga și controlează meniul retractabil.",
-        "Setări retractabile și badge-uri tehnice afișate complet."
+        "Badge-uri separate pentru WEB-DL, WEBRip, BluRay, rezoluție și codec.",
+        "Seederi și dimensiunea sursei, plus text OME pe un singur rând."
     ]
   },
   "tv": {
-    "versionCode": 94,
-    "versionName": "1.5.49",
+    "versionCode": 95,
+    "versionName": "1.5.50",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-TV-v1.5.49.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-TV-v1.5.50.apk",
     "required": false,
       "changes": [
-        "Butonul OME fix și meniul Setări retractabil sunt controlabile cu telecomanda.",
-        "Studio interfață funcționează cu noul aspect, iar badge-urile sunt afișate complet."
+        "Badge-uri separate pentru WEB-DL, WEBRip, BluRay, rezoluție și codec.",
+        "Seederi și dimensiunea sursei, optimizate pentru afișarea pe TV."
     ]
   }
 }
