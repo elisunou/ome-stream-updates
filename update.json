@@ -241,6 +241,18 @@
         "La închiderea panoului, focusul revine pe posterul din care a fost deschis.",
         "Poziția imaginii FREELEECH după TORRENT și rezoluție rămâne neschimbată."
       ]
+    },
+    {
+      "versionCode": 102,
+      "versionName": "1.5.57",
+      "title": "Actualizare Ome Stream TV",
+      "channels": ["tv"],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.57/Ome-Stream-TV-v1.5.57.apk",
+      "changes": [
+        "Butonul rotund OME poate fi selectat sigur cu telecomanda de la marginea stângă.",
+        "Apăsarea OK sau Enter deschide meniul și mută focusul pe Istoric, Favorite, Caută și Setări.",
+        "Navigarea reparată anterior în episoade și surse rămâne neschimbată."
+      ]
     }
   ],
   "phone": {
@@ -255,14 +267,14 @@
     ]
   },
   "tv": {
-    "versionCode": 101,
-    "versionName": "1.5.56",
+    "versionCode": 102,
+    "versionName": "1.5.57",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-TV-v1.5.56.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.57/Ome-Stream-TV-v1.5.57.apk",
     "required": false,
       "changes": [
-        "Focusul rămâne în panoul filmului și ajunge la Favorite, episoade și surse.",
-        "Posterele din fundal nu mai preiau telecomanda cât timp panoul este deschis."
+        "Butonul OME se selectează cu săgeata stânga și se deschide cu OK.",
+        "Focusul ajunge direct la Istoric, Favorite, Caută și Setări."
     ]
   }
 }
