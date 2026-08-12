@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T15:48:00+03:00",
+  "publishedAt": "2026-08-12T16:25:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -159,28 +159,41 @@
         "Seederii și dimensiunea fișierului sunt afișate când providerul furnizează aceste informații.",
         "Butonul OME rămâne pe un singur rând, fără ruperea textului."
       ]
+    },
+    {
+      "versionCode": 96,
+      "versionName": "1.5.51",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-Mobile-v1.5.51.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-TV-v1.5.51.apk",
+      "changes": [
+        "Indicatorul «NOU» se activează sigur când este detectată o versiune nouă, inclusiv dacă informația actualizării exista deja în istoric.",
+        "După citirea notificărilor, indicatorul dispare și reapare numai pentru o versiune sau un mesaj nou.",
+        "Favoritele, progresul, profilurile și configurările existente rămân neschimbate."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 95,
-    "versionName": "1.5.50",
+    "versionCode": 96,
+    "versionName": "1.5.51",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-Mobile-v1.5.50.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-Mobile-v1.5.51.apk",
     "required": false,
       "changes": [
-        "Badge-uri separate pentru WEB-DL, WEBRip, BluRay, rezoluție și codec.",
-        "Seederi și dimensiunea sursei, plus text OME pe un singur rând."
+        "Indicatorul «NOU» se activează sigur la detectarea unei versiuni noi.",
+        "După citire dispare și reapare numai pentru o actualizare sau un mesaj nou."
     ]
   },
   "tv": {
-    "versionCode": 95,
-    "versionName": "1.5.50",
+    "versionCode": 96,
+    "versionName": "1.5.51",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-TV-v1.5.50.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-TV-v1.5.51.apk",
     "required": false,
       "changes": [
-        "Badge-uri separate pentru WEB-DL, WEBRip, BluRay, rezoluție și codec.",
-        "Seederi și dimensiunea sursei, optimizate pentru afișarea pe TV."
+        "Indicatorul «NOU» se activează sigur la detectarea unei versiuni noi.",
+        "După citire dispare și reapare numai pentru o actualizare sau un mesaj nou."
     ]
   }
 }
