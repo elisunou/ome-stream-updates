@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-29T15:45:00+03:00",
+  "publishedAt": "2026-08-30T00:30:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -285,30 +285,46 @@
         "Seedpool citește structura API reală, inclusiv name, seeders, size, freeleech și download_link, apoi redă torrentul prin TorrServer.",
         "Playerul ascunde Zoom și Mirror odată cu comenzile și afișează timpul văzut, timpul rămas și ora estimată de terminare."
       ]
+    },
+    {
+      "versionCode": 105,
+      "versionName": "1.5.60",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-Mobile-v1.5.60.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-TV-v1.5.60.apk",
+      "changes": [
+        "Seedpool identifică filmele și serialele prin IMDb/TMDB chiar dacă release-ul folosește titlul original, coreean, românesc sau o altă traducere.",
+        "Verificarea sezonului și episodului rămâne activă, astfel încât sursele cu denumiri alternative să nu fie amestecate.",
+        "Seedpool recunoaște marcajul Freeleech inclusiv când trackerul îl transmite prin stea sau procent.",
+        "Serialele urmărite sunt verificate pentru episoade noi, fiecare episod este anunțat o singură dată, iar starea se sincronizează opțional prin Google Drive.",
+        "Centrul OME are căutare cu istoric și o singură intrare ordonată spre Setări; configurarea fiecărui provider se deschide numai la selectare.",
+        "Focusul TV rămâne în căutare și surse, păstrează poziția providerului și revine corect din butonul OME pe Fire TV / Fire Cube."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 104,
-    "versionName": "1.5.59",
+    "versionCode": 105,
+    "versionName": "1.5.60",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-Mobile-v1.5.59.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-Mobile-v1.5.60.apk",
     "required": false,
     "changes": [
-        "Centrul OME complet și căutare live cu postere.",
-        "Logo-uri pentru rețele, fotografii pentru actori și Seedpool reparat.",
-        "Player cu timp văzut, timp rămas, ora finală și acțiuni care dispar odată cu comenzile."
+      "Seedpool recunoaște titlurile originale, coreene, românești și traduse prin IMDb/TMDB.",
+      "Anunț unic pentru episoade noi, sincronizat opțional prin Google Drive.",
+      "Centrul OME și configurarea providerilor sunt mai ordonate; Seedpool Freeleech recunoaște și marcajul stea."
     ]
   },
   "tv": {
-    "versionCode": 104,
-    "versionName": "1.5.59",
+    "versionCode": 105,
+    "versionName": "1.5.60",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-TV-v1.5.59.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-TV-v1.5.60.apk",
     "required": false,
     "changes": [
-        "Centrul OME complet, derulabil cu telecomanda, și căutare live cu postere.",
-        "Logo-uri pentru rețele, fotografii pentru actori și Seedpool reparat.",
-        "Player cu timp văzut, timp rămas, ora finală și acțiuni care dispar odată cu comenzile."
+      "Seedpool recunoaște titlurile originale, coreene, românești și traduse prin IMDb/TMDB.",
+      "Anunț unic pentru episoade noi, sincronizat opțional prin Google Drive.",
+      "Focus reparat pentru căutare, schimbarea providerului și revenirea din OME pe Fire TV / Fire Cube."
     ]
   }
 }
