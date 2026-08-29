@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-12T19:05:00+03:00",
+  "publishedAt": "2026-08-29T15:10:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -253,28 +253,46 @@
         "Apăsarea OK sau Enter deschide meniul și mută focusul pe Istoric, Favorite, Caută și Setări.",
         "Navigarea reparată anterior în episoade și surse rămâne neschimbată."
       ]
+    },
+    {
+      "versionCode": 103,
+      "versionName": "1.5.58",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-Mobile-v1.5.58.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-TV-v1.5.58.apk",
+      "changes": [
+        "Setările și căutarea se deschid în dashboard peste pagina principală; căutările păstrează un istoric care poate fi șters și afișează postere.",
+        "Pagina titlului afișează actorii cu fotografii și studioul, iar rețelele de catalog sunt organizate sub OME Taste.",
+        "Seedpool poate fi configurat cu API token și redă torrentele prin TorrServer; providerii fără rezultate și torrentele cu 0 seederi nu mai ocupă spațiu.",
+        "Navigarea cu telecomanda pe Fire TV / Fire Cube revine corect între postere și meniul OME.",
+        "Playerul permite Încadrare, Umple ecranul sau Zoom și oferă o durată configurabilă pentru dispariția comenzilor.",
+        "Butonul Cast / Mirror Screen este disponibil în player și deschide funcția de oglindire oferită de dispozitiv."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 101,
-    "versionName": "1.5.56",
+    "versionCode": 103,
+    "versionName": "1.5.58",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-Mobile-v1.5.56.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-Mobile-v1.5.58.apk",
     "required": false,
-      "changes": [
-        "Navigarea panoului de detalii a fost consolidată pentru telecomandă și tastatură.",
-        "FREELEECH rămâne după TORRENT și rezoluție."
+    "changes": [
+        "Dashboard pentru Setări și Căutare, cu istoric și postere.",
+        "Seedpool, actori cu fotografii, studio și cataloage pe rețele.",
+        "Player cu mod de imagine, temporizarea comenzilor și acces la Mirror Screen."
     ]
   },
   "tv": {
-    "versionCode": 102,
-    "versionName": "1.5.57",
+    "versionCode": 103,
+    "versionName": "1.5.58",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.57/Ome-Stream-TV-v1.5.57.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-TV-v1.5.58.apk",
     "required": false,
-      "changes": [
-        "Butonul OME se selectează cu săgeata stânga și se deschide cu OK.",
-        "Focusul ajunge direct la Istoric, Favorite, Caută și Setări."
+    "changes": [
+        "Dashboard pentru Setări și Căutare și navigare reparată pe Fire TV / Fire Cube.",
+        "Seedpool, actori cu fotografii, studio și cataloage pe rețele.",
+        "Player cu mod de imagine, temporizarea comenzilor și acces la Mirror Screen."
     ]
   }
 }
