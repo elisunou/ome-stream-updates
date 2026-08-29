@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-29T15:10:00+03:00",
+  "publishedAt": "2026-08-29T15:45:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -269,30 +269,46 @@
         "Playerul permite Încadrare, Umple ecranul sau Zoom și oferă o durată configurabilă pentru dispariția comenzilor.",
         "Butonul Cast / Mirror Screen este disponibil în player și deschide funcția de oglindire oferită de dispozitiv."
       ]
+    },
+    {
+      "versionCode": 104,
+      "versionName": "1.5.59",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-Mobile-v1.5.59.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-TV-v1.5.59.apk",
+      "changes": [
+        "O singură apăsare pe butonul OME deschide centrul complet cu notificări, istoric, favorite, căutare live, setări, provideri, Subs.ro și player.",
+        "Căutarea afișează postere în timp ce scrii și ignoră rezultatele vechi când continui numele.",
+        "Rețelele au logo propriu și rânduri separate, extensibile, pentru filme și seriale.",
+        "Distribuția afișează fotografiile actorilor, iar imaginile sunt memorate local pentru încărcări ulterioare.",
+        "Seedpool citește structura API reală, inclusiv name, seeders, size, freeleech și download_link, apoi redă torrentul prin TorrServer.",
+        "Playerul ascunde Zoom și Mirror odată cu comenzile și afișează timpul văzut, timpul rămas și ora estimată de terminare."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 103,
-    "versionName": "1.5.58",
+    "versionCode": 104,
+    "versionName": "1.5.59",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-Mobile-v1.5.58.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-Mobile-v1.5.59.apk",
     "required": false,
     "changes": [
-        "Dashboard pentru Setări și Căutare, cu istoric și postere.",
-        "Seedpool, actori cu fotografii, studio și cataloage pe rețele.",
-        "Player cu mod de imagine, temporizarea comenzilor și acces la Mirror Screen."
+        "Centrul OME complet și căutare live cu postere.",
+        "Logo-uri pentru rețele, fotografii pentru actori și Seedpool reparat.",
+        "Player cu timp văzut, timp rămas, ora finală și acțiuni care dispar odată cu comenzile."
     ]
   },
   "tv": {
-    "versionCode": 103,
-    "versionName": "1.5.58",
+    "versionCode": 104,
+    "versionName": "1.5.59",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-TV-v1.5.58.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-TV-v1.5.59.apk",
     "required": false,
     "changes": [
-        "Dashboard pentru Setări și Căutare și navigare reparată pe Fire TV / Fire Cube.",
-        "Seedpool, actori cu fotografii, studio și cataloage pe rețele.",
-        "Player cu mod de imagine, temporizarea comenzilor și acces la Mirror Screen."
+        "Centrul OME complet, derulabil cu telecomanda, și căutare live cu postere.",
+        "Logo-uri pentru rețele, fotografii pentru actori și Seedpool reparat.",
+        "Player cu timp văzut, timp rămas, ora finală și acțiuni care dispar odată cu comenzile."
     ]
   }
 }
