@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-30T10:53:54+03:00",
+  "publishedAt": "2026-08-30T17:55:17+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -333,31 +333,44 @@
         "Pe TV, focusul playerului este mult mai vizibil pentru CC, Zoom, Mirror, Play, navigare și Setări.",
         "Sursele ThePirateBay și celelalte torrente externe pornesc mai repede prin reutilizarea torrentului și a fișierului deja detectat în TorrServer."
       ]
+    },
+    {
+      "versionCode": 108,
+      "versionName": "1.5.63",
+      "title": "OME Store",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-Mobile-v1.5.63.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-TV-v1.5.63.apk",
+      "changes": [
+        "OME Store prezintă skin-urile Cinema Violet și Aurora Glass cu imagini separate pentru Mobile și TV.",
+        "Fiecare pachet costă 10 € prin revolut.me/elisunou și afișează starea Cumpără, În verificare sau Deținut.",
+        "Achizițiile sunt legate de contul Google verificat și pot fi restaurate pe telefon, tabletă și Android TV.",
+        "Tema implicită și Studio interfață rămân disponibile fără cumpărare."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 107,
-    "versionName": "1.5.62",
-    "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-Mobile-v1.5.62.apk",
+    "versionCode": 108,
+    "versionName": "1.5.63",
+    "title": "OME Store · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-Mobile-v1.5.63.apk",
     "required": false,
     "changes": [
-      "Seedpool afișează numai titlul și episodul selectat.",
-      "Update pe ecranul principal cu Instalează acum, Poate mai târziu și progres în timp real.",
-      "ThePirateBay și torrentele externe sunt pregătite mai rapid prin TorrServer."
+      "OME Store cu Cinema Violet și Aurora Glass.",
+      "Previzualizări Mobile și preț de 10 € prin Revolut.",
+      "Restaurarea skin-urilor pe baza contului Google verificat."
     ]
   },
   "tv": {
-    "versionCode": 107,
-    "versionName": "1.5.62",
-    "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-TV-v1.5.62.apk",
+    "versionCode": 108,
+    "versionName": "1.5.63",
+    "title": "OME Store · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-TV-v1.5.63.apk",
     "required": false,
     "changes": [
-      "Seedpool afișează numai titlul și episodul selectat.",
-      "Update pe ecranul principal cu progres în timp real.",
-      "Focus mult mai vizibil în player pentru CC, Zoom și toate comenzile.",
-      "ThePirateBay și torrentele externe sunt pregătite mai rapid prin TorrServer."
+      "OME Store cu imagini TV pentru Cinema Violet și Aurora Glass.",
+      "Butoane controlabile cu telecomanda pentru previzualizare, cumpărare, verificare și aplicare.",
+      "Restaurarea skin-urilor pe baza contului Google verificat."
     ]
   }
 }
