@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-30T20:45:00+03:00",
+  "publishedAt": "2026-08-30T23:48:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -361,30 +361,45 @@
         "Cardurile, butoanele și sursele folosesc gradienți și contururi distincte pe Mobile și Android TV.",
         "Skin-ul deja deținut este migrat automat la aspectul nou, fără recumpărare și fără pierderea configurărilor."
       ]
+    },
+    {
+      "versionCode": 110,
+      "versionName": "1.5.65",
+      "title": "Skin-uri premium corectate",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-Mobile-v1.5.65.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-TV-v1.5.65.apk",
+      "changes": [
+        "Cinema Violet folosește acum suprafețe OLED întunecate și contururi neon, apropiate de imaginea din OME Store.",
+        "Aurora Glass folosește panouri translucide întunecate, fără blocurile turcoaz foarte puternice.",
+        "Sursele torrent sunt afișate pe carduri întunecate cu un contur premium, nu pe blocuri mov pline.",
+        "Pagina principală revine automat sus și afișează bannerul cinematic înaintea cataloagelor.",
+        "Skin-ul deja deținut este migrat automat la noul aspect pe Mobile și Android TV."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 109,
-    "versionName": "1.5.64",
-    "title": "Interfață premium · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-Mobile-v1.5.64.apk",
+    "versionCode": 110,
+    "versionName": "1.5.65",
+    "title": "Skin premium corectat · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-Mobile-v1.5.65.apk",
     "required": false,
     "changes": [
-      "Banner cinematic și navigare premium pe prima pagină.",
-      "Carduri, butoane și surse tematizate complet.",
-      "Skin-ul deținut se actualizează automat la noul aspect."
+      "Aspect OLED/sticlă întunecată apropiat de preview.",
+      "Bannerul cinematic este afișat la începutul paginii.",
+      "Surse întunecate cu contur neon și migrare automată."
     ]
   },
   "tv": {
-    "versionCode": 109,
-    "versionName": "1.5.64",
-    "title": "Interfață premium · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-TV-v1.5.64.apk",
+    "versionCode": 110,
+    "versionName": "1.5.65",
+    "title": "Skin premium corectat · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-TV-v1.5.65.apk",
     "required": false,
     "changes": [
-      "Banner cinematic lat și navigare premium adaptată televizorului.",
-      "Carduri, butoane și surse tematizate complet, cu focus vizibil.",
-      "Skin-ul deținut se actualizează automat la noul aspect."
+      "Aspect OLED/sticlă întunecată adaptat ecranului TV.",
+      "Banner cinematic lat și surse cu contur neon.",
+      "Skin-ul deținut se migrează automat, cu focusul TV păstrat."
     ]
   }
 }
