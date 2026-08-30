@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-30T00:30:00+03:00",
+  "publishedAt": "2026-08-30T10:36:09+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -301,30 +301,51 @@
         "Centrul OME are căutare cu istoric și o singură intrare ordonată spre Setări; configurarea fiecărui provider se deschide numai la selectare.",
         "Focusul TV rămâne în căutare și surse, păstrează poziția providerului și revine corect din butonul OME pe Fire TV / Fire Cube."
       ]
+    },
+    {
+      "versionCode": 106,
+      "versionName": "1.5.61",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-Mobile-v1.5.61.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-TV-v1.5.61.apk",
+      "changes": [
+        "Descrierea este afișată pe lățime completă sub zona posterului, înaintea surselor.",
+        "Studioul sau compania de producție este separată clar, iar distribuția afișează fotografiile actorilor.",
+        "Pagina include mai multe informații oferite de catalog: nota IMDb, anul, durata, clasificarea, țara, limba, genurile și tipul titlului.",
+        "Episoadele afișează imaginea, titlul, data, durata, nota și descrierea înaintea surselor.",
+        "Playerul afișează timpul văzut, timpul rămas și ora de final în dreapta sus și oferă Sari peste intro.",
+        "La finalul unui episod pornește automat următorul episod cu aceeași denumire și preferă același provider; opțiunea poate fi dezactivată din Setări.",
+        "Seedpool validează fiecare rezultat după ID sau aceeași denumire, astfel încât sursele altor titluri să nu mai fie amestecate.",
+        "Pe telefon, Notificări, Istoric și Favorite au lățime completă, astfel încât textul și indicatorul NOU să fie vizibile integral."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 105,
-    "versionName": "1.5.60",
+    "versionCode": 106,
+    "versionName": "1.5.61",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-Mobile-v1.5.60.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-Mobile-v1.5.61.apk",
     "required": false,
     "changes": [
-      "Seedpool recunoaște titlurile originale, coreene, românești și traduse prin IMDb/TMDB.",
-      "Anunț unic pentru episoade noi, sincronizat opțional prin Google Drive.",
-      "Centrul OME și configurarea providerilor sunt mai ordonate; Seedpool Freeleech recunoaște și marcajul stea."
+      "Informații extinse pentru filme și episoade înaintea surselor.",
+      "Studio separat, distribuție cu fotografii, trailer și rating.",
+      "Player cu timpul sus-dreapta, Sari peste intro și episod următor automat.",
+      "Seedpool elimină rezultatele care aparțin altor titluri.",
+      "Textul Notificări și indicatorul NOU sunt afișate complet."
     ]
   },
   "tv": {
-    "versionCode": 105,
-    "versionName": "1.5.60",
+    "versionCode": 106,
+    "versionName": "1.5.61",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-TV-v1.5.60.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-TV-v1.5.61.apk",
     "required": false,
     "changes": [
-      "Seedpool recunoaște titlurile originale, coreene, românești și traduse prin IMDb/TMDB.",
-      "Anunț unic pentru episoade noi, sincronizat opțional prin Google Drive.",
-      "Focus reparat pentru căutare, schimbarea providerului și revenirea din OME pe Fire TV / Fire Cube."
+      "Informații extinse pentru filme și episoade înaintea surselor.",
+      "Studio separat, distribuție cu fotografii, trailer și rating.",
+      "Player cu timpul sus-dreapta, Sari peste intro și episod următor automat.",
+      "Seedpool elimină rezultatele care aparțin altor titluri."
     ]
   }
 }
