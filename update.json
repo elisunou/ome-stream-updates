@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-30T10:36:09+03:00",
+  "publishedAt": "2026-08-30T10:53:54+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -319,33 +319,45 @@
         "Seedpool validează fiecare rezultat după ID sau aceeași denumire, astfel încât sursele altor titluri să nu mai fie amestecate.",
         "Pe telefon, Notificări, Istoric și Favorite au lățime completă, astfel încât textul și indicatorul NOU să fie vizibile integral."
       ]
+    },
+    {
+      "versionCode": 107,
+      "versionName": "1.5.62",
+      "title": "Actualizare Ome Stream",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-Mobile-v1.5.62.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-TV-v1.5.62.apk",
+      "changes": [
+        "Seedpool păstrează numai aceeași denumire și exact sezonul sau episodul selectat; alte seriale și episoade nu mai sunt amestecate.",
+        "Actualizarea apare pe ecranul principal cu Instalează acum sau Poate mai târziu și afișează procentul, MB și bara de progres.",
+        "Pe TV, focusul playerului este mult mai vizibil pentru CC, Zoom, Mirror, Play, navigare și Setări.",
+        "Sursele ThePirateBay și celelalte torrente externe pornesc mai repede prin reutilizarea torrentului și a fișierului deja detectat în TorrServer."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 106,
-    "versionName": "1.5.61",
+    "versionCode": 107,
+    "versionName": "1.5.62",
     "title": "Actualizare Ome Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-Mobile-v1.5.61.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-Mobile-v1.5.62.apk",
     "required": false,
     "changes": [
-      "Informații extinse pentru filme și episoade înaintea surselor.",
-      "Studio separat, distribuție cu fotografii, trailer și rating.",
-      "Player cu timpul sus-dreapta, Sari peste intro și episod următor automat.",
-      "Seedpool elimină rezultatele care aparțin altor titluri.",
-      "Textul Notificări și indicatorul NOU sunt afișate complet."
+      "Seedpool afișează numai titlul și episodul selectat.",
+      "Update pe ecranul principal cu Instalează acum, Poate mai târziu și progres în timp real.",
+      "ThePirateBay și torrentele externe sunt pregătite mai rapid prin TorrServer."
     ]
   },
   "tv": {
-    "versionCode": 106,
-    "versionName": "1.5.61",
+    "versionCode": 107,
+    "versionName": "1.5.62",
     "title": "Actualizare Ome Stream TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-TV-v1.5.61.apk",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-TV-v1.5.62.apk",
     "required": false,
     "changes": [
-      "Informații extinse pentru filme și episoade înaintea surselor.",
-      "Studio separat, distribuție cu fotografii, trailer și rating.",
-      "Player cu timpul sus-dreapta, Sari peste intro și episod următor automat.",
-      "Seedpool elimină rezultatele care aparțin altor titluri."
+      "Seedpool afișează numai titlul și episodul selectat.",
+      "Update pe ecranul principal cu progres în timp real.",
+      "Focus mult mai vizibil în player pentru CC, Zoom și toate comenzile.",
+      "ThePirateBay și torrentele externe sunt pregătite mai rapid prin TorrServer."
     ]
   }
 }
