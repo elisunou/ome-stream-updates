@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-30T17:55:17+03:00",
+  "publishedAt": "2026-08-30T20:45:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -347,30 +347,44 @@
         "Achizițiile sunt legate de contul Google verificat și pot fi restaurate pe telefon, tabletă și Android TV.",
         "Tema implicită și Studio interfață rămân disponibile fără cumpărare."
       ]
+    },
+    {
+      "versionCode": 109,
+      "versionName": "1.5.64",
+      "title": "Skin-uri cu interfață completă",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-Mobile-v1.5.64.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-TV-v1.5.64.apk",
+      "changes": [
+        "Cinema Violet și Aurora Glass modifică acum structura reală a interfeței, nu doar culorile.",
+        "Prima pagină primește un banner cinematic cu fundal, informații și acțiuni, plus navigare premium.",
+        "Cardurile, butoanele și sursele folosesc gradienți și contururi distincte pe Mobile și Android TV.",
+        "Skin-ul deja deținut este migrat automat la aspectul nou, fără recumpărare și fără pierderea configurărilor."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 108,
-    "versionName": "1.5.63",
-    "title": "OME Store · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-Mobile-v1.5.63.apk",
+    "versionCode": 109,
+    "versionName": "1.5.64",
+    "title": "Interfață premium · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-Mobile-v1.5.64.apk",
     "required": false,
     "changes": [
-      "OME Store cu Cinema Violet și Aurora Glass.",
-      "Previzualizări Mobile și preț de 10 € prin Revolut.",
-      "Restaurarea skin-urilor pe baza contului Google verificat."
+      "Banner cinematic și navigare premium pe prima pagină.",
+      "Carduri, butoane și surse tematizate complet.",
+      "Skin-ul deținut se actualizează automat la noul aspect."
     ]
   },
   "tv": {
-    "versionCode": 108,
-    "versionName": "1.5.63",
-    "title": "OME Store · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-TV-v1.5.63.apk",
+    "versionCode": 109,
+    "versionName": "1.5.64",
+    "title": "Interfață premium · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-TV-v1.5.64.apk",
     "required": false,
     "changes": [
-      "OME Store cu imagini TV pentru Cinema Violet și Aurora Glass.",
-      "Butoane controlabile cu telecomanda pentru previzualizare, cumpărare, verificare și aplicare.",
-      "Restaurarea skin-urilor pe baza contului Google verificat."
+      "Banner cinematic lat și navigare premium adaptată televizorului.",
+      "Carduri, butoane și surse tematizate complet, cu focus vizibil.",
+      "Skin-ul deținut se actualizează automat la noul aspect."
     ]
   }
 }
