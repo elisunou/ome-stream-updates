@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-01T13:41:12+03:00",
+  "publishedAt": "2026-09-01T21:22:13+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -407,32 +407,41 @@
         "Sincronizarea subtitrării nu mai produce eroare de sursă la fluxurile externe și memorează decalajul pentru același release.",
         "Skin-ul Cinema Violet poate fi dezactivat, iar modificările temei utilizatorului sunt păstrate și restaurate."
       ]
+    },
+    {
+      "versionCode": 113,
+      "versionName": "1.5.68",
+      "title": "Instalarea actualizărilor corectată",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-Mobile-v1.5.68.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-TV-v1.5.68.apk",
+      "changes": [
+        "O actualizare deja descărcată deschide direct instalatorul Android și nu mai este descărcată încontinuu.",
+        "Fișierul descărcat rămâne disponibil până când Android confirmă instalarea noii versiuni.",
+        "Pe dispozitivele fără instalator standard este folosită automat metoda compatibilă de deschidere a APK-ului."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 112,
-    "versionName": "1.5.67",
-    "title": "Dashboard OME simplificat · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-Mobile-v1.5.67.apk",
+    "versionCode": 113,
+    "versionName": "1.5.68",
+    "title": "Instalarea actualizărilor corectată · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-Mobile-v1.5.68.apk",
     "required": false,
     "changes": [
-      "Căutarea nu mai apare în panoul OME din stânga.",
-      "Pagina dedicată Caută, accesibilă prin lupa aplicației, rămâne neschimbată.",
-      "Sari peste intro a fost eliminat, iar sincronizarea subtitrării păstrează sursa externă funcțională și reține decalajul.",
-      "OME Store permite revenirea la tema personalizată fără pierderea modificărilor salvate."
+      "APK-ul deja descărcat deschide instalarea și nu mai pornește o descărcare repetată.",
+      "Starea actualizării este curățată numai după instalarea versiunii noi."
     ]
   },
   "tv": {
-    "versionCode": 112,
-    "versionName": "1.5.67",
-    "title": "Dashboard OME simplificat · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-TV-v1.5.67.apk",
+    "versionCode": 113,
+    "versionName": "1.5.68",
+    "title": "Instalarea actualizărilor corectată · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-TV-v1.5.68.apk",
     "required": false,
     "changes": [
-      "Căutarea nu mai apare în dashboardul OME.",
-      "Pagina dedicată Caută rămâne accesibilă separat cu telecomanda.",
-      "Sari peste intro a fost eliminat, iar sincronizarea subtitrării nu mai provoacă eroare de sursă și reține decalajul.",
-      "Cinema Violet poate fi dezactivat din OME Store pentru revenirea la tema utilizatorului."
+      "APK-ul deja descărcat deschide instalatorul TV fără o nouă descărcare.",
+      "Este păstrată o metodă compatibilă pentru dispozitivele Android TV cu instalatoare diferite."
     ]
   }
 }
