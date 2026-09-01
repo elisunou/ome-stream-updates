@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-30T23:48:00+03:00",
+  "publishedAt": "2026-09-01T13:28:15+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -376,30 +376,46 @@
         "Pagina principală revine automat sus și afișează bannerul cinematic înaintea cataloagelor.",
         "Skin-ul deja deținut este migrat automat la noul aspect pe Mobile și Android TV."
       ]
+    },
+    {
+      "versionCode": 111,
+      "versionName": "1.5.66",
+      "title": "Cinema Violet final și control TV",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-Mobile-v1.5.66.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-TV-v1.5.66.apk",
+      "changes": [
+        "Cinema Violet este acum singurul skin din OME Store și este izolat de setările Studio interfață.",
+        "Dashboardul OME afișează accesul la toate categoriile de setări, inclusiv TorrServer și Cont Google.",
+        "Formularul fiecărei extensii se deschide în același panou, fără să fie mutat sub lista providerilor.",
+        "Istoricul căutărilor poate fi șters cu telecomanda pe Android TV.",
+        "Trailerele directe permit alegerea rezoluției disponibile, inclusiv 4K, 1080p și 720p.",
+        "Paginile Vezi toate nu mai afișează butonul OME peste conținut."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 110,
-    "versionName": "1.5.65",
-    "title": "Skin premium corectat · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-Mobile-v1.5.65.apk",
+    "versionCode": 111,
+    "versionName": "1.5.66",
+    "title": "Cinema Violet final · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-Mobile-v1.5.66.apk",
     "required": false,
     "changes": [
-      "Aspect OLED/sticlă întunecată apropiat de preview.",
-      "Bannerul cinematic este afișat la începutul paginii.",
-      "Surse întunecate cu contur neon și migrare automată."
+      "Cinema Violet final, fără interferențe din Studio interfață.",
+      "Setări, TorrServer, extensii și Cont Google organizate în dashboardul OME.",
+      "Selector de rezoluție pentru trailerele directe și pagini Vezi toate curate."
     ]
   },
   "tv": {
-    "versionCode": 110,
-    "versionName": "1.5.65",
-    "title": "Skin premium corectat · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-TV-v1.5.65.apk",
+    "versionCode": 111,
+    "versionName": "1.5.66",
+    "title": "Cinema Violet final și control TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-TV-v1.5.66.apk",
     "required": false,
     "changes": [
-      "Aspect OLED/sticlă întunecată adaptat ecranului TV.",
-      "Banner cinematic lat și surse cu contur neon.",
-      "Skin-ul deținut se migrează automat, cu focusul TV păstrat."
+      "Ștergerea istoricului de căutare funcționează cu telecomanda.",
+      "Selector de rezoluție pentru trailerele directe, inclusiv 4K când este disponibil.",
+      "TorrServer, extensiile și Cont Google sunt accesibile din dashboardul OME."
     ]
   }
 }
