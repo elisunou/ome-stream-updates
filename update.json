@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-01T13:28:15+03:00",
+  "publishedAt": "2026-09-01T13:41:12+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -392,30 +392,47 @@
         "Trailerele directe permit alegerea rezoluției disponibile, inclusiv 4K, 1080p și 720p.",
         "Paginile Vezi toate nu mai afișează butonul OME peste conținut."
       ]
+    },
+    {
+      "versionCode": 112,
+      "versionName": "1.5.67",
+      "title": "Dashboard OME simplificat",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-Mobile-v1.5.67.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-TV-v1.5.67.apk",
+      "changes": [
+        "Căutarea a fost eliminată din dashboardul OME și rămâne exclusiv în pagina dedicată cu lupa.",
+        "Dashboardul OME este acum concentrat pe Notificări, Istoric, Favorite și Setări.",
+        "Butonul Sari peste intro a fost eliminat din player.",
+        "Sincronizarea subtitrării nu mai produce eroare de sursă la fluxurile externe și memorează decalajul pentru același release.",
+        "Skin-ul Cinema Violet poate fi dezactivat, iar modificările temei utilizatorului sunt păstrate și restaurate."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 111,
-    "versionName": "1.5.66",
-    "title": "Cinema Violet final · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-Mobile-v1.5.66.apk",
+    "versionCode": 112,
+    "versionName": "1.5.67",
+    "title": "Dashboard OME simplificat · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-Mobile-v1.5.67.apk",
     "required": false,
     "changes": [
-      "Cinema Violet final, fără interferențe din Studio interfață.",
-      "Setări, TorrServer, extensii și Cont Google organizate în dashboardul OME.",
-      "Selector de rezoluție pentru trailerele directe și pagini Vezi toate curate."
+      "Căutarea nu mai apare în panoul OME din stânga.",
+      "Pagina dedicată Caută, accesibilă prin lupa aplicației, rămâne neschimbată.",
+      "Sari peste intro a fost eliminat, iar sincronizarea subtitrării păstrează sursa externă funcțională și reține decalajul.",
+      "OME Store permite revenirea la tema personalizată fără pierderea modificărilor salvate."
     ]
   },
   "tv": {
-    "versionCode": 111,
-    "versionName": "1.5.66",
-    "title": "Cinema Violet final și control TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-TV-v1.5.66.apk",
+    "versionCode": 112,
+    "versionName": "1.5.67",
+    "title": "Dashboard OME simplificat · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-TV-v1.5.67.apk",
     "required": false,
     "changes": [
-      "Ștergerea istoricului de căutare funcționează cu telecomanda.",
-      "Selector de rezoluție pentru trailerele directe, inclusiv 4K când este disponibil.",
-      "TorrServer, extensiile și Cont Google sunt accesibile din dashboardul OME."
+      "Căutarea nu mai apare în dashboardul OME.",
+      "Pagina dedicată Caută rămâne accesibilă separat cu telecomanda.",
+      "Sari peste intro a fost eliminat, iar sincronizarea subtitrării nu mai provoacă eroare de sursă și reține decalajul.",
+      "Cinema Violet poate fi dezactivat din OME Store pentru revenirea la tema utilizatorului."
     ]
   }
 }
