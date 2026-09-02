@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-01T21:22:13+03:00",
+  "publishedAt": "2026-09-02T12:15:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -420,28 +420,41 @@
         "Fișierul descărcat rămâne disponibil până când Android confirmă instalarea noii versiuni.",
         "Pe dispozitivele fără instalator standard este folosită automat metoda compatibilă de deschidere a APK-ului."
       ]
+    },
+    {
+      "versionCode": 114,
+      "versionName": "1.5.69",
+      "title": "Notificări afișate curat",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-Mobile-v1.5.69.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-TV-v1.5.69.apk",
+      "changes": [
+        "Butonul plutitor OME nu mai apare peste pagina Notificări.",
+        "Titlul și conținutul notificărilor rămân complet vizibile inclusiv pe telefoanele înguste.",
+        "Meniul OME continuă să funcționeze normal pe celelalte pagini."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 113,
-    "versionName": "1.5.68",
-    "title": "Instalarea actualizărilor corectată · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-Mobile-v1.5.68.apk",
+    "versionCode": 114,
+    "versionName": "1.5.69",
+    "title": "Notificări afișate curat · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-Mobile-v1.5.69.apk",
     "required": false,
     "changes": [
-      "APK-ul deja descărcat deschide instalarea și nu mai pornește o descărcare repetată.",
-      "Starea actualizării este curățată numai după instalarea versiunii noi."
+      "Butonul OME nu mai acoperă pagina Notificări.",
+      "Meniul OME rămâne neschimbat pe celelalte pagini."
     ]
   },
   "tv": {
-    "versionCode": 113,
-    "versionName": "1.5.68",
-    "title": "Instalarea actualizărilor corectată · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-TV-v1.5.68.apk",
+    "versionCode": 114,
+    "versionName": "1.5.69",
+    "title": "Notificări afișate curat · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-TV-v1.5.69.apk",
     "required": false,
     "changes": [
-      "APK-ul deja descărcat deschide instalatorul TV fără o nouă descărcare.",
-      "Este păstrată o metodă compatibilă pentru dispozitivele Android TV cu instalatoare diferite."
+      "Butonul OME nu mai acoperă pagina Notificări.",
+      "Meniul OME rămâne neschimbat pe celelalte pagini."
     ]
   }
 }
