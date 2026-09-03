@@ -458,6 +458,18 @@
         "Câmpul complet de căutare pentru filme și seriale este din nou disponibil pe telefon.",
         "Căutările recente rămân salvate și pot fi șterse individual sau toate prin Șterge tot."
       ]
+    },
+    {
+      "versionCode": 117,
+      "versionName": "1.5.72",
+      "title": "Câmpul de căutare corectat pe TV",
+      "channels": ["tv"],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.72/Ome-Stream-TV-v1.5.72.apk",
+      "changes": [
+        "Câmpul pentru numele filmului sau serialului primește automat focus când deschizi Caută pe Android TV.",
+        "Apăsarea OK sau Enter pe câmp deschide tastatura televizorului.",
+        "Câmpul poate fi editat și când există deja o căutare salvată."
+      ]
     }
   ],
   "phone": {
@@ -473,15 +485,15 @@
     ]
   },
   "tv": {
-    "versionCode": 115,
-    "versionName": "1.5.70",
-    "title": "Navigare și căutare corectate · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.70/Ome-Stream-TV-v1.5.70.apk",
+    "versionCode": 117,
+    "versionName": "1.5.72",
+    "title": "Câmpul de căutare corectat · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.72/Ome-Stream-TV-v1.5.72.apk",
     "required": false,
     "changes": [
-      "Ștergerea din istoricul vizionărilor poate fi selectată cu telecomanda.",
-      "Caută revine în meniul OME numai pentru tema Default și păstrează istoricul căutărilor.",
-      "Bara progresului Default este verde, fără schimbări pentru Cinema Violet."
+      "Câmpul de căutare primește focus automat pe Android TV.",
+      "OK sau Enter deschide tastatura pentru introducerea numelui.",
+      "Căutările salvate și versiunea Mobile rămân neschimbate."
     ]
   }
 }
