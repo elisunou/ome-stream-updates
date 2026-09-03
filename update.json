@@ -446,17 +446,30 @@
         "Căutările recente rămân salvate și pot fi șterse individual sau toate cu telecomanda.",
         "Bara progresului de vizionare este verde în tema Default; Cinema Violet rămâne neschimbat."
       ]
+    },
+    {
+      "versionCode": 116,
+      "versionName": "1.5.71",
+      "title": "Căutare restaurată pe Mobile",
+      "channels": ["phone"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.71/Ome-Stream-Mobile-v1.5.71.apk",
+      "changes": [
+        "Tema Default afișează din nou Caută în meniul OME, fără să modifice skin-ul Cinema Violet.",
+        "Câmpul complet de căutare pentru filme și seriale este din nou disponibil pe telefon.",
+        "Căutările recente rămân salvate și pot fi șterse individual sau toate prin Șterge tot."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 114,
-    "versionName": "1.5.69",
-    "title": "Notificări afișate curat · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-Mobile-v1.5.69.apk",
+    "versionCode": 116,
+    "versionName": "1.5.71",
+    "title": "Căutare restaurată · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.71/Ome-Stream-Mobile-v1.5.71.apk",
     "required": false,
     "changes": [
-      "Butonul OME nu mai acoperă pagina Notificări.",
-      "Meniul OME rămâne neschimbat pe celelalte pagini."
+      "Caută revine în meniul OME numai pentru tema Default.",
+      "Istoricul căutărilor rămâne salvat și poate fi șters individual sau integral.",
+      "Skin-ul Cinema Violet și toate configurările existente rămân neschimbate."
     ]
   },
   "tv": {
