@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-02T12:15:00+03:00",
+  "publishedAt": "2026-09-03T12:00:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -433,6 +433,19 @@
         "Titlul și conținutul notificărilor rămân complet vizibile inclusiv pe telefoanele înguste.",
         "Meniul OME continuă să funcționeze normal pe celelalte pagini."
       ]
+    },
+    {
+      "versionCode": 115,
+      "versionName": "1.5.70",
+      "title": "Navigare și căutare corectate pe TV",
+      "channels": ["tv"],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.70/Ome-Stream-TV-v1.5.70.apk",
+      "changes": [
+        "Telecomanda poate selecta și șterge un film sau episod din istoricul vizionărilor.",
+        "Tema Default afișează din nou Caută în meniul OME, cu câmpul complet de căutare.",
+        "Căutările recente rămân salvate și pot fi șterse individual sau toate cu telecomanda.",
+        "Bara progresului de vizionare este verde în tema Default; Cinema Violet rămâne neschimbat."
+      ]
     }
   ],
   "phone": {
@@ -447,14 +460,15 @@
     ]
   },
   "tv": {
-    "versionCode": 114,
-    "versionName": "1.5.69",
-    "title": "Notificări afișate curat · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-TV-v1.5.69.apk",
+    "versionCode": 115,
+    "versionName": "1.5.70",
+    "title": "Navigare și căutare corectate · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.70/Ome-Stream-TV-v1.5.70.apk",
     "required": false,
     "changes": [
-      "Butonul OME nu mai acoperă pagina Notificări.",
-      "Meniul OME rămâne neschimbat pe celelalte pagini."
+      "Ștergerea din istoricul vizionărilor poate fi selectată cu telecomanda.",
+      "Caută revine în meniul OME numai pentru tema Default și păstrează istoricul căutărilor.",
+      "Bara progresului Default este verde, fără schimbări pentru Cinema Violet."
     ]
   }
 }
