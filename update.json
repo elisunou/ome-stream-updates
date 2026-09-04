@@ -470,30 +470,44 @@
         "Apăsarea OK sau Enter pe câmp deschide tastatura televizorului.",
         "Câmpul poate fi editat și când există deja o căutare salvată."
       ]
+    },
+    {
+      "versionCode": 118,
+      "versionName": "1.5.73",
+      "title": "Distribuție și pagini pentru actori",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-Mobile-v1.5.73.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-TV-v1.5.73.apk",
+      "changes": [
+        "Distribuția afișează toți actorii disponibili și poate fi parcursă orizontal prin glisare sau cu telecomanda.",
+        "Selectarea unui actor deschide fotografia și informațiile disponibile despre acesta.",
+        "Pagina actorului afișează filmele și serialele confirmate în distribuție; fiecare titlu poate fi deschis în Ome Stream.",
+        "Funcția folosește tema activă în Default, Cinema Violet și Studio interfață, fără pachete media adăugate în APK."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 116,
-    "versionName": "1.5.71",
-    "title": "Căutare restaurată · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.71/Ome-Stream-Mobile-v1.5.71.apk",
+    "versionCode": 118,
+    "versionName": "1.5.73",
+    "title": "Distribuție interactivă · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-Mobile-v1.5.73.apk",
     "required": false,
     "changes": [
-      "Caută revine în meniul OME numai pentru tema Default.",
-      "Istoricul căutărilor rămâne salvat și poate fi șters individual sau integral.",
-      "Skin-ul Cinema Violet și toate configurările existente rămân neschimbate."
+      "Poți glisa prin toată distribuția și poți deschide fiecare actor.",
+      "Pagina actorului afișează fotografia, informațiile și filmografia clicabilă.",
+      "Funcția se adaptează automat skin-ului activ și nu adaugă resurse grele în APK."
     ]
   },
   "tv": {
-    "versionCode": 117,
-    "versionName": "1.5.72",
-    "title": "Câmpul de căutare corectat · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.72/Ome-Stream-TV-v1.5.72.apk",
+    "versionCode": 118,
+    "versionName": "1.5.73",
+    "title": "Distribuție interactivă · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-TV-v1.5.73.apk",
     "required": false,
     "changes": [
-      "Câmpul de căutare primește focus automat pe Android TV.",
-      "OK sau Enter deschide tastatura pentru introducerea numelui.",
-      "Căutările salvate și versiunea Mobile rămân neschimbate."
+      "Telecomanda parcurge toți actorii spre stânga și dreapta.",
+      "OK deschide pagina actorului cu fotografia, informațiile și filmografia.",
+      "Titlurile filmografiei sunt navigabile și pot fi deschise direct."
     ]
   }
 }
