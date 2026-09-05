@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-03T12:00:00+03:00",
+  "publishedAt": "2026-09-05T00:00:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -484,30 +484,44 @@
         "Pagina actorului afișează filmele și serialele confirmate în distribuție; fiecare titlu poate fi deschis în Ome Stream.",
         "Funcția folosește tema activă în Default, Cinema Violet și Studio interfață, fără pachete media adăugate în APK."
       ]
+    },
+    {
+      "versionCode": 119,
+      "versionName": "1.5.74",
+      "title": "Actori și notificări inteligente",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-Mobile-v1.5.74.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-TV-v1.5.74.apk",
+      "changes": [
+        "Pagina actorului oferă biografie și date publice mai bogate: origine, studii, ocupații și premii disponibile.",
+        "Episoadele și sezoanele noi pot apărea într-un card atractiv direct în aplicație, cu Vezi acum sau Mai târziu.",
+        "Ome Stream verifică sursele și subtitrările disponibile pentru episoadele noi, inclusiv addonurile instalate, FileList, SpeedApp și Seedpool.",
+        "Notificările pot fi activate separat, amânate și limitate prin ore liniștite din Setări."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 118,
-    "versionName": "1.5.73",
-    "title": "Distribuție interactivă · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-Mobile-v1.5.73.apk",
+    "versionCode": 119,
+    "versionName": "1.5.74",
+    "title": "Actori și notificări inteligente · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-Mobile-v1.5.74.apk",
     "required": false,
     "changes": [
-      "Poți glisa prin toată distribuția și poți deschide fiecare actor.",
-      "Pagina actorului afișează fotografia, informațiile și filmografia clicabilă.",
-      "Funcția se adaptează automat skin-ului activ și nu adaugă resurse grele în APK."
+      "Biografii și informații publice mai bogate pentru actori.",
+      "Alerte pe ecran pentru episoade, sezoane, surse și subtitrări noi.",
+      "Vezi acum, Mai târziu, ore liniștite și control separat pentru fiecare tip de notificare."
     ]
   },
   "tv": {
-    "versionCode": 118,
-    "versionName": "1.5.73",
-    "title": "Distribuție interactivă · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-TV-v1.5.73.apk",
+    "versionCode": 119,
+    "versionName": "1.5.74",
+    "title": "Actori și notificări inteligente · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-TV-v1.5.74.apk",
     "required": false,
     "changes": [
-      "Telecomanda parcurge toți actorii spre stânga și dreapta.",
-      "OK deschide pagina actorului cu fotografia, informațiile și filmografia.",
-      "Titlurile filmografiei sunt navigabile și pot fi deschise direct."
+      "Pagina actorului include biografie și informații publice extinse.",
+      "Alertele noi sunt adaptate telecomenzii și permit Vezi acum sau Mai târziu.",
+      "Poți configura tipurile de notificări și orele liniștite direct din Setări."
     ]
   }
 }
