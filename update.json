@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-05T00:00:00+03:00",
+  "publishedAt": "2026-09-07T00:00:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -498,30 +498,51 @@
         "Ome Stream verifică sursele și subtitrările disponibile pentru episoadele noi, inclusiv addonurile instalate, FileList, SpeedApp și Seedpool.",
         "Notificările pot fi activate separat, amânate și limitate prin ore liniștite din Setări."
       ]
+    },
+    {
+      "versionCode": 120,
+      "versionName": "1.5.75",
+      "title": "Sincronizare personală prin MDBList",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-Mobile-v1.5.75.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-TV-v1.5.75.apk",
+      "changes": [
+        "MDBList înlocuiește Trakt.tv în Setări și folosește cheia proprie a fiecărui utilizator.",
+        "Progresul, elementele văzute, favoritele și ratingurile se sincronizează bidirecțional.",
+        "Sincronizarea MDBList gestionează corect procentele și conturile cu peste 200 de seriale.",
+        "Profilul local Ome Stream rămâne activ și sigur chiar dacă MDBList nu este disponibil.",
+        "Datele Trakt marcate anterior ca văzute sunt păstrate prin migrare, fără a mai conecta aplicația direct la Trakt.",
+        "Notificările inteligente apar centrate pe ecran, iar episodul următor preferă același provider și același pachet release.",
+        "Navigarea D-pad parcurge în ordine toate opțiunile meniului OME pe Android TV."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 119,
-    "versionName": "1.5.74",
-    "title": "Actori și notificări inteligente · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-Mobile-v1.5.74.apk",
+    "versionCode": 120,
+    "versionName": "1.5.75",
+    "title": "Sincronizare MDBList · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-Mobile-v1.5.75.apk",
     "required": false,
     "changes": [
-      "Biografii și informații publice mai bogate pentru actori.",
-      "Alerte pe ecran pentru episoade, sezoane, surse și subtitrări noi.",
-      "Vezi acum, Mai târziu, ore liniștite și control separat pentru fiecare tip de notificare."
+      "MDBList înlocuiește Trakt.tv și folosește contul propriu al utilizatorului.",
+      "Sincronizare pentru progres, vizionate, favorite și ratinguri, inclusiv istorice cu peste 200 de seriale.",
+      "Episodul următor preferă același provider și același pachet release.",
+      "Notificările inteligente apar centrate, iar datele locale și marcajele vechi rămân păstrate.",
+      "Cinema Violet este disponibil în OME Store pentru telefon și tabletă la 20 €."
     ]
   },
   "tv": {
-    "versionCode": 119,
-    "versionName": "1.5.74",
-    "title": "Actori și notificări inteligente · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-TV-v1.5.74.apk",
+    "versionCode": 120,
+    "versionName": "1.5.75",
+    "title": "Sincronizare MDBList · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-TV-v1.5.75.apk",
     "required": false,
     "changes": [
-      "Pagina actorului include biografie și informații publice extinse.",
-      "Alertele noi sunt adaptate telecomenzii și permit Vezi acum sau Mai târziu.",
-      "Poți configura tipurile de notificări și orele liniștite direct din Setări."
+      "MDBList înlocuiește Trakt.tv și folosește contul propriu al utilizatorului.",
+      "Sincronizare pentru progres, vizionate, favorite și ratinguri, inclusiv istorice cu peste 200 de seriale.",
+      "Meniul OME parcurge toate opțiunile în ordine cu D-pad, fără salturi.",
+      "Episodul următor preferă același provider și același pachet release.",
+      "Notificările inteligente apar centrate; profilul local continuă să funcționeze și fără conexiune."
     ]
   }
 }
