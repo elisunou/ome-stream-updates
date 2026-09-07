@@ -515,34 +515,46 @@
         "Notificările inteligente apar centrate pe ecran, iar episodul următor preferă același provider și același pachet release.",
         "Navigarea D-pad parcurge în ordine toate opțiunile meniului OME pe Android TV."
       ]
+    },
+    {
+      "versionCode": 121,
+      "versionName": "1.5.76",
+      "title": "Cinema Noir gratuit",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-Mobile-v1.5.76.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-TV-v1.5.76.apk",
+      "changes": [
+        "Noul skin Cinema Noir este disponibil gratuit pe telefon, tabletă și Android TV.",
+        "Skin-ul folosește o interfață cinematografică imersivă, cu panouri fumurii și accente de premieră.",
+        "Tema Default, Cinema Violet și personalizările Studio interfață rămân izolate și nu se amestecă.",
+        "La dezactivarea skin-ului este restaurată automat configurația vizuală folosită anterior."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 120,
-    "versionName": "1.5.75",
-    "title": "Sincronizare MDBList · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-Mobile-v1.5.75.apk",
+    "versionCode": 121,
+    "versionName": "1.5.76",
+    "title": "Cinema Noir gratuit · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-Mobile-v1.5.76.apk",
     "required": false,
     "changes": [
-      "MDBList înlocuiește Trakt.tv și folosește contul propriu al utilizatorului.",
-      "Sincronizare pentru progres, vizionate, favorite și ratinguri, inclusiv istorice cu peste 200 de seriale.",
-      "Episodul următor preferă același provider și același pachet release.",
-      "Notificările inteligente apar centrate, iar datele locale și marcajele vechi rămân păstrate.",
-      "Cinema Violet este disponibil în OME Store pentru telefon și tabletă la 20 €."
+      "Cinema Noir poate fi selectat gratuit din OME Store pe telefon și tabletă.",
+      "Interfață cinematografică imersivă cu panouri fumurii, accente roșii și evaluări aurii.",
+      "Default, Cinema Violet și Studio interfață rămân separate.",
+      "Revenirea la tema anterioară restaurează automat configurările vizuale existente."
     ]
   },
   "tv": {
-    "versionCode": 120,
-    "versionName": "1.5.75",
-    "title": "Sincronizare MDBList · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-TV-v1.5.75.apk",
+    "versionCode": 121,
+    "versionName": "1.5.76",
+    "title": "Cinema Noir gratuit · TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-TV-v1.5.76.apk",
     "required": false,
     "changes": [
-      "MDBList înlocuiește Trakt.tv și folosește contul propriu al utilizatorului.",
-      "Sincronizare pentru progres, vizionate, favorite și ratinguri, inclusiv istorice cu peste 200 de seriale.",
-      "Meniul OME parcurge toate opțiunile în ordine cu D-pad, fără salturi.",
-      "Episodul următor preferă același provider și același pachet release.",
-      "Notificările inteligente apar centrate; profilul local continuă să funcționeze și fără conexiune."
+      "Cinema Noir poate fi selectat gratuit din OME Store pe Android TV.",
+      "Tema include un focus roșu vizibil pentru telecomandă și o interfață cinematografică adaptată ecranului mare.",
+      "Default și personalizările Studio interfață rămân separate.",
+      "Revenirea la tema anterioară restaurează automat configurările vizuale existente."
     ]
   }
 }
