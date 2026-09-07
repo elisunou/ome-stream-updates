@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-07T00:00:00+03:00",
+  "publishedAt": "2026-09-07T13:05:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -529,32 +529,48 @@
         "Tema Default, Cinema Violet și personalizările Studio interfață rămân izolate și nu se amestecă.",
         "La dezactivarea skin-ului este restaurată automat configurația vizuală folosită anterior."
       ]
+    },
+    {
+      "versionCode": 122,
+      "versionName": "1.5.77",
+      "title": "Cinema Noir V2",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.77/Ome-Stream-Mobile-v1.5.77.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.77/Ome-Stream-TV-v1.5.77.apk",
+      "changes": [
+        "Cinema Noir V2 este un skin gratuit și separat; Cinema Noir original, Default și Cinema Violet rămân neschimbate.",
+        "Pe telefon, V2 folosește un erou cinematic vertical și un rând Continuă cu progresul real al profilului.",
+        "Pe Android TV, V2 adaugă navigare verticală în stânga, conținut cinematic central și un panou de activitate în dreapta.",
+        "Varianta mobilă detectează comenzile D-pad și poate afișa dashboardul TV în landscape pentru testare sau ecran extern.",
+        "Episoadele noi și activitatea recentă folosesc datele existente ale profilului, fără pierderea configurărilor."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 121,
-    "versionName": "1.5.76",
-    "title": "Cinema Noir gratuit · Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-Mobile-v1.5.76.apk",
+    "versionCode": 122,
+    "versionName": "1.5.77",
+    "title": "Cinema Noir V2 · Mobile",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.77/Ome-Stream-Mobile-v1.5.77.apk",
     "required": false,
     "changes": [
-      "Cinema Noir poate fi selectat gratuit din OME Store pe telefon și tabletă.",
-      "Interfață cinematografică imersivă cu panouri fumurii, accente roșii și evaluări aurii.",
-      "Default, Cinema Violet și Studio interfață rămân separate.",
-      "Revenirea la tema anterioară restaurează automat configurările vizuale existente."
+      "Cinema Noir V2 poate fi selectat gratuit, separat de Cinema Noir original.",
+      "Erou cinematic adaptat vertical pentru telefon și tabletă.",
+      "Secțiunea Continuă afișează carduri late și progresul real sincronizat.",
+      "În landscape, o telecomandă sau comandă D-pad activează focusul și structura TV pe un ecran suficient de lat.",
+      "Default, Cinema Violet, Cinema Noir și Studio interfață rămân separate."
     ]
   },
   "tv": {
-    "versionCode": 121,
-    "versionName": "1.5.76",
-    "title": "Cinema Noir gratuit · TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-TV-v1.5.76.apk",
+    "versionCode": 122,
+    "versionName": "1.5.77",
+    "title": "Cinema Noir V2 · Android TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.77/Ome-Stream-TV-v1.5.77.apk",
     "required": false,
     "changes": [
-      "Cinema Noir poate fi selectat gratuit din OME Store pe Android TV.",
-      "Tema include un focus roșu vizibil pentru telecomandă și o interfață cinematografică adaptată ecranului mare.",
-      "Default și personalizările Studio interfață rămân separate.",
-      "Revenirea la tema anterioară restaurează automat configurările vizuale existente."
+      "Cinema Noir V2 aduce structura din concept pe ecranul mare.",
+      "Navigare verticală în stânga, erou central și panou cu episoade și activitate în dreapta.",
+      "Continuă și Pentru tine folosesc istoricul și recomandările profilului activ.",
+      "Cinema Noir original și tema Default rămân neschimbate."
     ]
   }
 }
