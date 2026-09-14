@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-09T10:33:52+03:00",
+  "publishedAt": "2026-09-14T10:29:06+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -575,32 +575,48 @@
         "Focusul telecomenzii este evidențiat coral și se deplasează controlat între provider, surse și acțiuni.",
         "Skin-urile existente și configurările utilizatorului rămân independente."
       ]
+    },
+    {
+      "versionCode": 125,
+      "versionName": "1.5.80",
+      "title": "TV Live și redare mai stabilă",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-Mobile-v1.5.80.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-TV-v1.5.80.apk",
+      "changes": [
+        "TV Live este disponibil pe telefon și Android TV, cu canalele românești grupate pe categorii și căutare.",
+        "OME verifică răspunsul HTTP și până la primii 2 KB înainte de redare, apoi încearcă automat providerii alternativi.",
+        "Providerul funcțional este memorat pentru porniri ulterioare mai rapide, iar bufferul TV Live a fost optimizat.",
+        "O singură apăsare Înapoi închide canalul și revine direct la lista TV.",
+        "Pornirea TorrServer este stabilizată pe Mobile și TV fără blocarea verificării motorului."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 124,
-    "versionName": "1.5.79",
-    "title": "Compatibilitate OME Stream Mobile",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.79/Ome-Stream-Mobile-v1.5.79.apk",
+    "versionCode": 125,
+    "versionName": "1.5.80",
+    "title": "TV Live și redare mai stabilă",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-Mobile-v1.5.80.apk",
     "required": false,
     "changes": [
-      "Pregătire comună pentru noua generație de skin-uri OME Stream.",
-      "Skin-urile Mobile existente și configurările utilizatorului rămân neschimbate.",
-      "Versiunea OME Horizon pentru telefon va fi oferită separat într-o actualizare următoare."
+      "TV Live adaugă canale românești, categorii și căutare direct în aplicație.",
+      "Sursele sunt validate și schimbate automat dacă un provider este indisponibil.",
+      "Providerul bun este memorat, iar playerul revine imediat la listă la apăsarea Înapoi.",
+      "TorrServer pornește stabil fără blocarea aplicației."
     ]
   },
   "tv": {
-    "versionCode": 124,
-    "versionName": "1.5.79",
-    "title": "OME Horizon TV · skin nou gratuit",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.79/Ome-Stream-TV-v1.5.79.apk",
+    "versionCode": 125,
+    "versionName": "1.5.80",
+    "title": "TV Live pentru Android TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-TV-v1.5.80.apk",
     "required": false,
     "changes": [
-      "OME Horizon TV adaugă o interfață complet nouă, luminoasă și separată, fără cyan.",
-      "Filmul și episodul afișează imaginea în stânga, iar informațiile și acțiunile în dreapta.",
-      "Sursele sunt organizate în două coloane cu badge-uri tehnice și provider vizibil.",
-      "Focusul coral arată clar elementul selectat cu telecomanda.",
-      "Default, Cinema Noir și Cinema Violet rămân neschimbate."
+      "TV Live este integrat în meniul Android TV și poate fi navigat complet cu telecomanda.",
+      "Sursele sunt validate și schimbate automat dacă un provider este indisponibil.",
+      "Providerul bun este memorat, iar bufferul canalelor live pornește mai repede.",
+      "O singură apăsare Înapoi închide canalul și revine la listă.",
+      "TorrServer pornește stabil fără blocarea aplicației."
     ]
   }
 }
