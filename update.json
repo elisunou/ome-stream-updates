@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-14T10:29:06+03:00",
+  "publishedAt": "2026-09-14T18:00:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -590,6 +590,18 @@
         "O singură apăsare Înapoi închide canalul și revine direct la lista TV.",
         "Pornirea TorrServer este stabilizată pe Mobile și TV fără blocarea verificării motorului."
       ]
+    },
+    {
+      "versionCode": 126,
+      "versionName": "1.5.81",
+      "title": "Focus Horizon corectat pe Android TV",
+      "channels": ["tv"],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.81/Ome-Stream-TV-v1.5.81.apk",
+      "changes": [
+        "Focusul portocaliu Horizon urmărește acum poziția reală a telecomenzii.",
+        "Meniul, categoriile TV Live, canalele, posterele, sursele și setările folosesc același focus vizibil.",
+        "Pagina și categoria active sunt indicate separat, fără să pară că telecomanda a rămas blocată pe ele."
+      ]
     }
   ],
   "phone": {
@@ -606,17 +618,15 @@
     ]
   },
   "tv": {
-    "versionCode": 125,
-    "versionName": "1.5.80",
-    "title": "TV Live pentru Android TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-TV-v1.5.80.apk",
+    "versionCode": 126,
+    "versionName": "1.5.81",
+    "title": "Focus Horizon corectat",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.81/Ome-Stream-TV-v1.5.81.apk",
     "required": false,
     "changes": [
-      "TV Live este integrat în meniul Android TV și poate fi navigat complet cu telecomanda.",
-      "Sursele sunt validate și schimbate automat dacă un provider este indisponibil.",
-      "Providerul bun este memorat, iar bufferul canalelor live pornește mai repede.",
-      "O singură apăsare Înapoi închide canalul și revine la listă.",
-      "TorrServer pornește stabil fără blocarea aplicației."
+      "Focusul portocaliu Horizon urmărește acum poziția reală a telecomenzii.",
+      "Meniul, categoriile TV Live, canalele, posterele, sursele și setările folosesc același focus vizibil.",
+      "Pagina și categoria active sunt indicate separat, fără să pară că telecomanda a rămas blocată pe ele."
     ]
   }
 }
