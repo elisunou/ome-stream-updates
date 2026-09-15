@@ -62,7 +62,15 @@
       ],
       "title": "Versiunea 1.5.81 a fost oprită",
       "detail": "Versiunea 1.5.81 pentru Android TV a fost oprită temporar. Următoarea versiune va apărea de îndată ce va fi validă și stabilă. Vă mulțumim pentru înțelegere!"
-    }
+    },
+    {
+    "id": "multumim-si-rabdare-2026-09",
+    "active": true,
+    "channels": ["phone", "tv"],
+    "title": "Vă mulțumesc! 😊",
+    "detail": "Vă mulțumesc din suflet că folosiți Ome Stream! Sper ca aplicația să devină din ce în ce mai bună, cu o interfață tot mai frumoasă și mai plăcută de folosit. Trebuie să fiu sincer cu voi: nu știu să codez de unul singur, mă bazez pe AI și pe creditele lunare pe care le am, care uneori se termină mai repede decât aș vrea 😅 Vă rog să aveți puțintică răbdare cu mine — fac tot ce pot, cu ce am, ca să vă ofer o experiență mai bună. Mulțumesc că sunteți alături de mine în povestea asta! 🙏💜"
+  }
+
   ],
   "updateHistory": [
     {
