@@ -1,0 +1,771 @@
+{
+  "schema": 1,
+  "publishedAt": "2026-09-14T18:00:00+03:00",
+  "managedAddons": [
+    {
+      "id": "com.linvo.cinemeta",
+      "active": true,
+      "revision": 1,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "manifestUrl": "https://v3-cinemeta.strem.io/manifest.json",
+      "title": "Cinemeta a fost adăugat",
+      "detail": "Cataloagele și informațiile Cinemeta sunt disponibile pe Ome Stream."
+    },
+    {
+      "id": "com.stremio.torrentio.addon",
+      "active": true,
+      "revision": 1,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "manifestUrl": "https://torrentio.strem.fun/manifest.json",
+      "title": "Torrentio a fost adăugat",
+      "detail": "Sursele torrent Torrentio sunt disponibile și sunt redate prin TorrServer."
+    }
+  ],
+  "configurableAddons": [
+    {
+      "id": "org.stremio.subsro",
+      "active": true,
+      "revision": 1,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "manifestUrl": "https://cdcd7719a6b3-stremio-subs-ro.baby-beamup.club/manifest.json",
+      "configureUrl": "https://cdcd7719a6b3-stremio-subs-ro.baby-beamup.club/configure.html",
+      "title": "Subs.ro este disponibil",
+      "detail": "Deschide Setări, introdu cheia API gratuită Subs.ro și instalează addonul pentru subtitrări românești."
+    }
+  ],
+  "messages": [
+    {
+      "id": "welcome-ome-stream-2026-07-29",
+      "active": true,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "title": "Bun venit în Ome Stream! 👋",
+      "detail": "Salut! Îți mulțumim că folosești Ome Stream. De acum vei găsi aici noutățile, îmbunătățirile și mesajele importante."
+    },
+    {
+      "id": "1-5-81-tv-oprita",
+      "active": true,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "title": "Versiunea 1.5.81 a fost oprită",
+      "detail": "Versiunea 1.5.81 pentru Android TV a fost oprită temporar. Următoarea versiune va apărea de îndată ce va fi validă și stabilă. Vă mulțumim pentru înțelegere!"
+    }
+  ],
+  "updateHistory": [
+    {
+      "versionCode": 87,
+      "versionName": "1.5.42",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.42/Ome-Stream-Mobile-v1.5.42.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.42/Ome-Stream-TV-v1.5.42.apk",
+      "changes": [
+        "Favoritele de pe telefon și TV sunt îmbinate automat în Google Drive, fără înlocuirea listei locale.",
+        "Progresul, minutul rămas și episoadele văzute continuă să fie sincronizate după cea mai nouă salvare.",
+        "Ștergerea unui favorit este memorată și sincronizată, astfel încât titlul să nu reapară pe alt dispozitiv."
+      ]
+    },
+    {
+      "versionCode": 88,
+      "versionName": "1.5.43",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-Mobile-v1.5.43.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.43/Ome-Stream-TV-v1.5.43.apk",
+      "changes": [
+        "Indicatorul «NOU» nu mai reapare la pornire din cauza unei stări vechi sincronizate prin Google Drive.",
+        "Versiunea deja instalată nu mai este adăugată din nou ca notificare de actualizare.",
+        "Favoritele, progresul, minutul rămas și configurările continuă să se sincronizeze normal."
+      ]
+    },
+    {
+      "versionCode": 89,
+      "versionName": "1.5.44",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.44/Ome-Stream-Mobile-v1.5.44.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.44/Ome-Stream-TV-v1.5.44.apk",
+      "changes": [
+        "După instalare, informațiile versiunii instalate apar o singură dată în Notificări.",
+        "Eticheta «NOU» dispare după citire și reapare numai la o actualizare sau un mesaj nou.",
+        "Sincronizarea Google pentru favorite, progres, istoric și configurări rămâne neschimbată."
+      ]
+    },
+    {
+      "versionCode": 90,
+      "versionName": "1.5.45",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.45/Ome-Stream-Mobile-v1.5.45.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.45/Ome-Stream-TV-v1.5.45.apk",
+      "changes": [
+        "OME Taste învață separat pentru fiecare profil din inimi, favorite și vizionări și afișează primul rând «Pentru tine».",
+        "Pagina titlului afișează taguri cu actorii și regizorul, plus opțiunea «Nu mă interesează».",
+        "Secțiunea Donație permite un nume public opțional și afișează lista aprobată de susținători pe Mobile și TV."
+      ]
+    },
+    {
+      "versionCode": 91,
+      "versionName": "1.5.46",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-Mobile-v1.5.46.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.46/Ome-Stream-TV-v1.5.46.apk",
+      "changes": [
+        "Prima pagină se încarcă mai fluent: OME Taste nu mai reconstruiește recomandările după fiecare catalog.",
+        "Scorurile sunt precalculate o singură dată, cardurile sunt reutilizate, iar posterele sunt decodate controlat.",
+        "Separatorul afișat greșit după «Ome Stream» în notificarea versiunii a fost corectat."
+      ]
+    },
+    {
+      "versionCode": 92,
+      "versionName": "1.5.47",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.47/Ome-Stream-Mobile-v1.5.47.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.47/Ome-Stream-TV-v1.5.47.apk",
+      "changes": [
+        "Meniul CC include un editor vizual pentru dimensiunea și culoarea subtitrării.",
+        "Poți alege fundalul, stilul aldin sau italic și vezi rezultatul înainte de salvare.",
+        "Tema implicită poate fi restaurată oricând, iar preferințele sunt păstrate separat pentru fiecare profil."
+      ]
+    },
+    {
+      "versionCode": 93,
+      "versionName": "1.5.48",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.48/Ome-Stream-Mobile-v1.5.48.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.48/Ome-Stream-TV-v1.5.48.apk",
+      "changes": [
+        "Butonul rotund OME deschide un meniu lateral compact, care se retrage fără să ocupe permanent ecranul.",
+        "Sursele afișează badge-uri pentru rezoluție, codec video/audio, țară sau limbă și disponibilitatea subtitrării.",
+        "Studio interfață previzualizează noul meniu, CC poate fi derulat complet, iar rândurile TV au navigare circulară."
+      ]
+    },
+    {
+      "versionCode": 94,
+      "versionName": "1.5.49",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-Mobile-v1.5.49.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.49/Ome-Stream-TV-v1.5.49.apk",
+      "changes": [
+        "Butonul OME rămâne fix la mijloc în stânga și deschide sau închide meniul prin apăsare.",
+        "Categoriile Setări folosesc același meniu retractabil, iar Studio interfață rămâne complet funcțional.",
+        "Badge-urile tehnice ale surselor au spațiere corectă și sunt afișate complet pe Mobile și TV."
+      ]
+    },
+    {
+      "versionCode": 95,
+      "versionName": "1.5.50",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-Mobile-v1.5.50.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.50/Ome-Stream-TV-v1.5.50.apk",
+      "changes": [
+        "Sursele separă clar tipul release-ului, rezoluția și codecul video în badge-uri distincte.",
+        "Seederii și dimensiunea fișierului sunt afișate când providerul furnizează aceste informații.",
+        "Butonul OME rămâne pe un singur rând, fără ruperea textului."
+      ]
+    },
+    {
+      "versionCode": 96,
+      "versionName": "1.5.51",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-Mobile-v1.5.51.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.51/Ome-Stream-TV-v1.5.51.apk",
+      "changes": [
+        "Indicatorul «NOU» se activează sigur când este detectată o versiune nouă, inclusiv dacă informația actualizării exista deja în istoric.",
+        "După citirea notificărilor, indicatorul dispare și reapare numai pentru o versiune sau un mesaj nou.",
+        "Favoritele, progresul, profilurile și configurările existente rămân neschimbate."
+      ]
+    },
+    {
+      "versionCode": 97,
+      "versionName": "1.5.52",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-Mobile-v1.5.52.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.52/Ome-Stream-TV-v1.5.52.apk",
+      "changes": [
+        "Filmele și serialele se deschid într-un panou elegant din dreapta, peste pagina curentă.",
+        "Panoul păstrează posterul, descrierea, actorii, trailerul, ratingul, Favorite, «Nu mă interesează», episoadele și sursele.",
+        "Studio interfață poate previzualiza și regla lățimea, transparența și întunecarea fundalului panoului.",
+        "Include corecția indicatorului roșu «NOU» pentru actualizările detectate."
+      ]
+    },
+    {
+      "versionCode": 98,
+      "versionName": "1.5.53",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.53/Ome-Stream-Mobile-v1.5.53.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.53/Ome-Stream-TV-v1.5.53.apk",
+      "changes": [
+        "Torrentele Freeleech afișează imaginea verde FREELEECH în badge-urile sursei.",
+        "Imaginea este încadrată proporțional și adaptată separat pentru telefon și televizor.",
+        "FileList și SpeedApp transmit explicit statutul Freeleech, fără marcarea surselor obișnuite.",
+        "Previzualizarea surselor din Studio interfață include noul marcaj."
+      ]
+    },
+    {
+      "versionCode": 99,
+      "versionName": "1.5.54",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.54/Ome-Stream-Mobile-v1.5.54.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.54/Ome-Stream-TV-v1.5.54.apk",
+      "changes": [
+        "Marcajul FREELEECH este mai mic și ocupă cât un badge tehnic obișnuit.",
+        "Este afișat imediat după rezoluție, înaintea tipului sursei și codecurilor.",
+        "Ordinea și dimensiunea compactă sunt aplicate pe Mobile, TV și în Studio interfață."
+      ]
+    },
+    {
+      "versionCode": 100,
+      "versionName": "1.5.55",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-Mobile-v1.5.55.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.55/Ome-Stream-TV-v1.5.55.apk",
+      "changes": [
+        "Imaginea FREELEECH apare pe primul rând, imediat după TORRENT și rezoluție, păstrând dimensiunea aprobată.",
+        "Panoul filmului sau serialului își recalculează lățimea la rotirea telefonului.",
+        "Actualizările noi apar într-un card compact peste pagina curentă, cu opțiunile «Instalează» și «Mai târziu».",
+        "În timpul redării filmului, cardul nu întrerupe playerul și este afișat după revenirea în aplicație."
+      ]
+    },
+    {
+      "versionCode": 101,
+      "versionName": "1.5.56",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-Mobile-v1.5.56.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.56/Ome-Stream-TV-v1.5.56.apk",
+      "changes": [
+        "Pe Android TV, focusul telecomenzii rămâne în panoul filmului sau serialului și nu mai selectează posterele din fundal.",
+        "Navigarea verticală ajunge la Favorite, trailer, rating, episoade și sursele de redare.",
+        "La închiderea panoului, focusul revine pe posterul din care a fost deschis.",
+        "Poziția imaginii FREELEECH după TORRENT și rezoluție rămâne neschimbată."
+      ]
+    },
+    {
+      "versionCode": 102,
+      "versionName": "1.5.57",
+      "title": "Actualizare Ome Stream TV",
+      "channels": [
+        "tv"
+      ],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.57/Ome-Stream-TV-v1.5.57.apk",
+      "changes": [
+        "Butonul rotund OME poate fi selectat sigur cu telecomanda de la marginea stângă.",
+        "Apăsarea OK sau Enter deschide meniul și mută focusul pe Istoric, Favorite, Caută și Setări.",
+        "Navigarea reparată anterior în episoade și surse rămâne neschimbată."
+      ]
+    },
+    {
+      "versionCode": 103,
+      "versionName": "1.5.58",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-Mobile-v1.5.58.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.58/Ome-Stream-TV-v1.5.58.apk",
+      "changes": [
+        "Setările și căutarea se deschid în dashboard peste pagina principală; căutările păstrează un istoric care poate fi șters și afișează postere.",
+        "Pagina titlului afișează actorii cu fotografii și studioul, iar rețelele de catalog sunt organizate sub OME Taste.",
+        "Seedpool poate fi configurat cu API token și redă torrentele prin TorrServer; providerii fără rezultate și torrentele cu 0 seederi nu mai ocupă spațiu.",
+        "Navigarea cu telecomanda pe Fire TV / Fire Cube revine corect între postere și meniul OME.",
+        "Playerul permite Încadrare, Umple ecranul sau Zoom și oferă o durată configurabilă pentru dispariția comenzilor.",
+        "Butonul Cast / Mirror Screen este disponibil în player și deschide funcția de oglindire oferită de dispozitiv."
+      ]
+    },
+    {
+      "versionCode": 104,
+      "versionName": "1.5.59",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-Mobile-v1.5.59.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.59/Ome-Stream-TV-v1.5.59.apk",
+      "changes": [
+        "O singură apăsare pe butonul OME deschide centrul complet cu notificări, istoric, favorite, căutare live, setări, provideri, Subs.ro și player.",
+        "Căutarea afișează postere în timp ce scrii și ignoră rezultatele vechi când continui numele.",
+        "Rețelele au logo propriu și rânduri separate, extensibile, pentru filme și seriale.",
+        "Distribuția afișează fotografiile actorilor, iar imaginile sunt memorate local pentru încărcări ulterioare.",
+        "Seedpool citește structura API reală, inclusiv name, seeders, size, freeleech și download_link, apoi redă torrentul prin TorrServer.",
+        "Playerul ascunde Zoom și Mirror odată cu comenzile și afișează timpul văzut, timpul rămas și ora estimată de terminare."
+      ]
+    },
+    {
+      "versionCode": 105,
+      "versionName": "1.5.60",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-Mobile-v1.5.60.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.60/Ome-Stream-TV-v1.5.60.apk",
+      "changes": [
+        "Seedpool identifică filmele și serialele prin IMDb/TMDB chiar dacă release-ul folosește titlul original, coreean, românesc sau o altă traducere.",
+        "Verificarea sezonului și episodului rămâne activă, astfel încât sursele cu denumiri alternative să nu fie amestecate.",
+        "Seedpool recunoaște marcajul Freeleech inclusiv când trackerul îl transmite prin stea sau procent.",
+        "Serialele urmărite sunt verificate pentru episoade noi, fiecare episod este anunțat o singură dată, iar starea se sincronizează opțional prin Google Drive.",
+        "Centrul OME are căutare cu istoric și o singură intrare ordonată spre Setări; configurarea fiecărui provider se deschide numai la selectare.",
+        "Focusul TV rămâne în căutare și surse, păstrează poziția providerului și revine corect din butonul OME pe Fire TV / Fire Cube."
+      ]
+    },
+    {
+      "versionCode": 106,
+      "versionName": "1.5.61",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-Mobile-v1.5.61.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.61/Ome-Stream-TV-v1.5.61.apk",
+      "changes": [
+        "Descrierea este afișată pe lățime completă sub zona posterului, înaintea surselor.",
+        "Studioul sau compania de producție este separată clar, iar distribuția afișează fotografiile actorilor.",
+        "Pagina include mai multe informații oferite de catalog: nota IMDb, anul, durata, clasificarea, țara, limba, genurile și tipul titlului.",
+        "Episoadele afișează imaginea, titlul, data, durata, nota și descrierea înaintea surselor.",
+        "Playerul afișează timpul văzut, timpul rămas și ora de final în dreapta sus și oferă Sari peste intro.",
+        "La finalul unui episod pornește automat următorul episod cu aceeași denumire și preferă același provider; opțiunea poate fi dezactivată din Setări.",
+        "Seedpool validează fiecare rezultat după ID sau aceeași denumire, astfel încât sursele altor titluri să nu mai fie amestecate.",
+        "Pe telefon, Notificări, Istoric și Favorite au lățime completă, astfel încât textul și indicatorul NOU să fie vizibile integral."
+      ]
+    },
+    {
+      "versionCode": 107,
+      "versionName": "1.5.62",
+      "title": "Actualizare Ome Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-Mobile-v1.5.62.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.62/Ome-Stream-TV-v1.5.62.apk",
+      "changes": [
+        "Seedpool păstrează numai aceeași denumire și exact sezonul sau episodul selectat; alte seriale și episoade nu mai sunt amestecate.",
+        "Actualizarea apare pe ecranul principal cu Instalează acum sau Poate mai târziu și afișează procentul, MB și bara de progres.",
+        "Pe TV, focusul playerului este mult mai vizibil pentru CC, Zoom, Mirror, Play, navigare și Setări.",
+        "Sursele ThePirateBay și celelalte torrente externe pornesc mai repede prin reutilizarea torrentului și a fișierului deja detectat în TorrServer."
+      ]
+    },
+    {
+      "versionCode": 108,
+      "versionName": "1.5.63",
+      "title": "OME Store",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-Mobile-v1.5.63.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.63/Ome-Stream-TV-v1.5.63.apk",
+      "changes": [
+        "OME Store prezintă skin-urile Cinema Violet și Aurora Glass cu imagini separate pentru Mobile și TV.",
+        "Fiecare pachet costă 10 € prin revolut.me/elisunou și afișează starea Cumpără, În verificare sau Deținut.",
+        "Achizițiile sunt legate de contul Google verificat și pot fi restaurate pe telefon, tabletă și Android TV.",
+        "Tema implicită și Studio interfață rămân disponibile fără cumpărare."
+      ]
+    },
+    {
+      "versionCode": 109,
+      "versionName": "1.5.64",
+      "title": "Skin-uri cu interfață completă",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-Mobile-v1.5.64.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.64/Ome-Stream-TV-v1.5.64.apk",
+      "changes": [
+        "Cinema Violet și Aurora Glass modifică acum structura reală a interfeței, nu doar culorile.",
+        "Prima pagină primește un banner cinematic cu fundal, informații și acțiuni, plus navigare premium.",
+        "Cardurile, butoanele și sursele folosesc gradienți și contururi distincte pe Mobile și Android TV.",
+        "Skin-ul deja deținut este migrat automat la aspectul nou, fără recumpărare și fără pierderea configurărilor."
+      ]
+    },
+    {
+      "versionCode": 110,
+      "versionName": "1.5.65",
+      "title": "Skin-uri premium corectate",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-Mobile-v1.5.65.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.65/Ome-Stream-TV-v1.5.65.apk",
+      "changes": [
+        "Cinema Violet folosește acum suprafețe OLED întunecate și contururi neon, apropiate de imaginea din OME Store.",
+        "Aurora Glass folosește panouri translucide întunecate, fără blocurile turcoaz foarte puternice.",
+        "Sursele torrent sunt afișate pe carduri întunecate cu un contur premium, nu pe blocuri mov pline.",
+        "Pagina principală revine automat sus și afișează bannerul cinematic înaintea cataloagelor.",
+        "Skin-ul deja deținut este migrat automat la noul aspect pe Mobile și Android TV."
+      ]
+    },
+    {
+      "versionCode": 111,
+      "versionName": "1.5.66",
+      "title": "Cinema Violet final și control TV",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-Mobile-v1.5.66.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.66/Ome-Stream-TV-v1.5.66.apk",
+      "changes": [
+        "Cinema Violet este acum singurul skin din OME Store și este izolat de setările Studio interfață.",
+        "Dashboardul OME afișează accesul la toate categoriile de setări, inclusiv TorrServer și Cont Google.",
+        "Formularul fiecărei extensii se deschide în același panou, fără să fie mutat sub lista providerilor.",
+        "Istoricul căutărilor poate fi șters cu telecomanda pe Android TV.",
+        "Trailerele directe permit alegerea rezoluției disponibile, inclusiv 4K, 1080p și 720p.",
+        "Paginile Vezi toate nu mai afișează butonul OME peste conținut."
+      ]
+    },
+    {
+      "versionCode": 112,
+      "versionName": "1.5.67",
+      "title": "Dashboard OME simplificat",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-Mobile-v1.5.67.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.67/Ome-Stream-TV-v1.5.67.apk",
+      "changes": [
+        "Căutarea a fost eliminată din dashboardul OME și rămâne exclusiv în pagina dedicată cu lupa.",
+        "Dashboardul OME este acum concentrat pe Notificări, Istoric, Favorite și Setări.",
+        "Butonul Sari peste intro a fost eliminat din player.",
+        "Sincronizarea subtitrării nu mai produce eroare de sursă la fluxurile externe și memorează decalajul pentru același release.",
+        "Skin-ul Cinema Violet poate fi dezactivat, iar modificările temei utilizatorului sunt păstrate și restaurate."
+      ]
+    },
+    {
+      "versionCode": 113,
+      "versionName": "1.5.68",
+      "title": "Instalarea actualizărilor corectată",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-Mobile-v1.5.68.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.68/Ome-Stream-TV-v1.5.68.apk",
+      "changes": [
+        "O actualizare deja descărcată deschide direct instalatorul Android și nu mai este descărcată încontinuu.",
+        "Fișierul descărcat rămâne disponibil până când Android confirmă instalarea noii versiuni.",
+        "Pe dispozitivele fără instalator standard este folosită automat metoda compatibilă de deschidere a APK-ului."
+      ]
+    },
+    {
+      "versionCode": 114,
+      "versionName": "1.5.69",
+      "title": "Notificări afișate curat",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-Mobile-v1.5.69.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.69/Ome-Stream-TV-v1.5.69.apk",
+      "changes": [
+        "Butonul plutitor OME nu mai apare peste pagina Notificări.",
+        "Titlul și conținutul notificărilor rămân complet vizibile inclusiv pe telefoanele înguste.",
+        "Meniul OME continuă să funcționeze normal pe celelalte pagini."
+      ]
+    },
+    {
+      "versionCode": 115,
+      "versionName": "1.5.70",
+      "title": "Navigare și căutare corectate pe TV",
+      "channels": [
+        "tv"
+      ],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.70/Ome-Stream-TV-v1.5.70.apk",
+      "changes": [
+        "Telecomanda poate selecta și șterge un film sau episod din istoricul vizionărilor.",
+        "Tema Default afișează din nou Caută în meniul OME, cu câmpul complet de căutare.",
+        "Căutările recente rămân salvate și pot fi șterse individual sau toate cu telecomanda.",
+        "Bara progresului de vizionare este verde în tema Default; Cinema Violet rămâne neschimbat."
+      ]
+    },
+    {
+      "versionCode": 116,
+      "versionName": "1.5.71",
+      "title": "Căutare restaurată pe Mobile",
+      "channels": [
+        "phone"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.71/Ome-Stream-Mobile-v1.5.71.apk",
+      "changes": [
+        "Tema Default afișează din nou Caută în meniul OME, fără să modifice skin-ul Cinema Violet.",
+        "Câmpul complet de căutare pentru filme și seriale este din nou disponibil pe telefon.",
+        "Căutările recente rămân salvate și pot fi șterse individual sau toate prin Șterge tot."
+      ]
+    },
+    {
+      "versionCode": 117,
+      "versionName": "1.5.72",
+      "title": "Câmpul de căutare corectat pe TV",
+      "channels": [
+        "tv"
+      ],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.72/Ome-Stream-TV-v1.5.72.apk",
+      "changes": [
+        "Câmpul pentru numele filmului sau serialului primește automat focus când deschizi Caută pe Android TV.",
+        "Apăsarea OK sau Enter pe câmp deschide tastatura televizorului.",
+        "Câmpul poate fi editat și când există deja o căutare salvată."
+      ]
+    },
+    {
+      "versionCode": 118,
+      "versionName": "1.5.73",
+      "title": "Distribuție și pagini pentru actori",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-Mobile-v1.5.73.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.73/Ome-Stream-TV-v1.5.73.apk",
+      "changes": [
+        "Distribuția afișează toți actorii disponibili și poate fi parcursă orizontal prin glisare sau cu telecomanda.",
+        "Selectarea unui actor deschide fotografia și informațiile disponibile despre acesta.",
+        "Pagina actorului afișează filmele și serialele confirmate în distribuție; fiecare titlu poate fi deschis în Ome Stream.",
+        "Funcția folosește tema activă în Default, Cinema Violet și Studio interfață, fără pachete media adăugate în APK."
+      ]
+    },
+    {
+      "versionCode": 119,
+      "versionName": "1.5.74",
+      "title": "Actori și notificări inteligente",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-Mobile-v1.5.74.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.74/Ome-Stream-TV-v1.5.74.apk",
+      "changes": [
+        "Pagina actorului oferă biografie și date publice mai bogate: origine, studii, ocupații și premii disponibile.",
+        "Episoadele și sezoanele noi pot apărea într-un card atractiv direct în aplicație, cu Vezi acum sau Mai târziu.",
+        "Ome Stream verifică sursele și subtitrările disponibile pentru episoadele noi, inclusiv addonurile instalate, FileList, SpeedApp și Seedpool.",
+        "Notificările pot fi activate separat, amânate și limitate prin ore liniștite din Setări."
+      ]
+    },
+    {
+      "versionCode": 120,
+      "versionName": "1.5.75",
+      "title": "Sincronizare personală prin MDBList",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-Mobile-v1.5.75.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.75/Ome-Stream-TV-v1.5.75.apk",
+      "changes": [
+        "MDBList înlocuiește Trakt.tv în Setări și folosește cheia proprie a fiecărui utilizator.",
+        "Progresul, elementele văzute, favoritele și ratingurile se sincronizează bidirecțional.",
+        "Sincronizarea MDBList gestionează corect procentele și conturile cu peste 200 de seriale.",
+        "Profilul local Ome Stream rămâne activ și sigur chiar dacă MDBList nu este disponibil.",
+        "Datele Trakt marcate anterior ca văzute sunt păstrate prin migrare, fără a mai conecta aplicația direct la Trakt.",
+        "Notificările inteligente apar centrate pe ecran, iar episodul următor preferă același provider și același pachet release.",
+        "Navigarea D-pad parcurge în ordine toate opțiunile meniului OME pe Android TV."
+      ]
+    },
+    {
+      "versionCode": 121,
+      "versionName": "1.5.76",
+      "title": "Cinema Noir gratuit",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-Mobile-v1.5.76.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.76/Ome-Stream-TV-v1.5.76.apk",
+      "changes": [
+        "Noul skin Cinema Noir este disponibil gratuit pe telefon, tabletă și Android TV.",
+        "Skin-ul folosește o interfață cinematografică imersivă, cu panouri fumurii și accente de premieră.",
+        "Tema Default, Cinema Violet și personalizările Studio interfață rămân izolate și nu se amestecă.",
+        "La dezactivarea skin-ului este restaurată automat configurația vizuală folosită anterior."
+      ]
+    },
+    {
+      "versionCode": 122,
+      "versionName": "1.5.77",
+      "title": "Cinema Noir V2",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.77/Ome-Stream-Mobile-v1.5.77.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.77/Ome-Stream-TV-v1.5.77.apk",
+      "changes": [
+        "Cinema Noir V2 este un skin gratuit și separat; Cinema Noir original, Default și Cinema Violet rămân neschimbate.",
+        "Pe telefon, V2 folosește un erou cinematic vertical și un rând Continuă cu progresul real al profilului.",
+        "Pe Android TV, V2 adaugă navigare verticală în stânga, conținut cinematic central și un panou de activitate în dreapta.",
+        "Varianta mobilă detectează comenzile D-pad și poate afișa dashboardul TV în landscape pentru testare sau ecran extern.",
+        "Episoadele noi și activitatea recentă folosesc datele existente ale profilului, fără pierderea configurărilor."
+      ]
+    },
+    {
+      "versionCode": 123,
+      "versionName": "1.5.78",
+      "title": "Cinema Noir V2 complet",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.78/Ome-Stream-Mobile-v1.5.78.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.78/Ome-Stream-TV-v1.5.78.apk",
+      "changes": [
+        "Cinema Noir V2 folosește interfața dedicată în Acasă, Filme, Seriale, Favorite, Istoric, Căutare, Setări, detalii și surse.",
+        "Pe Android TV, bara verticală rămâne vizibilă și oferă acces direct la toate secțiunile skin-ului.",
+        "Pe tema Default și Cinema Noir V2, focusul telecomenzii se oprește la capetele meniului și nu mai sare înapoi sus sau pe posterele din fundal.",
+        "Sursele și formularele de configurare preiau automat stilul Cinema Noir V2.",
+        "Default, Cinema Noir original, Cinema Violet și setările Studio interfață rămân izolate."
+      ]
+    },
+    {
+      "versionCode": 124,
+      "versionName": "1.5.79",
+      "title": "OME Horizon TV · skin nou și separat",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.79/Ome-Stream-Mobile-v1.5.79.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.79/Ome-Stream-TV-v1.5.79.apk",
+      "changes": [
+        "OME Horizon TV este un skin gratuit, creat separat de Default, Cinema Noir și Cinema Violet.",
+        "Interfața TV folosește o paletă luminoasă grafit, coral și auriu, fără elemente cyan.",
+        "Pagina filmului și episodului are o structură nouă: imagine amplă în stânga, informații și acțiuni în dreapta.",
+        "Sursele sunt afișate într-un panou propriu, în două coloane, cu provider, rezoluție, codec, sunet și dimensiune.",
+        "Focusul telecomenzii este evidențiat coral și se deplasează controlat între provider, surse și acțiuni.",
+        "Skin-urile existente și configurările utilizatorului rămân independente."
+      ]
+    },
+    {
+      "versionCode": 125,
+      "versionName": "1.5.80",
+      "title": "TV Live și redare mai stabilă",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-Mobile-v1.5.80.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-TV-v1.5.80.apk",
+      "changes": [
+        "TV Live este disponibil pe telefon și Android TV, cu canalele românești grupate pe categorii și căutare.",
+        "OME verifică răspunsul HTTP și până la primii 2 KB înainte de redare, apoi încearcă automat providerii alternativi.",
+        "Providerul funcțional este memorat pentru porniri ulterioare mai rapide, iar bufferul TV Live a fost optimizat.",
+        "O singură apăsare Înapoi închide canalul și revine direct la lista TV.",
+        "Pornirea TorrServer este stabilizată pe Mobile și TV fără blocarea verificării motorului."
+      ]
+    },
+    {
+      "versionCode": 126,
+      "versionName": "1.5.81",
+      "title": "Focus Horizon corectat pe Android TV",
+      "channels": [
+        "tv"
+      ],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.81/Ome-Stream-TV-v1.5.81.apk",
+      "changes": [
+        "Focusul portocaliu Horizon urmărește acum poziția reală a telecomenzii.",
+        "Meniul, categoriile TV Live, canalele, posterele, sursele și setările folosesc același focus vizibil.",
+        "Pagina și categoria active sunt indicate separat, fără să pară că telecomanda a rămas blocată pe ele."
+      ]
+    }
+  ],
+  "phone": {
+    "versionCode": 125,
+    "versionName": "1.5.80",
+    "title": "TV Live și redare mai stabilă",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-Mobile-v1.5.80.apk",
+    "required": false,
+    "changes": [
+      "TV Live adaugă canale românești, categorii și căutare direct în aplicație.",
+      "Sursele sunt validate și schimbate automat dacă un provider este indisponibil.",
+      "Providerul bun este memorat, iar playerul revine imediat la listă la apăsarea Înapoi.",
+      "TorrServer pornește stabil fără blocarea aplicației."
+    ]
+  },
+  "tv": {
+    "versionCode": 125,
+    "versionName": "1.5.80",
+    "title": "TV Live și redare mai stabilă",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-TV-v1.5.80.apk",
+    "required": false,
+    "changes": [
+      "TV Live este disponibil pe telefon și Android TV, cu canalele românești grupate pe categorii și căutare.",
+      "OME verifică răspunsul HTTP și până la primii 2 KB înainte de redare, apoi încearcă automat providerii alternativi.",
+      "Providerul funcțional este memorat pentru porniri ulterioare mai rapide, iar bufferul TV Live a fost optimizat.",
+      "O singură apăsare Înapoi închide canalul și revine direct la lista TV.",
+      "Pornirea TorrServer este stabilizată pe Mobile și TV fără blocarea verificării motorului."
+    ]
+  }
+}
