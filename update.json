@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-14T18:00:00+03:00",
+  "publishedAt": "2026-09-27T12:00:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -55,7 +55,7 @@
     },
     {
       "id": "1-5-81-tv-oprita",
-      "active": true,
+      "active": false,
       "channels": [
         "phone",
         "tv"
@@ -747,33 +747,52 @@
         "Meniul, categoriile TV Live, canalele, posterele, sursele și setările folosesc același focus vizibil.",
         "Pagina și categoria active sunt indicate separat, fără să pară că telecomanda a rămas blocată pe ele."
       ]
+    },
+    {
+      "versionCode": 128,
+      "versionName": "1.5.83",
+      "title": "Cast îmbunătățit și fixuri complete",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.83/Ome-Stream-Mobile-v1.5.83.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.83/Ome-Stream-TV-v1.5.83.apk",
+      "changes": [
+        "Fotografiile actorilor din Cast sunt rotunde, mai mari și încadrate corect pe telefon și Android TV.",
+        "Cinema Violet este gratuit pentru toți utilizatorii și poate fi aplicat inclusiv pe Android TV.",
+        "Notificările, Istoricul, Subs.ro și revenirea la Acasă păstrează toate corecțiile stabile.",
+        "Focusul Horizon urmărește telecomanda în meniu, categorii, canale, postere și surse.",
+        "TV Live și TorrServer rămân disponibile, iar DataScene rămâne momentan numai în test local."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 125,
-    "versionName": "1.5.80",
-    "title": "TV Live și redare mai stabilă",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-Mobile-v1.5.80.apk",
+    "versionCode": 128,
+    "versionName": "1.5.83",
+    "title": "Cast îmbunătățit și fixuri complete",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.83/Ome-Stream-Mobile-v1.5.83.apk",
     "required": false,
     "changes": [
-      "TV Live adaugă canale românești, categorii și căutare direct în aplicație.",
-      "Sursele sunt validate și schimbate automat dacă un provider este indisponibil.",
-      "Providerul bun este memorat, iar playerul revine imediat la listă la apăsarea Înapoi.",
-      "TorrServer pornește stabil fără blocarea aplicației."
+      "Fotografiile actorilor din Cast sunt rotunde, mai mari și încadrate corect.",
+      "Cinema Violet este gratuit pentru toți utilizatorii.",
+      "Notificările și Istoricul se deschid rapid și permit revenirea la Acasă.",
+      "Subs.ro, TV Live și TorrServer păstrează corecțiile stabile.",
+      "DataScene rămâne momentan numai în test local."
     ]
   },
   "tv": {
-    "versionCode": 125,
-    "versionName": "1.5.80",
-    "title": "TV Live și redare mai stabilă",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.80/Ome-Stream-TV-v1.5.80.apk",
+    "versionCode": 128,
+    "versionName": "1.5.83",
+    "title": "Cast și control TV îmbunătățite",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.83/Ome-Stream-TV-v1.5.83.apk",
     "required": false,
     "changes": [
-      "TV Live este disponibil pe telefon și Android TV, cu canalele românești grupate pe categorii și căutare.",
-      "OME verifică răspunsul HTTP și până la primii 2 KB înainte de redare, apoi încearcă automat providerii alternativi.",
-      "Providerul funcțional este memorat pentru porniri ulterioare mai rapide, iar bufferul TV Live a fost optimizat.",
-      "O singură apăsare Înapoi închide canalul și revine direct la lista TV.",
-      "Pornirea TorrServer este stabilizată pe Mobile și TV fără blocarea verificării motorului."
+      "Fotografiile actorilor din Cast sunt rotunde și mai mari, adaptate pentru televizor.",
+      "Cinema Violet este gratuit și poate fi selectat pe Android TV.",
+      "Focusul Horizon urmărește telecomanda în meniu, categorii, canale, postere și surse.",
+      "Notificările, Istoricul, Subs.ro, TV Live și TorrServer păstrează corecțiile stabile.",
+      "DataScene rămâne momentan numai în test local."
     ]
   }
 }
