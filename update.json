@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-27T15:30:00+03:00",
+  "publishedAt": "2026-09-27T16:50:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -784,36 +784,52 @@
         "Memoria imaginilor este controlată mai atent, iar TorrServer pornește numai când este necesar și se oprește după inactivitate.",
         "DataScene rămâne momentan numai în test local și nu este activat în buildul public."
       ]
+    },
+    {
+      "versionCode": 130,
+      "versionName": "1.5.85",
+      "title": "MDBList, Istoric și iconiță OME Stream",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.85/Ome-Stream-Mobile-v1.5.85.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.85/Ome-Stream-TV-v1.5.85.apk",
+      "changes": [
+        "Sincronizarea MDBList ignoră numai intrările locale fără IMDb/TMDB și nu mai afișează eroarea HTTP 400.",
+        "Istoricul este pregătit în fundal și afișat progresiv, fără blocarea interfeței pe conturile cu multe titluri.",
+        "Primele 12 poziții apar rapid, iar restul pot fi încărcate cu Arată mai multe.",
+        "Ome Stream are o iconiță proprie în meniul aplicațiilor, cu sigla OME STREAM și numele complet.",
+        "În TV Live, categoriile și canalele selectate cu telecomanda au un focus portocaliu gros și vizibil.",
+        "TV Live rămâne activ pe Mobile și Android TV, iar DataScene rămâne exclus din buildul public."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 129,
-    "versionName": "1.5.84",
-    "title": "Cast, Crew și stabilitate îmbunătățite",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.84/Ome-Stream-Mobile-v1.5.84.apk",
+    "versionCode": 130,
+    "versionName": "1.5.85",
+    "title": "MDBList, Istoric și iconiță OME Stream",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.85/Ome-Stream-Mobile-v1.5.85.apk",
     "required": false,
     "changes": [
-      "Cast și Crew apar separat, cu fotografii rotunde și fără margini dreptunghiulare.",
-      "Un singur Like apare imediat după Lista mea, fără card în jur.",
-      "Pornirea și alegerea profilului folosesc mai puțină memorie și nu mai reconstruiesc interfața de două ori.",
-      "Cinema Violet este gratuit pentru toți utilizatorii.",
-      "TorrServer pornește doar la redare și se oprește automat după inactivitate.",
-      "DataScene rămâne momentan numai în test local."
+      "Eroarea HTTP 400 din sincronizarea MDBList este corectată fără ștergerea datelor locale.",
+      "Istoricul se deschide rapid și încarcă progresiv conturile cu multe titluri.",
+      "Iconița OME STREAM apare corect în meniul aplicațiilor, cu numele Ome Stream.",
+      "TV Live rămâne activ, iar DataScene rămâne momentan numai în test local."
     ]
   },
   "tv": {
-    "versionCode": 129,
-    "versionName": "1.5.84",
-    "title": "Cast, Crew și stabilitate TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.84/Ome-Stream-TV-v1.5.84.apk",
+    "versionCode": 130,
+    "versionName": "1.5.85",
+    "title": "MDBList și Istoric optimizate pe TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.85/Ome-Stream-TV-v1.5.85.apk",
     "required": false,
     "changes": [
-      "Cast și Crew apar separat, cu fotografii rotunde și fără carduri dreptunghiulare.",
-      "Focusul persoanelor este un inel circular, iar Like apare după Lista mea.",
-      "Pornirea folosește mai puțină memorie, fără reconstruirea dublă a profilului.",
-      "Cinema Violet este gratuit și poate fi selectat pe Android TV.",
-      "TorrServer pornește numai la redare și se oprește automat după inactivitate.",
-      "DataScene rămâne momentan numai în test local."
+      "Sincronizarea MDBList nu mai trimite intrări fără identificator și nu mai afișează eroarea HTTP 400.",
+      "Istoricul este pregătit în fundal și încărcat progresiv pentru navigare mai fluidă.",
+      "Categoriile și canalele TV Live au un focus portocaliu mai gros, cu contrast și mărire clare.",
+      "TV Live și toate fixurile existente pentru telecomandă rămân active.",
+      "DataScene rămâne exclus din buildul public."
     ]
   }
 }
