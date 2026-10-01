@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-09-27T16:50:00+03:00",
+  "publishedAt": "2026-10-01T20:28:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -803,33 +803,56 @@
         "În TV Live, categoriile și canalele selectate cu telecomanda au un focus portocaliu gros și vizibil.",
         "TV Live rămâne activ pe Mobile și Android TV, iar DataScene rămâne exclus din buildul public."
       ]
+    },
+    {
+      "versionCode": 133,
+      "versionName": "1.5.87",
+      "title": "Noul skin OME Celestial pentru telefon și TV",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.87/Ome-Stream-Mobile-v1.5.87.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.87/Ome-Stream-TV-v1.5.87.apk",
+      "changes": [
+        "Skin-ul OME Celestial este gratuit și are navigare laterală separată pe telefon și Android TV; pe TV este selectat automat o singură dată după actualizare.",
+        "Aspectul clasic rămâne disponibil în Studio interfață, fără a amesteca elementele celor două teme.",
+        "Bara laterală se derulează în landscape, Donație este sub Lista mea, iar grila de catalog se adaptează imediat la rotire.",
+        "Setările au dashboard în noul skin, iar titlurile urmărite local sau prin MDBList au marcaje de progres.",
+        "TV Live nu mai apare în Continuă vizionarea; playerul oferă descoperire DLNA/UPnP pentru surse HTTP accesibile în rețea.",
+        "Canalele TV Live pot fi salvate în Favorite, separat pentru fiecare profil, pe telefon și TV.",
+        "Notificarea de actualizare apare centrată în OME Celestial, iar barele de descărcare au culoarea aurie a skin-ului.",
+        "Este prevenit crash-ul produs de un dialog TorrServer afișat după închiderea ecranului; DataScene rămâne dezactivat."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 130,
-    "versionName": "1.5.85",
-    "title": "MDBList, Istoric și iconiță OME Stream",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.85/Ome-Stream-Mobile-v1.5.85.apk",
+    "versionCode": 133,
+    "versionName": "1.5.87",
+    "title": "OME Celestial și navigare adaptată telefonului",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.87/Ome-Stream-Mobile-v1.5.87.apk",
     "required": false,
     "changes": [
-      "Eroarea HTTP 400 din sincronizarea MDBList este corectată fără ștergerea datelor locale.",
-      "Istoricul se deschide rapid și încarcă progresiv conturile cu multe titluri.",
-      "Iconița OME STREAM apare corect în meniul aplicațiilor, cu numele Ome Stream.",
-      "TV Live rămâne activ, iar DataScene rămâne momentan numai în test local."
+      "Skin-ul gratuit OME Celestial include bara laterală derulabilă, cu Donație sub Lista mea.",
+      "Grila de filme și seriale se rearanjează la rotirea telefonului, fără să reintri în catalog.",
+      "Setările au dashboard; paginile noului skin nu mai arată butonul OME vechi.",
+      "Titlurile vizionate local sau prin MDBList au marcaj, iar TV Live nu mai apare în Continuă.",
+      "Canalele TV Live pot fi salvate și găsite în categoria Favorite a profilului.",
+      "Notificarea de update este centrată și are progres auriu în OME Celestial.",
+      "Playerul poate căuta dispozitive DLNA/UPnP pentru surse HTTP accesibile în rețea; DataScene rămâne dezactivat."
     ]
   },
   "tv": {
-    "versionCode": 130,
-    "versionName": "1.5.85",
-    "title": "MDBList și Istoric optimizate pe TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.85/Ome-Stream-TV-v1.5.85.apk",
+    "versionCode": 133,
+    "versionName": "1.5.87",
+    "title": "OME Celestial pentru Android TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.87/Ome-Stream-TV-v1.5.87.apk",
     "required": false,
     "changes": [
-      "Sincronizarea MDBList nu mai trimite intrări fără identificator și nu mai afișează eroarea HTTP 400.",
-      "Istoricul este pregătit în fundal și încărcat progresiv pentru navigare mai fluidă.",
-      "Categoriile și canalele TV Live au un focus portocaliu mai gros, cu contrast și mărire clare.",
-      "TV Live și toate fixurile existente pentru telecomandă rămân active.",
-      "DataScene rămâne exclus din buildul public."
+      "OME Celestial este selectat automat o singură dată după actualizare; aspectul clasic rămâne opțional în Studio interfață.",
+      "Bara laterală are Donație sub Lista mea, iar Setările au dashboard separat de celelalte skin-uri.",
+      "Marcajele de vizionare folosesc progresul local și MDBList; TV Live nu mai intră în Continuă vizionarea.",
+      "Canalele TV Live pot fi salvate în categoria Favorite cu telecomanda, separat pentru fiecare profil.",
+      "Playerul poate descoperi renderere DLNA/UPnP pentru linkuri HTTP accesibile de pe TV.",
+      "Notificarea de update este centrată și arată descărcarea în culoarea aurie a skin-ului.",
+      "Crash-ul provocat de dialogul TorrServer după ieșirea din ecran este prevenit; DataScene rămâne dezactivat."
     ]
   }
 }
