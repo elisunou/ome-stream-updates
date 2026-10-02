@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-01T20:28:00+03:00",
+  "publishedAt": "2026-10-02T16:40:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -821,38 +821,50 @@
         "Notificarea de actualizare apare centrată în OME Celestial, iar barele de descărcare au culoarea aurie a skin-ului.",
         "Este prevenit crash-ul produs de un dialog TorrServer afișat după închiderea ecranului; DataScene rămâne dezactivat."
       ]
+    },
+    {
+      "versionCode": 134,
+      "versionName": "1.5.88",
+      "title": "Subtitrări corecte și navigare fluidă",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.88/Ome-Stream-Mobile-v1.5.88.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.88/Ome-Stream-TV-v1.5.88.apk",
+      "changes": [
+        "Subtitrările sunt potrivite global după episod, titlul părții și fișierul video; limba preferată primește o singură alegere automată.",
+        "Sursele apar pe măsură ce răspund providerii, fără a aștepta toate rezultatele.",
+        "În OME Celestial pe telefon, «Vezi toate» folosește o grilă adaptată; glisările posterelor nu mai ies accidental din pagină.",
+        "Filme preferate și Seriale salvate deschid fiecare categoria corectă.",
+        "Rotirea catalogului nu mai provoacă eroarea de grilă pe telefon.",
+        "Playerul poate partaja fluxul TorrServer local cu un renderer DLNA/UPnP din aceeași rețea, dacă televizorul acceptă formatul."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 133,
-    "versionName": "1.5.87",
-    "title": "OME Celestial și navigare adaptată telefonului",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.87/Ome-Stream-Mobile-v1.5.87.apk",
+    "versionCode": 134,
+    "versionName": "1.5.88",
+    "title": "Subtitrări și catalog Celestial îmbunătățite",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.88/Ome-Stream-Mobile-v1.5.88.apk",
     "required": false,
     "changes": [
-      "Skin-ul gratuit OME Celestial include bara laterală derulabilă, cu Donație sub Lista mea.",
-      "Grila de filme și seriale se rearanjează la rotirea telefonului, fără să reintri în catalog.",
-      "Setările au dashboard; paginile noului skin nu mai arată butonul OME vechi.",
-      "Titlurile vizionate local sau prin MDBList au marcaj, iar TV Live nu mai apare în Continuă.",
-      "Canalele TV Live pot fi salvate și găsite în categoria Favorite a profilului.",
-      "Notificarea de update este centrată și are progres auriu în OME Celestial.",
-      "Playerul poate căuta dispozitive DLNA/UPnP pentru surse HTTP accesibile în rețea; DataScene rămâne dezactivat."
+      "Subtitrarea potrivită se alege după episod, partea episodului și fișierul video, inclusiv când intri din Continuă sau Istoric.",
+      "Sursele sunt afișate progresiv pe măsură ce răspund providerii.",
+      "«Vezi toate» arată posterele în grila potrivită pentru lățimea telefonului și nu mai iese din pagină la glisare.",
+      "Filme preferate și Seriale salvate sunt categorii separate.",
+      "Rotirea ecranului nu mai produce crash-ul grilei.",
+      "DLNA/UPnP poate transmite fluxul TorrServer local către un televizor din aceeași rețea; DataScene rămâne dezactivat."
     ]
   },
   "tv": {
-    "versionCode": 133,
-    "versionName": "1.5.87",
-    "title": "OME Celestial pentru Android TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.87/Ome-Stream-TV-v1.5.87.apk",
+    "versionCode": 134,
+    "versionName": "1.5.88",
+    "title": "Surse și subtitrări îmbunătățite pe TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.88/Ome-Stream-TV-v1.5.88.apk",
     "required": false,
     "changes": [
-      "OME Celestial este selectat automat o singură dată după actualizare; aspectul clasic rămâne opțional în Studio interfață.",
-      "Bara laterală are Donație sub Lista mea, iar Setările au dashboard separat de celelalte skin-uri.",
-      "Marcajele de vizionare folosesc progresul local și MDBList; TV Live nu mai intră în Continuă vizionarea.",
-      "Canalele TV Live pot fi salvate în categoria Favorite cu telecomanda, separat pentru fiecare profil.",
-      "Playerul poate descoperi renderere DLNA/UPnP pentru linkuri HTTP accesibile de pe TV.",
-      "Notificarea de update este centrată și arată descărcarea în culoarea aurie a skin-ului.",
-      "Crash-ul provocat de dialogul TorrServer după ieșirea din ecran este prevenit; DataScene rămâne dezactivat."
+      "Subtitrările sunt ordonate după episod, partea episodului și fișierul video; limba preferată are o singură potrivire automată.",
+      "Sursele apar progresiv, fără să aștepte toate provider-ele.",
+      "Playerul poate partaja un flux TorrServer local prin DLNA/UPnP în aceeași rețea, dacă rendererul acceptă formatul.",
+      "DataScene rămâne dezactivat în buildul public."
     ]
   }
 }
