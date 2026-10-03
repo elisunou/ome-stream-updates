@@ -837,33 +837,44 @@
         "Rotirea catalogului nu mai provoacă eroarea de grilă pe telefon.",
         "Playerul poate partaja fluxul TorrServer local cu un renderer DLNA/UPnP din aceeași rețea, dacă televizorul acceptă formatul."
       ]
+    },
+    {
+      "versionCode": 135,
+      "versionName": "1.5.89",
+      "title": "Favorite adaptive și căutare UPnP îmbunătățită",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.89/Ome-Stream-Mobile-v1.5.89.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.89/Ome-Stream-TV-v1.5.89.apk",
+      "changes": [
+        "Favorite se adaptează la rotirea telefonului și afișează mai multe postere pe rând în landscape.",
+        "Filme și Seriale încarcă primele categorii fără a bloca interfața; celelalte rămân accesibile prin Mai multe categorii.",
+        "Căutarea DLNA/UPnP verifică mai multe tipuri de răspuns și interfețe de rețea, cu opțiune de reîncercare.",
+        "Când nu există un renderer DLNA activ, playerul oferă și proiectarea ecranului ca alternativă."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 134,
-    "versionName": "1.5.88",
-    "title": "Subtitrări și catalog Celestial îmbunătățite",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.88/Ome-Stream-Mobile-v1.5.88.apk",
+    "versionCode": 135,
+    "versionName": "1.5.89",
+    "title": "Favorite adaptive și navigare mai fluidă",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.89/Ome-Stream-Mobile-v1.5.89.apk",
     "required": false,
     "changes": [
-      "Subtitrarea potrivită se alege după episod, partea episodului și fișierul video, inclusiv când intri din Continuă sau Istoric.",
-      "Sursele sunt afișate progresiv pe măsură ce răspund providerii.",
-      "«Vezi toate» arată posterele în grila potrivită pentru lățimea telefonului și nu mai iese din pagină la glisare.",
-      "Filme preferate și Seriale salvate sunt categorii separate.",
-      "Rotirea ecranului nu mai produce crash-ul grilei.",
-      "DLNA/UPnP poate transmite fluxul TorrServer local către un televizor din aceeași rețea; DataScene rămâne dezactivat."
+      "Favorite afișează mai multe postere pe rând în landscape și își rearanjează grila la rotire.",
+      "Filme și Seriale încarcă primele categorii progresiv; restul sunt disponibile prin Mai multe categorii.",
+      "DLNA/UPnP caută mai amplu dispozitive compatibile, permite reîncercarea și oferă proiectarea ecranului ca alternativă.",
+      "DataScene rămâne dezactivat în buildul public."
     ]
   },
   "tv": {
-    "versionCode": 134,
-    "versionName": "1.5.88",
-    "title": "Surse și subtitrări îmbunătățite pe TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.88/Ome-Stream-TV-v1.5.88.apk",
+    "versionCode": 135,
+    "versionName": "1.5.89",
+    "title": "Căutare DLNA/UPnP îmbunătățită",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.89/Ome-Stream-TV-v1.5.89.apk",
     "required": false,
     "changes": [
-      "Subtitrările sunt ordonate după episod, partea episodului și fișierul video; limba preferată are o singură potrivire automată.",
-      "Sursele apar progresiv, fără să aștepte toate provider-ele.",
-      "Playerul poate partaja un flux TorrServer local prin DLNA/UPnP în aceeași rețea, dacă rendererul acceptă formatul.",
+      "Căutarea DLNA/UPnP verifică mai multe tipuri de răspuns și interfețe de rețea.",
+      "Dacă nu găsește un renderer activ, playerul permite reîncercarea sau proiectarea ecranului.",
       "DataScene rămâne dezactivat în buildul public."
     ]
   }
