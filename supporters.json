@@ -1,5 +1,11 @@
 {
   "schema": 1,
-  "updatedAt": "2026-08-10T00:00:00+03:00",
-  "supporters": []
+  "updatedAt": "2026-10-03T12:00:00+03:00",
+  "supporters": [
+    {
+      "name": "Andrei",
+      "total": 10,
+      "currency": "EUR"
+    }
+  ]
 }
