@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-02T16:40:00+03:00",
+  "publishedAt": "2026-10-03T20:14:00+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -851,31 +851,42 @@
         "Căutarea DLNA/UPnP verifică mai multe tipuri de răspuns și interfețe de rețea, cu opțiune de reîncercare.",
         "Când nu există un renderer DLNA activ, playerul oferă și proiectarea ecranului ca alternativă."
       ]
+    },
+    {
+      "versionCode": 136,
+      "versionName": "1.5.90",
+      "title": "Redare TV Live reparată pentru canalele cu eroare 502",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-Mobile-v1.5.90.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-TV-v1.5.90.apk",
+      "changes": [
+        "Canalele TV Live afectate de un playlist intermediar cu eroare 502 încearcă fluxul direct verificat.",
+        "Antetele necesare redării sunt aplicate numai fluxului media, fără a trimite cheia TV către CDN.",
+        "Canalele care funcționau deja păstrează traseul de redare anterior; sursele indisponibile sunt semnalate corect."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 135,
-    "versionName": "1.5.89",
-    "title": "Favorite adaptive și navigare mai fluidă",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.89/Ome-Stream-Mobile-v1.5.89.apk",
+    "versionCode": 136,
+    "versionName": "1.5.90",
+    "title": "TV Live: fix pentru sursele 502",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-Mobile-v1.5.90.apk",
     "required": false,
     "changes": [
-      "Favorite afișează mai multe postere pe rând în landscape și își rearanjează grila la rotire.",
-      "Filme și Seriale încarcă primele categorii progresiv; restul sunt disponibile prin Mai multe categorii.",
-      "DLNA/UPnP caută mai amplu dispozitive compatibile, permite reîncercarea și oferă proiectarea ecranului ca alternativă.",
-      "DataScene rămâne dezactivat în buildul public."
+      "Canalele TV Live afectate de playlisturi intermediare cu eroare 502 folosesc un flux direct când acesta este disponibil.",
+      "FilmTV BoxOffice și alte canale testate fără logo pot porni cu antetele corecte; canalele existente nu sunt schimbate.",
+      "Cheia TV rămâne limitată la API, nu este trimisă către serverele video."
     ]
   },
   "tv": {
-    "versionCode": 135,
-    "versionName": "1.5.89",
-    "title": "Căutare DLNA/UPnP îmbunătățită",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.89/Ome-Stream-TV-v1.5.89.apk",
+    "versionCode": 136,
+    "versionName": "1.5.90",
+    "title": "TV Live: fix pentru sursele 502",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-TV-v1.5.90.apk",
     "required": false,
     "changes": [
-      "Căutarea DLNA/UPnP verifică mai multe tipuri de răspuns și interfețe de rețea.",
-      "Dacă nu găsește un renderer activ, playerul permite reîncercarea sau proiectarea ecranului.",
-      "DataScene rămâne dezactivat în buildul public."
+      "Aceeași corecție TV Live ca pe telefon: flux direct verificat când playlistul intermediar dă 502.",
+      "Antetele media sunt aplicate în player, iar cheia API nu este transmisă CDN-ului."
     ]
   }
 }
