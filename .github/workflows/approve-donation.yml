@@ -1,15 +1,24 @@
 name: Approve donation
 
 on:
+  push:
+    branches: [main]
+    paths: [supporters.json]
   workflow_dispatch:
     inputs:
+      operation:
+        description: 'Choose whether to view the current total or approve a new donation'
+        required: true
+        default: view
+        type: choice
+        options: [view, approve]
       public_name:
         description: 'Public display name (use Anonymous if consent was not given)'
-        required: true
+        required: false
         type: string
       amount_eur:
         description: 'Verified Revolut amount in EUR (€), e.g. 20.00'
-        required: true
+        required: false
         type: string
       name_consent:
         description: 'The donor agreed to display this name publicly'
@@ -25,13 +34,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  approve:
+  donations:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Show current donations and total
+        if: ${{ github.event_name == 'push' || inputs.operation == 'view' }}
+        run: node .github/scripts/show-donations.mjs
       - name: Add verified donation and recalculate total
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.operation == 'approve' }}
         env:
           DONOR_NAME: ${{ inputs.public_name }}
           DONATION_EUR: ${{ inputs.amount_eur }}
@@ -39,6 +52,7 @@ jobs:
           APPROVAL_ID: ${{ github.run_id }}
         run: node .github/scripts/approve-donation.mjs
       - name: Publish supporters list
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.operation == 'approve' }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
