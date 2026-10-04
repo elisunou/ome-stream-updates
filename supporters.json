@@ -1,12 +1,14 @@
 {
   "schema": 2,
-  "updatedAt": "2026-10-04T10:48:49+03:00",
-  "previousTotalCents": 2500,
+  "updatedAt": "2026-10-04T11:15:50+03:00",
+  "previousTotalCents": 0,
   "totalCents": 4500,
   "supporters": [
     {
       "name": "Andrei",
-      "amountCents": 2000,
+      "amountCents": 4500,
+      "lastDonationCents": 2000,
+      "donationCount": 2,
       "currency": "EUR",
       "approvalId": "migrated-andrei-2026-10-03",
       "approvedAt": "2026-10-03T12:00:00+03:00"

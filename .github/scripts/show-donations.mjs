@@ -28,7 +28,8 @@ for (const item of data.supporters) {
   }
   const key = donorKey(name);
   const donor = donors.get(key) || { name, lastCents: 0, totalCents: 0 };
-  donor.lastCents = item.amountCents;
+  donor.lastCents = Number.isSafeInteger(item.lastDonationCents)
+    ? item.lastDonationCents : item.amountCents;
   donor.totalCents += item.amountCents;
   donors.set(key, donor);
 }

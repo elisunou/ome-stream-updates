@@ -14,7 +14,8 @@ if (amountCents < 1 || amountCents > 10_000_000) {
 const approvalId = (process.env.APPROVAL_ID || '').trim();
 if (!/^\d+$/.test(approvalId)) throw new Error('Missing GitHub approval ID.');
 if (!Array.isArray(data.supporters)) throw new Error('Invalid supporters list.');
-if (data.supporters.some((entry) => entry.approvalId === approvalId)) {
+if (data.supporters.some((entry) => entry.approvalId === approvalId
+  || (Array.isArray(entry.approvalIds) && entry.approvalIds.includes(approvalId)))) {
   console.log('This approval was already recorded; no duplicate added.');
   process.exit(0);
 }
@@ -25,15 +26,35 @@ if (consent && (!rawName || rawName.length > 30)) {
   throw new Error('A consented public name must be 1–30 characters.');
 }
 const name = consent ? rawName : 'Anonim';
-data.supporters.push({
-  name,
-  amountCents,
-  currency: 'EUR',
-  approvalId,
-  approvedAt: new Date().toISOString(),
-});
+const donorKey = (value) => value.normalize('NFKC').trim()
+  .replace(/\s+/g, ' ').toLocaleLowerCase('ro-RO');
+const now = new Date().toISOString();
+const existing = consent ? data.supporters.find((entry) =>
+  donorKey(String(entry.name || '')) === donorKey(name)) : null;
+if (existing) {
+  if (!Number.isSafeInteger(existing.amountCents) || existing.amountCents < 0) {
+    throw new Error('Existing donor has an invalid total.');
+  }
+  existing.amountCents += amountCents;
+  existing.lastDonationCents = amountCents;
+  existing.donationCount = Math.max(1, existing.donationCount || 1) + 1;
+  existing.approvalIds = Array.isArray(existing.approvalIds)
+    ? existing.approvalIds : [];
+  existing.approvalIds.push(approvalId);
+  existing.approvedAt = now;
+} else {
+  data.supporters.push({
+    name,
+    amountCents,
+    lastDonationCents: amountCents,
+    donationCount: 1,
+    currency: 'EUR',
+    approvalId,
+    approvedAt: now,
+  });
+}
 data.schema = 2;
-data.updatedAt = new Date().toISOString();
+data.updatedAt = now;
 const previousTotalCents = data.previousTotalCents || 0;
 if (!Number.isSafeInteger(previousTotalCents) || previousTotalCents < 0) {
   throw new Error('Invalid previous donation total.');
@@ -48,8 +69,6 @@ writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
 const euro = (cents) => `${new Intl.NumberFormat('ro-RO', {
   minimumFractionDigits: 2, maximumFractionDigits: 2,
 }).format(cents / 100)} €`;
-const donorKey = (value) => value.normalize('NFKC').trim()
-  .replace(/\s+/g, ' ').toLocaleLowerCase('ro-RO');
 const donorTotalCents = consent ? data.supporters.reduce((sum, entry) =>
   donorKey(String(entry.name || '')) === donorKey(name)
     ? sum + entry.amountCents : sum, 0) : null;
