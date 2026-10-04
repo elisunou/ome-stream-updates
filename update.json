@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-04T11:45:00+03:00",
+  "publishedAt": "2026-10-04T16:41:19+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -883,28 +883,40 @@
         "Donațiile aprobate afișează numele public, suma și simbolul €.",
         "Totalul donațiilor confirmate este calculat automat, inclusiv donațiile anterioare."
       ]
+    },
+    {
+      "versionCode": 138,
+      "versionName": "1.5.92",
+      "title": "TV Live restaurat și donații cumulate",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.92/Ome-Stream-Mobile-v1.5.92.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.92/Ome-Stream-TV-v1.5.92.apk",
+      "changes": [
+        "TV Live revine pe telefon și TV cu configurația validă din 1.5.90.",
+        "La Donație se văd ultima plată și totalul cumulat pe rândul fiecărui susținător."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 136,
-    "versionName": "1.5.90",
-    "title": "TV Live: fix pentru sursele 502",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-Mobile-v1.5.90.apk",
+    "versionCode": 138,
+    "versionName": "1.5.92",
+    "title": "TV Live restaurat",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.92/Ome-Stream-Mobile-v1.5.92.apk",
     "required": false,
     "changes": [
-      "Canalele TV Live afectate de playlisturi intermediare cu eroare 502 folosesc un flux direct când acesta este disponibil.",
-      "FilmTV BoxOffice și alte canale testate fără logo pot porni cu antetele corecte."
+      "Meniul TV Live și canalele reapar, folosind configurația funcțională din 1.5.90.",
+      "Donația arată ultima sumă și totalul donat de fiecare susținător."
     ]
   },
   "tv": {
-    "versionCode": 136,
-    "versionName": "1.5.90",
-    "title": "TV Live: fix pentru sursele 502",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-TV-v1.5.90.apk",
+    "versionCode": 138,
+    "versionName": "1.5.92",
+    "title": "TV Live restaurat",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.92/Ome-Stream-TV-v1.5.92.apk",
     "required": false,
     "changes": [
-      "Aceeași corecție TV Live ca pe telefon: flux direct verificat când playlistul intermediar dă 502.",
-      "Antetele media sunt aplicate în player, iar cheia API nu este transmisă CDN-ului."
+      "Meniul TV Live revine și pe Android TV cu adresa serviciului și cheia valide.",
+      "Lista donațiilor păstrează sumele și totalul cumulat."
     ]
   }
 }
