@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { appendFileSync, readFileSync, writeFileSync } from 'node:fs';
 
 const file = new URL('../../supporters.json', import.meta.url);
 const data = JSON.parse(readFileSync(file, 'utf8'));
@@ -45,4 +45,11 @@ data.totalCents = data.supporters.reduce((sum, entry) => {
   return sum + entry.amountCents;
 }, previousTotalCents);
 writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
-console.log('Verified donation added and total recalculated.');
+const euro = (cents) => new Intl.NumberFormat('ro-RO', {
+  style: 'currency', currency: 'EUR',
+}).format(cents / 100);
+const summary = `## Donație aprobată\n\n${name}: ${euro(amountCents)}\n\nTotal confirmat: **${euro(data.totalCents)}**\n`;
+if (process.env.GITHUB_STEP_SUMMARY) {
+  appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary);
+}
+console.log(`Verified donation added. New total: ${euro(data.totalCents)}`);
