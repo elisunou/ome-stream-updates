@@ -69,7 +69,14 @@
     "channels": ["phone", "tv"],
     "title": "Vă mulțumesc! 😊",
     "detail": "Vă mulțumesc din suflet că folosiți Ome Stream! Sper ca aplicația să devină din ce în ce mai bună, cu o interfață tot mai frumoasă și mai plăcută de folosit. Trebuie să fiu sincer cu voi: nu știu să codez de unul singur, mă bazez pe AI și pe creditele lunare pe care le am, care uneori se termină mai repede decât aș vrea 😅 Vă rog să aveți puțintică răbdare cu mine — fac tot ce pot, cu ce am, ca să vă ofer o experiență mai bună. Mulțumesc că sunteți alături de mine în povestea asta! 🙏💜"
-  }
+  },
+    {
+      "id": "programe-tv-eroare-2026-10-04",
+      "active": true,
+      "channels": ["phone", "tv"],
+      "title": "Programele TV revin în curând 📺",
+      "detail": "În curând vor fi din nou disponibile și programele TV. Din cauza unei erori, acestea au fost scoase, dar vor reveni în curând."
+    }
 
   ],
   "updateHistory": [
