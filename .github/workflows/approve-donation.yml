@@ -40,9 +40,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Show current donations and total
-        if: ${{ github.event_name == 'push' || inputs.operation == 'view' }}
-        run: node .github/scripts/show-donations.mjs
       - name: Add verified donation and recalculate total
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.operation == 'approve' }}
         env:
@@ -51,6 +48,8 @@ jobs:
           NAME_CONSENT: ${{ inputs.name_consent }}
           APPROVAL_ID: ${{ github.run_id }}
         run: node .github/scripts/approve-donation.mjs
+      - name: Show every donor and their cumulative total
+        run: node .github/scripts/show-donations.mjs
       - name: Publish supporters list
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.operation == 'approve' }}
         run: |
