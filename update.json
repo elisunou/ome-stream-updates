@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-04T16:41:19+03:00",
+  "publishedAt": "2026-10-04T17:01:22+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -895,28 +895,40 @@
         "TV Live revine pe telefon și TV cu configurația validă din 1.5.90.",
         "La Donație se văd ultima plată și totalul cumulat pe rândul fiecărui susținător."
       ]
+    },
+    {
+      "versionCode": 139,
+      "versionName": "1.5.93",
+      "title": "Poziția subtitrării din CC",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.93/Ome-Stream-Mobile-v1.5.93.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.93/Ome-Stream-TV-v1.5.93.apk",
+      "changes": [
+        "Din CC, utilizatorul poate muta subtitrarea mai sus sau mai jos și poate salva poziția pentru profilul său.",
+        "TV Live și donațiile cumulate rămân disponibile pe telefon și Android TV."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 138,
-    "versionName": "1.5.92",
-    "title": "TV Live restaurat",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.92/Ome-Stream-Mobile-v1.5.92.apk",
+    "versionCode": 139,
+    "versionName": "1.5.93",
+    "title": "Poziția subtitrării din CC",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.93/Ome-Stream-Mobile-v1.5.93.apk",
     "required": false,
     "changes": [
-      "Meniul TV Live și canalele reapar, folosind configurația funcțională din 1.5.90.",
-      "Donația arată ultima sumă și totalul donat de fiecare susținător."
+      "Din CC, apasă Poziție și mută subtitrarea mai sus sau mai jos; alegerea se salvează pentru profilul tău.",
+      "TV Live și donațiile cumulate rămân disponibile."
     ]
   },
   "tv": {
-    "versionCode": 138,
-    "versionName": "1.5.92",
-    "title": "TV Live restaurat",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.92/Ome-Stream-TV-v1.5.92.apk",
+    "versionCode": 139,
+    "versionName": "1.5.93",
+    "title": "Poziția subtitrării din CC",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.93/Ome-Stream-TV-v1.5.93.apk",
     "required": false,
     "changes": [
-      "Meniul TV Live revine și pe Android TV cu adresa serviciului și cheia valide.",
-      "Lista donațiilor păstrează sumele și totalul cumulat."
+      "Din CC, apasă Poziție și mută subtitrarea mai sus sau mai jos cu telecomanda; alegerea se salvează pentru profil.",
+      "TV Live și donațiile cumulate rămân disponibile."
     ]
   }
 }
