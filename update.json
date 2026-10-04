@@ -876,7 +876,7 @@
       "versionCode": 137,
       "versionName": "1.5.91",
       "title": "Donații confirmate și total automat",
-      "channels": ["phone", "tv"],
+      "channels": [],
       "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.91/Ome-Stream-Mobile-v1.5.91.apk",
       "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.91/Ome-Stream-TV-v1.5.91.apk",
       "changes": [
@@ -886,25 +886,25 @@
     }
   ],
   "phone": {
-    "versionCode": 137,
-    "versionName": "1.5.91",
-    "title": "Donații: sume și total automat",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.91/Ome-Stream-Mobile-v1.5.91.apk",
+    "versionCode": 136,
+    "versionName": "1.5.90",
+    "title": "TV Live: fix pentru sursele 502",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-Mobile-v1.5.90.apk",
     "required": false,
     "changes": [
-      "Numele și suma fiecărui susținător aprobat sunt afișate cu simbolul €.",
-      "Totalul donațiilor confirmate se actualizează din lista publicată pe GitHub."
+      "Canalele TV Live afectate de playlisturi intermediare cu eroare 502 folosesc un flux direct când acesta este disponibil.",
+      "FilmTV BoxOffice și alte canale testate fără logo pot porni cu antetele corecte."
     ]
   },
   "tv": {
-    "versionCode": 137,
-    "versionName": "1.5.91",
-    "title": "Donații: sume și total automat",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.91/Ome-Stream-TV-v1.5.91.apk",
+    "versionCode": 136,
+    "versionName": "1.5.90",
+    "title": "TV Live: fix pentru sursele 502",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.90/Ome-Stream-TV-v1.5.90.apk",
     "required": false,
     "changes": [
-      "Aceeași listă de donații confirmate este afișată pe TV, cu suma și simbolul €.",
-      "Totalul în euro este calculat automat din donațiile aprobate și cele anterioare."
+      "Aceeași corecție TV Live ca pe telefon: flux direct verificat când playlistul intermediar dă 502.",
+      "Antetele media sunt aplicate în player, iar cheia API nu este transmisă CDN-ului."
     ]
   }
 }
