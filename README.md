@@ -21,3 +21,6 @@ consimțământul, iar lista va afișa „Anonim”. Workflow-ul adaugă donați
 singură dată și recalculează automat `totalCents` din donațiile aprobate plus
 `previousTotalCents` (donațiile anterioare). Plățile nu sunt verificate automat
 de GitHub; confirmarea în Revolut trebuie făcută înainte de aprobare.
+Raportul `view` afișează ultima donație și totalul cumulat pentru fiecare nume
+public; numele identice (fără diferențe de majuscule sau spații) sunt tratate ca
+același susținător. Donațiile anonime rămân separate.

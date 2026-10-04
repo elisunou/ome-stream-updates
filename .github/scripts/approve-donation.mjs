@@ -48,8 +48,19 @@ writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
 const euro = (cents) => `${new Intl.NumberFormat('ro-RO', {
   minimumFractionDigits: 2, maximumFractionDigits: 2,
 }).format(cents / 100)} €`;
-const summary = `## Donație aprobată\n\n${name}: ${euro(amountCents)}\n\nTotal confirmat: **${euro(data.totalCents)}**\n`;
+const donorKey = (value) => value.normalize('NFKC').trim()
+  .replace(/\s+/g, ' ').toLocaleLowerCase('ro-RO');
+const donorTotalCents = consent ? data.supporters.reduce((sum, entry) =>
+  donorKey(String(entry.name || '')) === donorKey(name)
+    ? sum + entry.amountCents : sum, 0) : null;
+const summary = [
+  '## Donație aprobată', '',
+  `${name} · donația nouă: ${euro(amountCents)}`,
+  ...(donorTotalCents === null ? []
+    : [`${name} · total donat: **${euro(donorTotalCents)}**`]),
+  `Total general confirmat: **${euro(data.totalCents)}**`, '',
+].join('\n');
 if (process.env.GITHUB_STEP_SUMMARY) {
   appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary);
 }
-console.log(`Verified donation added. New total: ${euro(data.totalCents)}`);
+console.log(summary);
