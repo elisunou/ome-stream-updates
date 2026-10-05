@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "updatedAt": "2026-10-04T11:15:50+03:00",
+  "updatedAt": "2026-10-05T20:42:11Z",
   "previousTotalCents": 0,
-  "totalCents": 4500,
+  "totalCents": 6000,
   "supporters": [
     {
       "name": "Andrei",
@@ -12,6 +12,16 @@
       "currency": "EUR",
       "approvalId": "migrated-andrei-2026-10-03",
       "approvedAt": "2026-10-03T12:00:00+03:00"
+    },
+    {
+      "name": "Mihai Cătălin",
+      "amountCents": 1500,
+      "lastDonationCents": 1500,
+      "donationCount": 1,
+      "currency": "EUR",
+      "approvalId": "manual-mihai-catalin-2026-10-05-15eur",
+      "approvalIds": ["37369594061"],
+      "approvedAt": "2026-10-05T20:42:11Z"
     }
   ]
 }
