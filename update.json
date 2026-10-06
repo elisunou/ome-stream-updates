@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-04T17:01:22+03:00",
+  "publishedAt": "2026-10-06T15:08:33+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -907,27 +907,43 @@
         "Din CC, utilizatorul poate muta subtitrarea mai sus sau mai jos și poate salva poziția pentru profilul său.",
         "TV Live și donațiile cumulate rămân disponibile pe telefon și Android TV."
       ]
+    },
+    {
+      "versionCode": 140,
+      "versionName": "1.5.94",
+      "title": "Grile adaptive și navigare TV îmbunătățită",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.94/Ome-Stream-Mobile-v1.5.94.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.94/Ome-Stream-TV-v1.5.94.apk",
+      "changes": [
+        "Filmele, serialele și favoritele folosesc grile adaptate la dimensiunea și orientarea ecranului.",
+        "Meniul de pe Android TV rămâne vertical pe paginile de catalog, iar telecomanda poate selecta distinct butonul Salvează la canalele TV.",
+        "Playerul verifică pistele și decodoarele audio ale dispozitivului și folosește redarea compatibilă când este necesar.",
+        "TV Live și datele de donații rămân disponibile în ambele versiuni."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 139,
-    "versionName": "1.5.93",
-    "title": "Poziția subtitrării din CC",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.93/Ome-Stream-Mobile-v1.5.93.apk",
+    "versionCode": 140,
+    "versionName": "1.5.94",
+    "title": "Postere adaptive și audio compatibil",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.94/Ome-Stream-Mobile-v1.5.94.apk",
     "required": false,
     "changes": [
-      "Din CC, apasă Poziție și mută subtitrarea mai sus sau mai jos; alegerea se salvează pentru profilul tău.",
+      "Filmele, serialele și favoritele se așază pe mai multe coloane în landscape și umplu lățimea disponibilă.",
+      "Playerul verifică automat pista și decodorul audio al telefonului și încearcă motorul compatibil când este necesar.",
       "TV Live și donațiile cumulate rămân disponibile."
     ]
   },
   "tv": {
-    "versionCode": 139,
-    "versionName": "1.5.93",
-    "title": "Poziția subtitrării din CC",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.93/Ome-Stream-TV-v1.5.93.apk",
+    "versionCode": 140,
+    "versionName": "1.5.94",
+    "title": "Meniu vertical și grile TV adaptive",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.94/Ome-Stream-TV-v1.5.94.apk",
     "required": false,
     "changes": [
-      "Din CC, apasă Poziție și mută subtitrarea mai sus sau mai jos cu telecomanda; alegerea se salvează pentru profil.",
+      "Meniul rămâne vertical și în cataloagele Filme și Seriale; posterele folosesc lățimea ecranului.",
+      "În TV Live, telecomanda poate focaliza separat Salvează de pe fiecare canal.",
       "TV Live și donațiile cumulate rămân disponibile."
     ]
   }
