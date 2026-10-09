@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-06T15:08:33+03:00",
+  "publishedAt": "2026-10-09T11:36:42+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -921,30 +921,44 @@
         "Playerul verifică pistele și decodoarele audio ale dispozitivului și folosește redarea compatibilă când este necesar.",
         "TV Live și datele de donații rămân disponibile în ambele versiuni."
       ]
+    },
+    {
+      "versionCode": 141,
+      "versionName": "1.5.95",
+      "title": "ExoPlayer prioritar și focus vizibil pe TV",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.95/Ome-Stream-Mobile-v1.5.95.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.95/Ome-Stream-TV-v1.5.95.apk",
+      "changes": [
+        "ExoPlayer pornește primul pe telefon și TV; VLC rămâne fallback când decodorul audio lipsește sau apare o eroare reală.",
+        "Focusul comenzilor de redare este mai vizibil pe Android TV.",
+        "Poziția meniului lateral pe mobil se păstrează când alegi o secțiune.",
+        "TV Live și restul funcțiilor rămân disponibile."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 140,
-    "versionName": "1.5.94",
-    "title": "Postere adaptive și audio compatibil",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.94/Ome-Stream-Mobile-v1.5.94.apk",
+    "versionCode": 141,
+    "versionName": "1.5.95",
+    "title": "ExoPlayer prioritar",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.95/Ome-Stream-Mobile-v1.5.95.apk",
     "required": false,
     "changes": [
-      "Filmele, serialele și favoritele se așază pe mai multe coloane în landscape și umplu lățimea disponibilă.",
-      "Playerul verifică automat pista și decodorul audio al telefonului și încearcă motorul compatibil când este necesar.",
-      "TV Live și donațiile cumulate rămân disponibile."
+      "ExoPlayer pornește primul; VLC se folosește doar când pista audio nu poate fi redată corect.",
+      "Meniul lateral își păstrează poziția după selectarea unei secțiuni.",
+      "TV Live rămâne disponibil."
     ]
   },
   "tv": {
-    "versionCode": 140,
-    "versionName": "1.5.94",
-    "title": "Meniu vertical și grile TV adaptive",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.94/Ome-Stream-TV-v1.5.94.apk",
+    "versionCode": 141,
+    "versionName": "1.5.95",
+    "title": "Focus player și ExoPlayer prioritar",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.95/Ome-Stream-TV-v1.5.95.apk",
     "required": false,
     "changes": [
-      "Meniul rămâne vertical și în cataloagele Filme și Seriale; posterele folosesc lățimea ecranului.",
-      "În TV Live, telecomanda poate focaliza separat Salvează de pe fiecare canal.",
-      "TV Live și donațiile cumulate rămân disponibile."
+      "Focusul comenzilor Play, Pauză și Seek este mai vizibil pe telecomandă.",
+      "ExoPlayer pornește primul, cu VLC fallback la incompatibilități audio reale.",
+      "TV Live rămâne disponibil."
     ]
   }
 }
