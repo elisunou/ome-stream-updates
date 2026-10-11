@@ -20,8 +20,6 @@
       "donationCount": 1,
       "currency": "EUR",
       "approvalId": "manual-mihai-catalin-2026-10-05-15eur",
-      "approvalIds": [
-        "37369594061"
-      ],
+      "approvalIds": "37369594061"
       "approvedAt": "2026-10-05T20:42:11Z"
     }
