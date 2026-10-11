@@ -24,15 +24,4 @@
         "37369594061"
       ],
       "approvedAt": "2026-10-05T20:42:11Z"
-    },
-    {
-      "name": "Anonim",
-      "amountCents": 865,
-      "lastDonationCents": 865,
-      "donationCount": 1,
-      "currency": "EUR",
-      "approvalId": "38175823942",
-      "approvedAt": "2026-10-11T21:18:40.779Z"
     }
-  ]
-}
