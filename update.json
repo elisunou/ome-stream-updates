@@ -935,29 +935,42 @@
         "Poziția meniului lateral pe mobil se păstrează când alegi o secțiune.",
         "TV Live și restul funcțiilor rămân disponibile."
       ]
+    },
+    {
+      "versionCode": 143,
+      "versionName": "1.5.97",
+      "title": "Selectare surse TV Live în tema activă",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.97/Ome-Stream-Mobile-v1.5.97.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.97/Ome-Stream-TV-v1.5.97.apk",
+      "changes": [
+        "Meniul Servere din TV Live folosește culorile skin-ului activ, inclusiv Celestial.",
+        "Sursa selectată are o bifă vizibilă; redarea automată rămâne implicită.",
+        "TV Live și restul funcțiilor rămân disponibile."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 141,
-    "versionName": "1.5.95",
-    "title": "ExoPlayer prioritar",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.95/Ome-Stream-Mobile-v1.5.95.apk",
+    "versionCode": 143,
+    "versionName": "1.5.97",
+    "title": "Surse TV Live în tema activă",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.97/Ome-Stream-Mobile-v1.5.97.apk",
     "required": false,
     "changes": [
-      "ExoPlayer pornește primul; VLC se folosește doar când pista audio nu poate fi redată corect.",
-      "Meniul lateral își păstrează poziția după selectarea unei secțiuni.",
+      "Meniul Servere din TV Live urmează tema activă și arată bifa sursei alese.",
+      "Redarea automată rămâne implicită.",
       "TV Live rămâne disponibil."
     ]
   },
   "tv": {
-    "versionCode": 141,
-    "versionName": "1.5.95",
-    "title": "Focus player și ExoPlayer prioritar",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.95/Ome-Stream-TV-v1.5.95.apk",
+    "versionCode": 143,
+    "versionName": "1.5.97",
+    "title": "Surse TV Live în tema activă",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.97/Ome-Stream-TV-v1.5.97.apk",
     "required": false,
     "changes": [
-      "Focusul comenzilor Play, Pauză și Seek este mai vizibil pe telecomandă.",
-      "ExoPlayer pornește primul, cu VLC fallback la incompatibilități audio reale.",
+      "Meniul Servere din TV Live urmează tema activă și arată bifa sursei alese.",
+      "Redarea automată rămâne implicită.",
       "TV Live rămâne disponibil."
     ]
   }
