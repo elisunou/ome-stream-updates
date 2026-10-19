@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-09T11:36:42+03:00",
+  "publishedAt": "2026-10-19T10:13:10+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -948,29 +948,42 @@
         "Sursa selectată are o bifă vizibilă; redarea automată rămâne implicită.",
         "TV Live și restul funcțiilor rămân disponibile."
       ]
+    },
+    {
+      "versionCode": 144,
+      "versionName": "1.5.98",
+      "title": "Filme și seriale românești",
+      "channels": ["phone", "tv"],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.98/Ome-Stream-Mobile-v1.5.98.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.98/Ome-Stream-TV-v1.5.98.apk",
+      "changes": [
+        "Secțiunea Românești din meniul lateral include seriale și filme cu căutare proprie.",
+        "Titlurile românești apar cu denumirile lor locale.",
+        "TV Live și celelalte funcții rămân disponibile."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 143,
-    "versionName": "1.5.97",
-    "title": "Surse TV Live în tema activă",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.97/Ome-Stream-Mobile-v1.5.97.apk",
+    "versionCode": 144,
+    "versionName": "1.5.98",
+    "title": "Filme și seriale românești",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.98/Ome-Stream-Mobile-v1.5.98.apk",
     "required": false,
     "changes": [
-      "Meniul Servere din TV Live urmează tema activă și arată bifa sursei alese.",
-      "Redarea automată rămâne implicită.",
+      "Noua secțiune Românești include seriale, filme și căutare proprie.",
+      "Titlurile apar cu denumirile lor românești.",
       "TV Live rămâne disponibil."
     ]
   },
   "tv": {
-    "versionCode": 143,
-    "versionName": "1.5.97",
-    "title": "Surse TV Live în tema activă",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.97/Ome-Stream-TV-v1.5.97.apk",
+    "versionCode": 144,
+    "versionName": "1.5.98",
+    "title": "Filme și seriale românești",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.98/Ome-Stream-TV-v1.5.98.apk",
     "required": false,
     "changes": [
-      "Meniul Servere din TV Live urmează tema activă și arată bifa sursei alese.",
-      "Redarea automată rămâne implicită.",
+      "Noua secțiune Românești include seriale, filme și căutare proprie.",
+      "Titlurile apar cu denumirile lor românești.",
       "TV Live rămâne disponibil."
     ]
   }
