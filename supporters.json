@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "updatedAt": "2026-10-20T14:19:24.384Z",
+  "updatedAt": "2026-10-20T14:22:32.852Z",
   "previousTotalCents": 0,
-  "totalCents": 8000,
+  "totalCents": 9000,
   "supporters": [
     {
       "name": "Andrei",
@@ -33,6 +33,15 @@
       "currency": "EUR",
       "approvalId": "39438145566",
       "approvedAt": "2026-10-20T14:19:24.384Z"
+    },
+    {
+      "name": "Anonim",
+      "amountCents": 1000,
+      "lastDonationCents": 1000,
+      "donationCount": 1,
+      "currency": "EUR",
+      "approvalId": "39438621982",
+      "approvedAt": "2026-10-20T14:22:32.852Z"
     }
   ]
 }
