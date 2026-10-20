@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "updatedAt": "2026-10-11T21:18:40.779Z",
+  "updatedAt": "2026-10-20T14:19:24.384Z",
   "previousTotalCents": 0,
-  "totalCents": 6000,
+  "totalCents": 8000,
   "supporters": [
     {
       "name": "Andrei",
@@ -20,8 +20,19 @@
       "donationCount": 1,
       "currency": "EUR",
       "approvalId": "manual-mihai-catalin-2026-10-05-15eur",
-      "approvalIds": ["37369594061"],
+      "approvalIds": [
+        "37369594061"
+      ],
       "approvedAt": "2026-10-05T20:42:11Z"
+    },
+    {
+      "name": "Anonim",
+      "amountCents": 2000,
+      "lastDonationCents": 2000,
+      "donationCount": 1,
+      "currency": "EUR",
+      "approvalId": "39438145566",
+      "approvedAt": "2026-10-20T14:19:24.384Z"
     }
   ]
 }
