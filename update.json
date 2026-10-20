@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-20T13:31:58+03:00",
+  "publishedAt": "2026-10-20T18:38:02+03:00",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1012,30 +1012,46 @@
         "Gestionarea sesiunii urmează OME Stream RDS Test; fixul de segmentare rămâne activ.",
         "Butoanele playerului sunt discrete, iar Umple ecranul rămâne disponibil."
       ]
+    },
+    {
+      "versionCode": 146,
+      "versionName": "1.5.100",
+      "title": "TV Live: focus și redare mai fluide",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.100/Ome-Stream-Mobile-v1.5.100.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.100/Ome-Stream-TV-v1.5.100.apk",
+      "changes": [
+        "TV Live: focus mai vizibil pe categorii, canale și butoanele playerului.",
+        "Pe Android TV, controalele se ascund după 2 secunde de redare și reapar la telecomandă.",
+        "Buffering inițial mai scurt pentru sursele valide; Back închide playerul și sesiunea locală."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 145,
-    "versionName": "1.5.99",
-    "title": "TV Live și player îmbunătățit",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.99/Ome-Stream-Mobile-v1.5.99.apk",
+    "versionCode": 146,
+    "versionName": "1.5.100",
+    "title": "TV Live: focus și redare mai fluide",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.100/Ome-Stream-Mobile-v1.5.100.apk",
     "required": false,
     "changes": [
-      "TV Live: catalog RDSLive și redare în ExoPlayer cu surse și calități selectabile.",
-      "Gestionarea sesiunii urmează OME Stream RDS Test; fixul de segmentare rămâne activ.",
-      "Butoanele playerului sunt discrete, iar Umple ecranul rămâne disponibil."
+      "TV Live: focus mai vizibil pe categorii, canale și butoanele playerului.",
+      "Pe Android TV, controalele se ascund după 2 secunde de redare și reapar la telecomandă.",
+      "Buffering inițial mai scurt pentru sursele valide; Back închide playerul și sesiunea locală."
     ]
   },
   "tv": {
-    "versionCode": 145,
-    "versionName": "1.5.99",
-    "title": "TV Live și player îmbunătățit",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.99/Ome-Stream-TV-v1.5.99.apk",
+    "versionCode": 146,
+    "versionName": "1.5.100",
+    "title": "TV Live: focus și redare mai fluide",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.100/Ome-Stream-TV-v1.5.100.apk",
     "required": false,
     "changes": [
-      "TV Live: catalog RDSLive și redare în ExoPlayer cu surse și calități selectabile.",
-      "Gestionarea sesiunii urmează OME Stream RDS Test; fixul de segmentare rămâne activ.",
-      "Butoanele playerului sunt discrete, iar Umple ecranul rămâne disponibil."
+      "TV Live: focus mai vizibil pe categorii, canale și butoanele playerului.",
+      "Pe Android TV, controalele se ascund după 2 secunde de redare și reapar la telecomandă.",
+      "Buffering inițial mai scurt pentru sursele valide; Back închide playerul și sesiunea locală."
     ]
   }
 }
