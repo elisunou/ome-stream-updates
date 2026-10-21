@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-21T12:36:40Z",
+  "publishedAt": "2026-10-21T13:18:35Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1044,30 +1044,43 @@
         "Sesiunea canalului anterior este închisă înainte de pornirea următorului; redarea segmentată rămâne activă.",
         "Controalele se ascund în timpul schimbării canalului; selecția sursei și opțiunea Umple ecranul rămân disponibile."
       ]
+    },
+    {
+      "versionCode": 148,
+      "versionName": "1.5.102",
+      "title": "Navigare telecomandă între postere",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.102/Ome-Stream-Mobile-v1.5.102.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.102/Ome-Stream-TV-v1.5.102.apk",
+      "changes": [
+        "Pe Android TV, Dreapta și Stânga navighează în ordinea vizuală a posterelor, fără salt de la ultimul poster la primul.",
+        "TV Live, redarea, skinurile și autentificarea Google au rămas neschimbate."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 147,
-    "versionName": "1.5.101",
-    "title": "TV Live: schimbare rapidă a canalelor",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.101/Ome-Stream-Mobile-v1.5.101.apk",
+    "versionCode": 148,
+    "versionName": "1.5.102",
+    "title": "Navigare telecomandă între postere",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.102/Ome-Stream-Mobile-v1.5.102.apk",
     "required": false,
     "changes": [
-      "TV Live: schimbarea canalelor prin glisare pe telefon și prin tastele de canal/direcție pe Android TV.",
-      "Sesiunea canalului anterior este închisă înainte de pornirea următorului; redarea segmentată rămâne activă.",
-      "Controalele se ascund în timpul schimbării canalului; selecția sursei și opțiunea Umple ecranul rămân disponibile."
+      "Pe Android TV, Dreapta și Stânga navighează în ordinea vizuală a posterelor, fără salt de la ultimul poster la primul.",
+      "TV Live, redarea, skinurile și autentificarea Google au rămas neschimbate."
     ]
   },
   "tv": {
-    "versionCode": 147,
-    "versionName": "1.5.101",
-    "title": "TV Live: schimbare rapidă a canalelor",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.101/Ome-Stream-TV-v1.5.101.apk",
+    "versionCode": 148,
+    "versionName": "1.5.102",
+    "title": "Navigare telecomandă între postere",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.102/Ome-Stream-TV-v1.5.102.apk",
     "required": false,
     "changes": [
-      "TV Live: schimbarea canalelor prin glisare pe telefon și prin tastele de canal/direcție pe Android TV.",
-      "Sesiunea canalului anterior este închisă înainte de pornirea următorului; redarea segmentată rămâne activă.",
-      "Controalele se ascund în timpul schimbării canalului; selecția sursei și opțiunea Umple ecranul rămân disponibile."
+      "Pe Android TV, Dreapta și Stânga navighează în ordinea vizuală a posterelor, fără salt de la ultimul poster la primul.",
+      "TV Live, redarea, skinurile și autentificarea Google au rămas neschimbate."
     ]
   }
 }
