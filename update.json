@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-20T18:38:02+03:00",
+  "publishedAt": "2026-10-21T12:36:40Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1028,30 +1028,46 @@
         "Pe Android TV, controalele se ascund după 2 secunde de redare și reapar la telecomandă.",
         "Buffering inițial mai scurt pentru sursele valide; Back închide playerul și sesiunea locală."
       ]
+    },
+    {
+      "versionCode": 147,
+      "versionName": "1.5.101",
+      "title": "TV Live: schimbare rapidă a canalelor",
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.101/Ome-Stream-Mobile-v1.5.101.apk",
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.101/Ome-Stream-TV-v1.5.101.apk",
+      "changes": [
+        "TV Live: schimbarea canalelor prin glisare pe telefon și prin tastele de canal/direcție pe Android TV.",
+        "Sesiunea canalului anterior este închisă înainte de pornirea următorului; redarea segmentată rămâne activă.",
+        "Controalele se ascund în timpul schimbării canalului; selecția sursei și opțiunea Umple ecranul rămân disponibile."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 146,
-    "versionName": "1.5.100",
-    "title": "TV Live: focus și redare mai fluide",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.100/Ome-Stream-Mobile-v1.5.100.apk",
+    "versionCode": 147,
+    "versionName": "1.5.101",
+    "title": "TV Live: schimbare rapidă a canalelor",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.101/Ome-Stream-Mobile-v1.5.101.apk",
     "required": false,
     "changes": [
-      "TV Live: focus mai vizibil pe categorii, canale și butoanele playerului.",
-      "Pe Android TV, controalele se ascund după 2 secunde de redare și reapar la telecomandă.",
-      "Buffering inițial mai scurt pentru sursele valide; Back închide playerul și sesiunea locală."
+      "TV Live: schimbarea canalelor prin glisare pe telefon și prin tastele de canal/direcție pe Android TV.",
+      "Sesiunea canalului anterior este închisă înainte de pornirea următorului; redarea segmentată rămâne activă.",
+      "Controalele se ascund în timpul schimbării canalului; selecția sursei și opțiunea Umple ecranul rămân disponibile."
     ]
   },
   "tv": {
-    "versionCode": 146,
-    "versionName": "1.5.100",
-    "title": "TV Live: focus și redare mai fluide",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.100/Ome-Stream-TV-v1.5.100.apk",
+    "versionCode": 147,
+    "versionName": "1.5.101",
+    "title": "TV Live: schimbare rapidă a canalelor",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.101/Ome-Stream-TV-v1.5.101.apk",
     "required": false,
     "changes": [
-      "TV Live: focus mai vizibil pe categorii, canale și butoanele playerului.",
-      "Pe Android TV, controalele se ascund după 2 secunde de redare și reapar la telecomandă.",
-      "Buffering inițial mai scurt pentru sursele valide; Back închide playerul și sesiunea locală."
+      "TV Live: schimbarea canalelor prin glisare pe telefon și prin tastele de canal/direcție pe Android TV.",
+      "Sesiunea canalului anterior este închisă înainte de pornirea următorului; redarea segmentată rămâne activă.",
+      "Controalele se ascund în timpul schimbării canalului; selecția sursei și opțiunea Umple ecranul rămân disponibile."
     ]
   }
 }
