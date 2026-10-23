@@ -1097,29 +1097,3 @@
       "TV Live, redarea, skinurile și autentificarea Google au rămas neschimbate."
     ]
   }
-},
-"phone": {
-    "versionCode": 150,
-    "versionName": "1.5.105",
-    "title": "TV Live: schimbare rapidă a canalelor",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
-    "required": false,
-    "changes": [
-      "TV Live: schimbarea canalelor prin glisare pe telefon.",
-      "Sesiunea canalului anterior este închisă înainte de pornirea următorului.",
-      "Controalele se ascund în timpul schimbării canalului."
-    ]
-  },
-  "tv": {
-    "versionCode": 150,
-    "versionName": "1.5.105",
-    "title": "TV Live: schimbare rapidă a canalelor",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
-    "required": false,
-    "changes": [
-      "TV Live: schimbarea canalelor prin tastele de canal/direcție pe Android TV.",
-      "Sesiunea canalului anterior este închisă înainte de pornirea următorului.",
-      "Controalele se ascund în timpul schimbării canalului."
-    ]
-  }
-
