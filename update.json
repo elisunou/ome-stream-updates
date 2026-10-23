@@ -1095,7 +1095,7 @@
     {
       "versionCode": 150,
       "versionName": "1.5.105",
-      "title": "TV Live · Prima Sport",
+      "title": "TVZone în TV Live",
       "channels": [
         "phone",
         "tv"
@@ -1103,37 +1103,8 @@
       "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
       "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
       "changes": [
-        "TVZone este disponibil pentru canalele existente și cele noi, fără dubluri.",
-        "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect."
+        "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
+        "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
+        "RDSLive și restul funcțiilor rămân disponibile."
       ]
     }
-  ],
-  "phone": {
-    "versionCode": 150,
-    "versionName": "1.5.105",
-    "title": "TV Live · Prima Sport",
-    "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
-    "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
-    "required": false,
-    "changes": [
-      "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
-      "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
-      "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect.",
-      "RDSLive și restul funcțiilor rămân disponibile."
-    ]
-  },
-  "tv": {
-    "versionCode": 150,
-    "versionName": "1.5.105",
-    "title": "TV Live · Prima Sport",
-    "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
-    "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
-    "required": false,
-    "changes": [
-      "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
-      "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
-      "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect.",
-      "RDSLive și restul funcțiilor rămân disponibile."
-    ]
-  }
-}
