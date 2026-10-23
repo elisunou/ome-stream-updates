@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-22T08:23:13Z",
+  "publishedAt": "2026-10-23T11:50:47Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1073,28 +1073,86 @@
         "Playerul Mobile se rotește portrait/landscape pentru filme, episoade, trailere și TV Live.",
         "În TV Live, glisarea sus/jos schimbă postul; gestul lateral de la margine permite Înapoi."
       ]
+    },
+    {
+      "versionCode": 150,
+      "versionName": "1.5.104",
+      "title": "TVZone în TV Live",
+      "channels": [
+        "phone"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.104/Ome-Stream-Mobile-v1.5.104.apk",
+      "changes": [
+        "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
+        "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
+        "RDSLive și restul funcțiilor rămân disponibile."
+      ]
+    },
+    {
+      "versionCode": 149,
+      "versionName": "1.5.104",
+      "title": "TVZone în TV Live",
+      "channels": [
+        "tv"
+      ],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.104/Ome-Stream-TV-v1.5.104.apk",
+      "changes": [
+        "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
+        "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
+        "RDSLive și restul funcțiilor rămân disponibile."
+      ]
+    },
+    {
+      "versionCode": 151,
+      "versionName": "1.5.105",
+      "title": "TV Live · Prima Sport",
+      "channels": [
+        "phone"
+      ],
+      "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
+      "changes": [
+        "TVZone este disponibil pentru canalele existente și cele noi, fără dubluri.",
+        "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect."
+      ]
+    },
+    {
+      "versionCode": 150,
+      "versionName": "1.5.105",
+      "title": "TV Live · Prima Sport",
+      "channels": [
+        "tv"
+      ],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
+      "changes": [
+        "TVZone este disponibil pentru canalele existente și cele noi, fără dubluri.",
+        "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect."
+      ]
     }
   ],
   "phone": {
-    "versionCode": 149,
-    "versionName": "1.5.103",
-    "title": "Rotire player și gesturi TV Live",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.103/Ome-Stream-Mobile-v1.5.103.apk",
+    "versionCode": 151,
+    "versionName": "1.5.105",
+    "title": "TV Live · Prima Sport",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
     "required": false,
     "changes": [
-      "Playerul Mobile se rotește portrait/landscape pentru filme, episoade, trailere și TV Live.",
-      "În TV Live, glisarea sus/jos schimbă postul; gestul lateral de la margine permite Înapoi."
+      "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
+      "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
+      "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect.",
+      "RDSLive și restul funcțiilor rămân disponibile."
     ]
   },
   "tv": {
-    "versionCode": 148,
-    "versionName": "1.5.102",
-    "title": "Navigare telecomandă între postere",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.102/Ome-Stream-TV-v1.5.102.apk",
+    "versionCode": 150,
+    "versionName": "1.5.105",
+    "title": "TV Live · Prima Sport",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
     "required": false,
     "changes": [
-      "Pe Android TV, Dreapta și Stânga navighează în ordinea vizuală a posterelor, fără salt de la ultimul poster la primul.",
-      "TV Live, redarea, skinurile și autentificarea Google au rămas neschimbate."
+      "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
+      "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
+      "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect.",
+      "RDSLive și restul funcțiilor rămân disponibile."
     ]
   }
 }
