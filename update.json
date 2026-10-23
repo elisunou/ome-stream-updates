@@ -1098,19 +1098,28 @@
     ]
   }
 },
-{
-  "versionCode": 150,
-  "versionName": "1.5.105",
-  "title": "TV Live: schimbare rapidă a canalelor",
-  "channels": [
-    "phone",
-    "tv"
-  ],
-  "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
-  "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
-  "changes": [
-    "TV Live: schimbarea canalelor prin glisare pe telefon și prin tastele de canal/direcție pe Android TV.",
-    "Sesiunea canalului anterior este închisă înainte de pornirea următorului; redarea segmentată rămâne activă.",
-    "Controalele se ascund în timpul schimbării canalului; selecția sursei și opțiunea Umple ecranul rămân disponibile."
-  ]
+"phone": {
+    "versionCode": 150,
+    "versionName": "1.5.105",
+    "title": "TV Live: schimbare rapidă a canalelor",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
+    "required": false,
+    "changes": [
+      "TV Live: schimbarea canalelor prin glisare pe telefon.",
+      "Sesiunea canalului anterior este închisă înainte de pornirea următorului.",
+      "Controalele se ascund în timpul schimbării canalului."
+    ]
+  },
+  "tv": {
+    "versionCode": 150,
+    "versionName": "1.5.105",
+    "title": "TV Live: schimbare rapidă a canalelor",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
+    "required": false,
+    "changes": [
+      "TV Live: schimbarea canalelor prin tastele de canal/direcție pe Android TV.",
+      "Sesiunea canalului anterior este închisă înainte de pornirea următorului.",
+      "Controalele se ascund în timpul schimbării canalului."
+    ]
+  }
 }
