@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-23T18:41:45Z",
+  "publishedAt": "2026-10-24T17:54:28Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1119,6 +1119,18 @@
         "TVZone este disponibil pentru canalele existente și cele noi, fără dubluri.",
         "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect."
       ]
+    },
+    {
+      "versionCode": 152,
+      "versionName": "1.5.106",
+      "title": "Navigare telecomandă TV",
+      "channels": ["tv"],
+      "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.106/Ome-Stream-TV-v1.5.106.apk",
+      "changes": [
+        "Telecomanda mută focusul în ordine între posterele de filme și seriale, fără salturi la marginea grilei.",
+        "În detaliile serialului poți naviga între sezoane și episoade cu săgețile telecomenzii.",
+        "Din primul poster poți reveni la meniul lateral; TV Live și contul Google rămân neschimbate."
+      ]
     }
   ],
   "phone": {
@@ -1135,16 +1147,15 @@
     ]
   },
   "tv": {
-    "versionCode": 150,
-    "versionName": "1.5.105",
-    "title": "TV Live · Prima Sport",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
+    "versionCode": 152,
+    "versionName": "1.5.106",
+    "title": "Navigare telecomandă TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.106/Ome-Stream-TV-v1.5.106.apk",
     "required": false,
     "changes": [
-      "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
-      "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
-      "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect.",
-      "RDSLive și restul funcțiilor rămân disponibile."
+      "Navigare previzibilă cu telecomanda între posterele de filme și seriale.",
+      "Săgețile selectează sezoanele și episoadele fără salturi în afara detaliilor.",
+      "TV Live și autentificarea Google rămân neschimbate."
     ]
   }
 }
