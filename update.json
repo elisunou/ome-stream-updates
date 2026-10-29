@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-24T17:54:28Z",
+  "publishedAt": "2026-10-29T13:42:18Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1078,7 +1078,9 @@
       "versionCode": 150,
       "versionName": "1.5.104",
       "title": "TVZone în TV Live",
-      "channels": ["phone"],
+      "channels": [
+        "phone"
+      ],
       "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.104/Ome-Stream-Mobile-v1.5.104.apk",
       "changes": [
         "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
@@ -1090,7 +1092,9 @@
       "versionCode": 149,
       "versionName": "1.5.104",
       "title": "TVZone în TV Live",
-      "channels": ["tv"],
+      "channels": [
+        "tv"
+      ],
       "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.104/Ome-Stream-TV-v1.5.104.apk",
       "changes": [
         "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
@@ -1102,7 +1106,9 @@
       "versionCode": 151,
       "versionName": "1.5.105",
       "title": "TV Live · Prima Sport",
-      "channels": ["phone"],
+      "channels": [
+        "phone"
+      ],
       "phoneApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
       "changes": [
         "TVZone este disponibil pentru canalele existente și cele noi, fără dubluri.",
@@ -1113,7 +1119,9 @@
       "versionCode": 150,
       "versionName": "1.5.105",
       "title": "TV Live · Prima Sport",
-      "channels": ["tv"],
+      "channels": [
+        "tv"
+      ],
       "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-TV-v1.5.105.apk",
       "changes": [
         "TVZone este disponibil pentru canalele existente și cele noi, fără dubluri.",
@@ -1124,7 +1132,9 @@
       "versionCode": 152,
       "versionName": "1.5.106",
       "title": "Navigare telecomandă TV",
-      "channels": ["tv"],
+      "channels": [
+        "tv"
+      ],
       "tvApkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.106/Ome-Stream-TV-v1.5.106.apk",
       "changes": [
         "Telecomanda mută focusul în ordine între posterele de filme și seriale, fără salturi la marginea grilei.",
@@ -1134,28 +1144,27 @@
     }
   ],
   "phone": {
-    "versionCode": 151,
-    "versionName": "1.5.105",
-    "title": "TV Live · Prima Sport",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.105/Ome-Stream-Mobile-v1.5.105.apk",
+    "versionCode": 153,
+    "versionName": "1.5.107",
+    "title": "Audio și surse mai rapide",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.107/Ome-Stream-Mobile-v1.5.107.apk",
     "required": false,
     "changes": [
-      "TVZone este sursă suplimentară la canalele existente, fără dubluri în grilă.",
-      "Canalele TVZone care lipseau apar pe genuri; calitatea este detectată din fluxul HLS.",
-      "Sursele TVZone pentru Prima Sport 1 și 2 afișează postul corect.",
-      "RDSLive și restul funcțiilor rămân disponibile."
+      "Piste audio selectabile pentru Sootio și VixSrc, când fluxul oferă mai multe limbi.",
+      "Repetarea surselor Sootio/VixSrc pornește mai rapid prin cache local scurt.",
+      "TV Live și celelalte funcții rămân neschimbate."
     ]
   },
   "tv": {
-    "versionCode": 152,
-    "versionName": "1.5.106",
-    "title": "Navigare telecomandă TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.106/Ome-Stream-TV-v1.5.106.apk",
+    "versionCode": 154,
+    "versionName": "1.5.107",
+    "title": "Audio și navigare TV",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.107/Ome-Stream-TV-v1.5.107.apk",
     "required": false,
     "changes": [
-      "Navigare previzibilă cu telecomanda între posterele de filme și seriale.",
-      "Săgețile selectează sezoanele și episoadele fără salturi în afara detaliilor.",
-      "TV Live și autentificarea Google rămân neschimbate."
+      "Piste audio selectabile pentru Sootio și VixSrc, când fluxul oferă mai multe limbi.",
+      "Focusul din meniul Seriale/Filme intră pe primul poster și se deplasează corect între postere.",
+      "Focusul surselor FileList este mai vizibil; TV Live și contul Google rămân neschimbate."
     ]
   }
 }
