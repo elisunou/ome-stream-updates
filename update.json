@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-29T13:42:18Z",
+  "publishedAt": "2026-10-29T13:57:33Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1144,27 +1144,27 @@
     }
   ],
   "phone": {
-    "versionCode": 153,
-    "versionName": "1.5.107",
-    "title": "Audio și surse mai rapide",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.107/Ome-Stream-Mobile-v1.5.107.apk",
+    "versionCode": 155,
+    "versionName": "1.5.108",
+    "title": "Calitate video Sootio/VixSrc",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.108/Ome-Stream-Mobile-v1.5.108.apk",
     "required": false,
     "changes": [
-      "Piste audio selectabile pentru Sootio și VixSrc, când fluxul oferă mai multe limbi.",
-      "Repetarea surselor Sootio/VixSrc pornește mai rapid prin cache local scurt.",
+      "Calitatea video Sootio și VixSrc poate fi schimbată din player, în tema selectată.",
+      "Redă automat poate alege și surse Sootio/VixSrc.",
       "TV Live și celelalte funcții rămân neschimbate."
     ]
   },
   "tv": {
-    "versionCode": 154,
-    "versionName": "1.5.107",
-    "title": "Audio și navigare TV",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.107/Ome-Stream-TV-v1.5.107.apk",
+    "versionCode": 156,
+    "versionName": "1.5.108",
+    "title": "Calitate video Sootio/VixSrc",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.108/Ome-Stream-TV-v1.5.108.apk",
     "required": false,
     "changes": [
-      "Piste audio selectabile pentru Sootio și VixSrc, când fluxul oferă mai multe limbi.",
-      "Focusul din meniul Seriale/Filme intră pe primul poster și se deplasează corect între postere.",
-      "Focusul surselor FileList este mai vizibil; TV Live și contul Google rămân neschimbate."
+      "Calitatea video Sootio și VixSrc poate fi schimbată din player, în tema selectată.",
+      "Redă automat poate alege și surse Sootio/VixSrc.",
+      "TV Live și comenzile telecomenzii rămân neschimbate."
     ]
   }
 }
