@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-29T13:57:33Z",
+  "publishedAt": "2026-10-30T15:15:39Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -1144,27 +1144,27 @@
     }
   ],
   "phone": {
-    "versionCode": 155,
-    "versionName": "1.5.108",
-    "title": "Calitate video Sootio/VixSrc",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.108/Ome-Stream-Mobile-v1.5.108.apk",
+    "versionCode": 157,
+    "versionName": "1.5.109",
+    "title": "Surse TV Live și VAPlayer",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.109/Ome-Stream-Mobile-v1.5.109.apk",
     "required": false,
     "changes": [
-      "Calitatea video Sootio și VixSrc poate fi schimbată din player, în tema selectată.",
-      "Redă automat poate alege și surse Sootio/VixSrc.",
-      "TV Live și celelalte funcții rămân neschimbate."
+      "IPTV-org adaugă surse românești la TV Live, inclusiv VOYO Sport 1 în categoria Sport.",
+      "VAPlayer este disponibil ca sursă pentru filme și seriale.",
+      "Experimentul Antena Live a fost eliminat. Revenirea de la IPTV-org la RDSLive poate necesita redeschiderea canalului."
     ]
   },
   "tv": {
-    "versionCode": 156,
-    "versionName": "1.5.108",
-    "title": "Calitate video Sootio/VixSrc",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.108/Ome-Stream-TV-v1.5.108.apk",
+    "versionCode": 158,
+    "versionName": "1.5.109",
+    "title": "Surse TV Live și VAPlayer",
+    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.109/Ome-Stream-TV-v1.5.109.apk",
     "required": false,
     "changes": [
-      "Calitatea video Sootio și VixSrc poate fi schimbată din player, în tema selectată.",
-      "Redă automat poate alege și surse Sootio/VixSrc.",
-      "TV Live și comenzile telecomenzii rămân neschimbate."
+      "IPTV-org adaugă surse românești la TV Live, inclusiv VOYO Sport 1 în categoria Sport.",
+      "VAPlayer este disponibil ca sursă pentru filme și seriale.",
+      "Comenzile telecomenzii din versiunea 1.5.108 au fost păstrate; revenirea de la IPTV-org la RDSLive poate necesita redeschiderea canalului."
     ]
   }
 }
