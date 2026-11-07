@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-10-30T15:15:39Z",
+  "publishedAt": "2026-11-07T09:22:08Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -43,6 +43,16 @@
     }
   ],
   "messages": [
+    {
+      "id": "ome-1-5-110-alege-arhitectura",
+      "active": true,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "title": "OME Stream 1.5.110: alege arhitectura dispozitivului",
+      "detail": "Noua versiune are APK-uri separate pentru telefon și Android TV, în variante arm64-v8a, armeabi-v7a, x86 și x86_64. Verifică arhitectura CPU a dispozitivului înainte să descarci APK-ul potrivit din GitHub Releases. Versiunea 1.5.109 nu poate alege automat între aceste variante; instalarea acestei actualizări se face manual, peste aplicația existentă, fără ștergerea datelor."
+    },
     {
       "id": "welcome-ome-stream-2026-07-29",
       "active": true,
@@ -1144,27 +1154,39 @@
     }
   ],
   "phone": {
-    "versionCode": 157,
-    "versionName": "1.5.109",
-    "title": "Surse TV Live și VAPlayer",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.109/Ome-Stream-Mobile-v1.5.109.apk",
+    "versionCode": 158,
+    "versionName": "1.5.110",
+    "title": "Cinematic și APK-uri pe arhitecturi",
+    "apks": {
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-x86_64.apk"
+    },
     "required": false,
     "changes": [
-      "IPTV-org adaugă surse românești la TV Live, inclusiv VOYO Sport 1 în categoria Sport.",
-      "VAPlayer este disponibil ca sursă pentru filme și seriale.",
-      "Experimentul Antena Live a fost eliminat. Revenirea de la IPTV-org la RDSLive poate necesita redeschiderea canalului."
+      "Tema Cinematic: imaginea promovată rămâne fixă; mod deschis alb/roșu și mod întunecat din meniu.",
+      "TV Live: Favorite, Toate și categoriile în rânduri; VEZI TOT deschide grila pe toată pagina, inclusiv landscape.",
+      "Pagina și poziția de derulare se păstrează la rotire și schimbarea modului Cinematic.",
+      "Noua iconiță OME Stream și APK-uri separate pentru fiecare arhitectură. Verifică arhitectura înainte de instalarea manuală."
     ]
   },
   "tv": {
-    "versionCode": 158,
-    "versionName": "1.5.109",
-    "title": "Surse TV Live și VAPlayer",
-    "apkUrl": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.109/Ome-Stream-TV-v1.5.109.apk",
+    "versionCode": 159,
+    "versionName": "1.5.110",
+    "title": "Cinematic și APK-uri pe arhitecturi",
+    "apks": {
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-x86_64.apk"
+    },
     "required": false,
     "changes": [
-      "IPTV-org adaugă surse românești la TV Live, inclusiv VOYO Sport 1 în categoria Sport.",
-      "VAPlayer este disponibil ca sursă pentru filme și seriale.",
-      "Comenzile telecomenzii din versiunea 1.5.108 au fost păstrate; revenirea de la IPTV-org la RDSLive poate necesita redeschiderea canalului."
+      "Tema Cinematic și noul banner OME Stream în lista aplicațiilor Android TV.",
+      "TV Live: Favorite, Toate și categoriile în rânduri; VEZI TOT deschide grila completă.",
+      "Comenzile telecomenzii și TV Live din 1.5.109 au fost păstrate.",
+      "APK-uri separate pe arhitecturi; verifică arhitectura televizorului înainte de instalarea manuală."
     ]
   }
 }
