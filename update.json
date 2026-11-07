@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-11-07T09:22:08Z",
+  "publishedAt": "2026-11-07T09:36:00Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -45,13 +45,23 @@
   "messages": [
     {
       "id": "ome-1-5-110-alege-arhitectura",
-      "active": true,
+      "active": false,
       "channels": [
         "phone",
         "tv"
       ],
       "title": "OME Stream 1.5.110: alege arhitectura dispozitivului",
       "detail": "Noua versiune are APK-uri separate pentru telefon și Android TV, în variante arm64-v8a, armeabi-v7a, x86 și x86_64. Verifică arhitectura CPU a dispozitivului înainte să descarci APK-ul potrivit din GitHub Releases. Versiunea 1.5.109 nu poate alege automat între aceste variante; instalarea acestei actualizări se face manual, peste aplicația existentă, fără ștergerea datelor."
+    },
+    {
+      "id": "ome-1-5-110-instalare-manuala-apoi-update-automat",
+      "active": true,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "title": "Ai OME Stream 1.5.109? Actualizează manual o singură dată",
+      "detail": "OME Stream 1.5.110 este pe GitHub: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.110 . Verifică arhitectura dispozitivului (arm64-v8a, armeabi-v7a, x86 sau x86_64), alege APK-ul Mobile ori TV potrivit și instalează-l peste aplicația actuală, fără dezinstalare. De la versiunea 1.5.110, aplicația va alege automat APK-ul arhitecturii tale la actualizările viitoare; tu vei confirma instalarea."
     },
     {
       "id": "welcome-ome-stream-2026-07-29",
