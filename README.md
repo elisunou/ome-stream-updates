@@ -25,3 +25,13 @@ Raportul `view` afișează ultima donație și totalul cumulat pentru fiecare nu
 public. Workflow-ul actualizează totalul existent al aceluiași nume (fără
 diferențe de majuscule sau spații), astfel încât aplicația afișează un singur
 rând per susținător. Donațiile anonime rămân separate.
+
+## Obiectivul donațiilor
+
+Ținta este 1.000 €, iar bara pornește de la zero: cele 90 € aprobate înainte de
+lansarea obiectivului nu intră în progres. Pentru
+a schimba ținta, deschide **Actions → Donation goal → Run workflow**, alege `set`
+și introdu noul obiectiv în EUR. Varianta `view` afișează totalul și progresul
+fără să modifice datele. La aprobarea unei donații noi prin **Approve donation**,
+bara se recalculează automat din donațiile aprobate ulterior. Nu introduce aceeași donație încă o dată în
+workflow-ul obiectivului.

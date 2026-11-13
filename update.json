@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-11-07T09:36:00Z",
+  "publishedAt": "2026-11-13T21:58:00Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -54,14 +54,14 @@
       "detail": "Noua versiune are APK-uri separate pentru telefon și Android TV, în variante arm64-v8a, armeabi-v7a, x86 și x86_64. Verifică arhitectura CPU a dispozitivului înainte să descarci APK-ul potrivit din GitHub Releases. Versiunea 1.5.109 nu poate alege automat între aceste variante; instalarea acestei actualizări se face manual, peste aplicația existentă, fără ștergerea datelor."
     },
     {
-      "id": "ome-1-5-110-instalare-manuala-apoi-update-automat",
+      "id": "ome-1-5-111-instalare-manuala-pentru-109",
       "active": true,
       "channels": [
         "phone",
         "tv"
       ],
       "title": "Ai OME Stream 1.5.109? Actualizează manual o singură dată",
-      "detail": "OME Stream 1.5.110 este pe GitHub: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.110 . Verifică arhitectura dispozitivului (arm64-v8a, armeabi-v7a, x86 sau x86_64), alege APK-ul Mobile ori TV potrivit și instalează-l peste aplicația actuală, fără dezinstalare. De la versiunea 1.5.110, aplicația va alege automat APK-ul arhitecturii tale la actualizările viitoare; tu vei confirma instalarea."
+      "detail": "OME Stream 1.5.111 este pe GitHub: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.111 . Dacă ai 1.5.109, verifică arhitectura dispozitivului (arm64-v8a, armeabi-v7a, x86 sau x86_64), alege APK-ul Mobile ori TV potrivit și instalează-l peste aplicația actuală, fără dezinstalare. Dacă ai deja 1.5.110, aplicația alege automat APK-ul compatibil și îți cere confirmarea instalării."
     },
     {
       "id": "welcome-ome-stream-2026-07-29",
@@ -1164,39 +1164,39 @@
     }
   ],
   "phone": {
-    "versionCode": 158,
-    "versionName": "1.5.110",
-    "title": "Cinematic și APK-uri pe arhitecturi",
+    "versionCode": 160,
+    "versionName": "1.5.111",
+    "title": "Player, episoade și catalog mai rapid",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-Mobile-v1.5.110-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Tema Cinematic: imaginea promovată rămâne fixă; mod deschis alb/roșu și mod întunecat din meniu.",
-      "TV Live: Favorite, Toate și categoriile în rânduri; VEZI TOT deschide grila pe toată pagina, inclusiv landscape.",
-      "Pagina și poziția de derulare se păstrează la rotire și schimbarea modului Cinematic.",
-      "Noua iconiță OME Stream și APK-uri separate pentru fiecare arhitectură. Verifică arhitectura înainte de instalarea manuală."
+      "Cinematic afișează progresul filmelor și episoadelor și încarcă mai rapid catalogul din cache.",
+      "Playerul oferă lista de episoade în dreapta și selectoare ExoPlayer/VLC și Fit/Umple/Zoom în culorile temei.",
+      "Obiectivul donațiilor de 1.000 € pornește de la 0 €; bara apare pe prima pagină și la Donație și crește doar cu donațiile noi aprobate.",
+      "TV Live păstrează canalele și adaugă liste M3U8/Xtream Codes separate, IPv4 prioritar și o singură reîncercare când sesiunea Antena Live întârzie."
     ]
   },
   "tv": {
-    "versionCode": 159,
-    "versionName": "1.5.110",
-    "title": "Cinematic și APK-uri pe arhitecturi",
+    "versionCode": 161,
+    "versionName": "1.5.111",
+    "title": "Player, episoade și catalog mai rapid",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.110/Ome-Stream-TV-v1.5.110-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Tema Cinematic și noul banner OME Stream în lista aplicațiilor Android TV.",
-      "TV Live: Favorite, Toate și categoriile în rânduri; VEZI TOT deschide grila completă.",
-      "Comenzile telecomenzii și TV Live din 1.5.109 au fost păstrate.",
-      "APK-uri separate pe arhitecturi; verifică arhitectura televizorului înainte de instalarea manuală."
+      "Cinematic afișează progresul filmelor și episoadelor și încarcă mai rapid catalogul din cache.",
+      "Playerul oferă lista de episoade în dreapta și selectoare ExoPlayer/VLC și Fit/Umple/Zoom în culorile temei.",
+      "Obiectivul donațiilor de 1.000 € pornește de la 0 €; bara apare pe prima pagină și la Donație și crește doar cu donațiile noi aprobate.",
+      "TV Live, comenzile telecomenzii din 1.5.110 și APK-urile separate pe arhitecturi rămân disponibile."
     ]
   }
 }

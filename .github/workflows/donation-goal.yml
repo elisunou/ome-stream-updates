@@ -1,0 +1,43 @@
+name: Donation goal
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: 'View the goal or set the target in EUR'
+        required: true
+        default: view
+        type: choice
+        options: [view, set]
+      target_eur:
+        description: 'Goal in EUR, e.g. 1000.00 (used for set)'
+        required: false
+        default: '1000.00'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: approve-donations
+  cancel-in-progress: false
+
+jobs:
+  goal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Configure goal
+        env:
+          OPERATION: ${{ inputs.operation }}
+          TARGET_EUR: ${{ inputs.target_eur }}
+        run: node .github/scripts/configure-goal.mjs
+      - name: Publish goal configuration
+        if: ${{ inputs.operation == 'set' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add supporters.json
+          git diff --cached --quiet || { git commit -m 'Configure donation goal'; git push origin HEAD:main; }

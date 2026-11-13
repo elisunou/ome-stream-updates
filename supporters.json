@@ -3,6 +3,11 @@
   "updatedAt": "2026-10-20T14:22:32.852Z",
   "previousTotalCents": 0,
   "totalCents": 9000,
+  "goal": {
+    "currency": "EUR",
+    "targetCents": 100000,
+    "startTotalCents": 9000
+  },
   "supporters": [
     {
       "name": "Andrei",
