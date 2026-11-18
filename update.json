@@ -55,7 +55,7 @@
     },
     {
       "id": "ome-1-5-111-instalare-manuala-pentru-109",
-      "active": true,
+      "active": false,
       "channels": [
         "phone",
         "tv"
