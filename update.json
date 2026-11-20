@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-11-13T21:58:00Z",
+  "publishedAt": "2026-11-20T22:45:00Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -62,6 +62,16 @@
       ],
       "title": "Ai OME Stream 1.5.109? Actualizează manual o singură dată",
       "detail": "OME Stream 1.5.111 este pe GitHub: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.111 . Dacă ai 1.5.109, verifică arhitectura dispozitivului (arm64-v8a, armeabi-v7a, x86 sau x86_64), alege APK-ul Mobile ori TV potrivit și instalează-l peste aplicația actuală, fără dezinstalare. Dacă ai deja 1.5.110, aplicația alege automat APK-ul compatibil și îți cere confirmarea instalării."
+    },
+    {
+      "id": "ome-1-5-112-instalare-manuala-pentru-109",
+      "active": true,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "title": "Ai OME Stream 1.5.109? Actualizează manual o singură dată",
+      "detail": "OME Stream 1.5.112 este pe GitHub: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.112 . Dacă ai 1.5.109, verifică arhitectura dispozitivului (arm64-v8a, armeabi-v7a, x86 sau x86_64), alege APK-ul Mobile ori TV potrivit și instalează-l peste aplicația actuală, fără dezinstalare. Dacă ai deja 1.5.110 sau o versiune mai nouă, aplicația alege automat APK-ul compatibil și îți cere confirmarea instalării."
     },
     {
       "id": "welcome-ome-stream-2026-07-29",
@@ -1164,39 +1174,39 @@
     }
   ],
   "phone": {
-    "versionCode": 160,
-    "versionName": "1.5.111",
-    "title": "Player, episoade și catalog mai rapid",
+    "versionCode": 162,
+    "versionName": "1.5.112",
+    "title": "Episoade și TV Live mai stabile",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-Mobile-v1.5.111-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Cinematic afișează progresul filmelor și episoadelor și încarcă mai rapid catalogul din cache.",
-      "Playerul oferă lista de episoade în dreapta și selectoare ExoPlayer/VLC și Fit/Umple/Zoom în culorile temei.",
-      "Obiectivul donațiilor de 1.000 € pornește de la 0 €; bara apare pe prima pagină și la Donație și crește doar cu donațiile noi aprobate.",
-      "TV Live păstrează canalele și adaugă liste M3U8/Xtream Codes separate, IPv4 prioritar și o singură reîncercare când sesiunea Antena Live întârzie."
+      "Lista de episoade apare și la serialele reluate din Istoric și afișează sezonul curent.",
+      "Schimbarea episodului așteaptă în player, fără afișarea scurtă a listei de surse.",
+      "RDSLive încearcă o singură dată din nou formularul obișnuit Play dacă nu apare playerul sau tokenul.",
+      "TV Live și celelalte funcții din 1.5.111 rămân disponibile."
     ]
   },
   "tv": {
-    "versionCode": 161,
-    "versionName": "1.5.111",
-    "title": "Player, episoade și catalog mai rapid",
+    "versionCode": 163,
+    "versionName": "1.5.112",
+    "title": "Episoade și TV Live mai stabile",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.111/Ome-Stream-TV-v1.5.111-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Cinematic afișează progresul filmelor și episoadelor și încarcă mai rapid catalogul din cache.",
-      "Playerul oferă lista de episoade în dreapta și selectoare ExoPlayer/VLC și Fit/Umple/Zoom în culorile temei.",
-      "Obiectivul donațiilor de 1.000 € pornește de la 0 €; bara apare pe prima pagină și la Donație și crește doar cu donațiile noi aprobate.",
-      "TV Live, comenzile telecomenzii din 1.5.110 și APK-urile separate pe arhitecturi rămân disponibile."
+      "Lista de episoade apare și la serialele reluate din Istoric și afișează sezonul curent.",
+      "Schimbarea episodului așteaptă în player, fără afișarea scurtă a listei de surse.",
+      "RDSLive încearcă o singură dată din nou formularul obișnuit Play dacă nu apare playerul sau tokenul.",
+      "Comenzile telecomenzii din 1.5.110 și TV Live rămân disponibile."
     ]
   }
 }
