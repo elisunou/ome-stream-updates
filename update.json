@@ -1175,13 +1175,13 @@
   ],
   "phone": {
     "versionCode": 162,
-    "versionName": "1.5.112",
+    "versionName": "1.5.113",
     "title": "Episoade și TV Live mai stabile",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-Mobile-v1.5.112-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-Mobile-v1.5.113-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-Mobile-v1.5.113-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-Mobile-v1.5.113-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-Mobile-v1.5.113-x86_64.apk"
     },
     "required": false,
     "changes": [
@@ -1193,13 +1193,13 @@
   },
   "tv": {
     "versionCode": 163,
-    "versionName": "1.5.112",
+    "versionName": "1.5.113",
     "title": "Episoade și TV Live mai stabile",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.112/Ome-Stream-TV-v1.5.112-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-TV-v1.5.113-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-TV-v1.5.113-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-TV-v1.5.113-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.113/Ome-Stream-TV-v1.5.113-x86_64.apk"
     },
     "required": false,
     "changes": [
