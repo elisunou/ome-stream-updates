@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-11-27T19:20:36Z",
+  "publishedAt": "2026-11-28T08:43:02Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -115,13 +115,23 @@
     },
     {
       "id": "ome-1-5-115-update",
-      "active": true,
+      "active": false,
       "channels": [
         "phone",
         "tv"
       ],
       "title": "OME Stream 1.5.115 disponibil",
       "detail": "TV Live: ghid EPG, asociere Antena Live cu cod precompletat și corecții de sesiune. Dacă ai 1.5.109, alege manual APK-ul Mobile sau TV și arhitectura potrivită: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.115 . Instalează peste aplicația existentă."
+    },
+    {
+      "id": "ome-1-5-116-update",
+      "active": true,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "title": "OME Stream 1.5.116 disponibil",
+      "detail": "TV Live: cod de asociere precompletat când este disponibil, corecții de sesiune și EPG în tema aleasă. Pentru 1.5.109, alege manual APK-ul potrivit: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.116 ."
     }
   ],
   "updateHistory": [
@@ -1184,37 +1194,37 @@
     }
   ],
   "phone": {
-    "versionCode": 168,
-    "versionName": "1.5.115",
-    "title": "TV Live: EPG și sesiuni",
+    "versionCode": 170,
+    "versionName": "1.5.116",
+    "title": "TV Live: asociere și EPG",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-Mobile-v1.5.115-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-Mobile-v1.5.115-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-Mobile-v1.5.115-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-Mobile-v1.5.115-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Ghid EPG în player, cu orele emisiunilor disponibile.",
-      "Antena Live precompletează codul de asociere pe telefon și televizor; confirmarea furnizorului rămâne necesară când este cerută.",
-      "Corecție TTL pentru sesiuni și WebView RDSLive 1×1 după preluarea redării."
+      "Precompletarea codului de asociere în Antena Live și RDSLive atunci când furnizorul afișează un cod compatibil. Confirmarea rămâne pe ecran.",
+      "Antena Live nu mai afișează mesajul de reîncercare peste flux când sesiunea este validă.",
+      "Ghidul EPG din player folosește tema aleasă în OME."
     ]
   },
   "tv": {
-    "versionCode": 169,
-    "versionName": "1.5.115",
-    "title": "TV Live: EPG și sesiuni",
+    "versionCode": 171,
+    "versionName": "1.5.116",
+    "title": "TV Live: asociere și EPG",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-TV-v1.5.115-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-TV-v1.5.115-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-TV-v1.5.115-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.115/Ome-Stream-TV-v1.5.115-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-TV-v1.5.116-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-TV-v1.5.116-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-TV-v1.5.116-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-TV-v1.5.116-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Ghid EPG în player, cu orele emisiunilor disponibile.",
-      "Antena Live precompletează codul de asociere pe telefon și televizor; confirmarea furnizorului rămâne necesară când este cerută.",
-      "Corecție TTL pentru sesiuni și WebView RDSLive 1×1 după preluarea redării."
+      "Precompletarea codului de asociere în Antena Live și RDSLive atunci când furnizorul afișează un cod compatibil. Confirmarea rămâne pe ecran.",
+      "Antena Live nu mai afișează mesajul de reîncercare peste flux când sesiunea este validă.",
+      "Ghidul EPG din player folosește tema aleasă în OME."
     ]
   }
 }
