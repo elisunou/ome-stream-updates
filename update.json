@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-11-28T13:21:00Z",
+  "publishedAt": "2026-11-28T13:38:06Z",
   "managedAddons": [
     {
       "id": "com.linvo.cinemeta",
@@ -125,7 +125,7 @@
     },
     {
       "id": "ome-1-5-116-update",
-      "active": true,
+      "active": false,
       "channels": [
         "phone",
         "tv"
@@ -135,12 +135,22 @@
     },
     {
       "id": "ome-1-5-117-tv-update",
-      "active": true,
+      "active": false,
       "channels": [
         "tv"
       ],
       "title": "OME Stream TV 1.5.117 disponibil",
       "detail": "Antena Live folosește User-Agent-ul implicit al WebView. Pentru instalare manuală, alege APK-ul TV potrivit arhitecturii: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.117 ."
+    },
+    {
+      "id": "ome-1-5-118-update",
+      "active": true,
+      "channels": [
+        "phone",
+        "tv"
+      ],
+      "title": "OME Stream 1.5.118 disponibil",
+      "detail": "TV Live: Surse și Program în același panou, progres EPG roșu. Pe TV, Antena Live și RDSLive folosesc User-Agent-ul implicit. APK-uri: https://github.com/elisunou/ome-stream-updates/releases/tag/v1.5.118 ."
     }
   ],
   "updateHistory": [
@@ -1203,36 +1213,38 @@
     }
   ],
   "phone": {
-    "versionCode": 170,
-    "versionName": "1.5.116",
-    "title": "TV Live: asociere și EPG",
+    "versionCode": 173,
+    "versionName": "1.5.118",
+    "title": "TV Live: Surse și Program",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.116/Ome-Stream-Mobile-v1.5.116-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-Mobile-v1.5.118-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-Mobile-v1.5.118-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-Mobile-v1.5.118-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-Mobile-v1.5.118-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Precompletarea codului de asociere în Antena Live și RDSLive atunci când furnizorul afișează un cod compatibil. Confirmarea rămâne pe ecran.",
-      "Antena Live nu mai afișează mesajul de reîncercare peste flux când sesiunea este validă.",
-      "Ghidul EPG din player folosește tema aleasă în OME."
+      "Panou compact în dreapta, cu taburile Surse și Program.",
+      "Emisiunea curentă, bara roșie de progres și ce urmează, când postul are date EPG.",
+      "Proporțiile imaginii sunt păstrate, fără Fit / Umple în Live TV."
     ]
   },
   "tv": {
-    "versionCode": 172,
-    "versionName": "1.5.117",
-    "title": "TV Live: User-Agent implicit pe Android TV",
+    "versionCode": 174,
+    "versionName": "1.5.118",
+    "title": "TV Live: Surse și Program",
     "apks": {
-      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.117/Ome-Stream-TV-v1.5.117-arm64-v8a.apk",
-      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.117/Ome-Stream-TV-v1.5.117-armeabi-v7a.apk",
-      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.117/Ome-Stream-TV-v1.5.117-x86.apk",
-      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.117/Ome-Stream-TV-v1.5.117-x86_64.apk"
+      "arm64-v8a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-TV-v1.5.118-arm64-v8a.apk",
+      "armeabi-v7a": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-TV-v1.5.118-armeabi-v7a.apk",
+      "x86": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-TV-v1.5.118-x86.apk",
+      "x86_64": "https://github.com/elisunou/ome-stream-updates/releases/download/v1.5.118/Ome-Stream-TV-v1.5.118-x86_64.apk"
     },
     "required": false,
     "changes": [
-      "Antena Live folosește User-Agent-ul implicit al WebView pe Android TV.",
-      "Detectarea și precompletarea codului de asociere rămân neschimbate."
+      "Panou compact în dreapta, cu taburile Surse și Program.",
+      "Emisiunea curentă, bara roșie de progres și ce urmează, când postul are date EPG.",
+      "Proporțiile imaginii sunt păstrate, fără Fit / Umple în Live TV.",
+      "Antena Live și RDSLive folosesc User-Agent-ul implicit al WebView-ului pe Android TV."
     ]
   }
 }
